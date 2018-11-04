@@ -1,3 +1,36 @@
+.index {
+  background-color: white;
+}
+
+
+
+
+#hero-image {
+  width: 767px;
+  height: 462px;
+
+}
+
+
+.hero-description {
+  padding: 60px 80px;
+}
+
+
+.hero-description h1 {
+  padding-bottom: 20px
+}
+
+.hero-description p {
+  padding-top: 15px
+}
+
+
+#color-blue {
+  color: $blue;
+}
+
+
 
 .bloc-cards {
   display: grid;
@@ -8,6 +41,7 @@
 .sentence-developpe-par {
   grid-row: 1 / span 1;
   grid-column: 1 / span 2;
+  margin: 20px;
 }
 
 .card-1 {
@@ -32,19 +66,74 @@
 
 .premier-pas {
   grid-row: 4 / span 1;
-  grid-column: 3 / span1;
+  grid-column: 3 / span 1;
+}
+.premier-pas p {
+  padding-top: 10px;
 }
 
+.btn-purple {
+  background-color: $purple;
+  border-color: $purple;
+}
+
+.listes {
+  grid-row: 2 / span 2;
+  grid-column: 3 /span 1;
+  margin: 0px 20px;
+}
 
 .cards {
   background: white;
   padding: 20px;
   box-shadow: 0 2px 6px #9B9B9B;
-  margin: 10px;
-  width: 290px;
   border-radius: 20px;
   margin: 20px;
-  text-align: center;
+  display: block;
+  text-align: center
+
+}
+
+
+
+
+
+.services-personnalises {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60px 1fr;
+}
+
+.service-personnalise {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+  margin-left: 20px
+}
+
+.enseignement {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.projet {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+
+.btn-gray {
+  background-color: $gray;
+  border-color: $gray;
+}
+
+#green-bold {
+  font-weight: bold;
+  color: $green;
+}
+
+
+h1 {
+  color: $black;
+  font-size: 40px;
 
 }
 
@@ -54,7 +143,15 @@ h3 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 15px;
   color: $gray;
 }
+
+h2 {
+  font-size: 25px;
+  color: $black;
+}
+
+
+
 

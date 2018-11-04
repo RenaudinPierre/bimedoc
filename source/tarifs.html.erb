@@ -1,22 +1,56 @@
 
-<div class="container">
-  <div class="tarifs">
-    <div class="description">
-      <h2>Des prix clairs et tranparent</h2>
-      <h2>Premier mois offert</h2>
-    </div>
-    <div class="cards standard">
-      <h3><i class="fas fa-hand-point-right"></i>Standard</h3>
-    </div>
-    <div class="cards premium">
-      <h3>Premium</h3>
-    </div>
-    <div class="cards avance">
-      <h3>Avancé</h3>
-    </div>
+<div class="index">
+  <div class="container">
+    <div class="tarifs">
 
+      <div class="description">
+        <h2>Des prix clairs et tranparent</h2>
+        <h2 id="blue">Premier mois offert</h2>
+      </div>
+
+      <div class="cards standard">
+        <h1>Standard</h1>
+        <p id="background-green">Premier mois offert</p>
+        <h1>25€</h1>
+        <p>/Mois (TTC) / Pharmacie</p>
+        <p>Sans engagement</p>
+        <ul class="lists">
+          <li><p>👉 Bilan (partagé) de médication</p></li>
+          <li><p>👉 Entretien Pharmaceutique</p></li>
+          <li><p>👉 Plan de prise</p></li>
+          <li><p>👉 Dossier patient informatisé</p></li>
+          <li><p>👉 Jusqu’à 5 comptes pharmacien</p></li>
+        </ul>
+        <div class="btn-bottom">
+          <%= link_to "Souscrire", " ", class: "btn-gray btn btn-primary" %>
+        </div>
+      </div>
+
+      <div class="cards premium">
+        <h1>Premium</h1>
+        <ul class="lists">
+          <li><p>👉 Fonctions Standard</p></li>
+          <li><p>👉 Fonction agenda</p></li>
+          <li><p>👉 SMS et e-mails de rappel</p></li>
+          <li><p>👉 Envoi électronique multi-canal</p></li>
+          <li><p>👉 Jusqu’à 10 compte pharmacien</p></li>
+        </ul>
+        <div class="btn-bottom">
+          <%= link_to "Prochainement", " ", class: "btn-gray btn btn-primary" %>
+        </div>
+      </div>
+
+      <div class="cards avance">
+        <h1>Avancé</h1>
+        <ul class="lists">
+          <li><p>👉 Fonctions Premium</p></li>
+          <li><p>👉 Demande d’expertise pharmaceutique</p></li>
+        </ul>
+        <div class="btn-bottom">
+          <%= link_to "Prochainement", " ", class: "btn-gray btn btn-primary" %>
+        </div>
+      </div>
+
+    </div>
   </div>
-
-
-
 </div>

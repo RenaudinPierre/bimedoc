@@ -15,9 +15,11 @@
 
   <nav class="navbar-bimedoc">
       <div>
-        <%= image_tag "logo.png", id: "logo" %>
+        <a href="/index.html" class="">
+          <%= image_tag "logo.svg", id:"logo" %>
+        </a>
         <%= link_to "Fonctionnalités", " ", class: "link" %>
-        <%= link_to "Tarifs", "tarifs.html.erb", class: "link" %>
+        <%= link_to "Tarifs", "/tarifs.html", class: "link" %>
         <%= link_to "l'équipe", " ", class: "link" %>
         <%= link_to "La sécurité", " ", class: "link" %>
       </div>

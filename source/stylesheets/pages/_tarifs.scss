@@ -1,25 +1,66 @@
 .tarifs {
   display: grid;
-  grid-template-rows: 70px 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .description {
   grid-row: 1 / span 1;
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
+  text-align: center;
 }
 
 .standard {
-  grid-row: 2 / span 2;
+  grid-row: 2 / span 1;
   grid-column: 1 / span 1;
 }
 
 .premium{
   grid-row: 2 / span 1;
   grid-column: 2 / span 1;
+
 }
 
 .avance {
-  grid-row: 3 / span 1;
-  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
 }
+
+
+.lists {
+  text-align: left;
+  list-style-type: none;
+}
+
+
+.standard h1 {
+  color: $green;
+}
+
+#background-green {
+  color: $green;
+  height: 37px;
+  width: 199px;
+  border-radius: 20px;
+  background-color: rgba(80,227,194,0.2);
+  text-align: center;
+}
+
+.premium h1 {
+  color: $purple;
+}
+
+.avance h1 {
+  color: $blue;
+}
+
+#blue {
+  color: $blue;
+}
+
+.btn-bottom {
+  padding-top: 30px;
+
+}
+
+

@@ -12,6 +12,24 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+
+  <nav class="navbar-bimedoc">
+      <div>
+        <%= image_tag "logo.png", id: "logo" %>
+        <%= link_to "Fonctionnalités", " ", class: "link" %>
+        <%= link_to "Tarifs", " ", class: "link" %>
+        <%= link_to "l'équipe", " ", class: "link" %>
+        <%= link_to "La sécurité", " ", class: "link" %>
+      </div>
+      <div>
+        <%= link_to "Connexion", " ", class: "link" %>
+        <%= link_to "Inscription", " ", class: "btn btn-primary" %>
+      </div>
+    </nav>
+
+
+
+
     <%= yield %>
   </body>
 </html>

@@ -2,14 +2,42 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="container">
+  <div class="bloc-cards">
+    <div class="sentence-developpe-par">
+      Développé par des pharmaciens pour des pharmaciens
+    </div>
+    <div class="cards card-1">
+      <%= image_tag "check.png", id: "logo" %>
+      <h3>Bilan (partagé) de médication</h3>
+    </div>
+    <div class="cards card-2">
+      <%= image_tag "brain.png", id: "logo" %>
+      <h3>Dossier patient informatisé</h3>
+    </div>
+    <div class="cards card-3">
+      <%= image_tag "dossier-patient.png", id: "logo" %>
+      <h3>Dossier patient informatisé</h3>
+    </div>
+    <div class="cards card-4">
+      <%= image_tag "bonhomme.png", id: "logo" %>
+      <h3>Entretien pharmaceutique</h3>
+    </div>
+    <div class="listes"></div>
+      <div class="liste">
+        <h3>1 - Gagnez du temps</h3>
+        <p>Déclaration automatique au portail AmeliPro, pré-saisie des interventions pharmaceutique.</p>
+      </div>
+      <div class="liste">
+        <h3>2 - Bénéficiez d’un outil connecté</h3>
+        <p>Liste start&stopp, Laroche, Anticholinergic Drug Scale, DDI predictor, Thériaque, GPR...</p>
+      </div>
+      <div class="liste">
+        <h3>3 - Collaborez avec les professionnels de santé</h3>
+        <p>Envoyez un clic vos avis pharmaceutiques aux différents professionnels de santé.</p>
+      </div>
+    <div class="premier-pas">
+      <%= link_to "Premier pas avec bimedoc", " ", class: "btn btn-primary" %>
+    </div>
   </div>
 </div>

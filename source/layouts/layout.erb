@@ -9,7 +9,7 @@
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/favicon.svg' %>
   </head>
   <body>
 
@@ -17,7 +17,7 @@
       <div>
         <%= image_tag "logo.png", id: "logo" %>
         <%= link_to "Fonctionnalités", " ", class: "link" %>
-        <%= link_to "Tarifs", " ", class: "link" %>
+        <%= link_to "Tarifs", "tarifs.html.erb", class: "link" %>
         <%= link_to "l'équipe", " ", class: "link" %>
         <%= link_to "La sécurité", " ", class: "link" %>
       </div>

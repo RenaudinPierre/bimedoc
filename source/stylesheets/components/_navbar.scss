@@ -17,9 +17,14 @@
 
 /* bouton primary */
 .btn {
-  border-radius: 4px;
-  box-shadow: 0 2px 4px 0 rgb(100,100,100);
+  border-radius: 8px;
+
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   font-size: 15px;
+  text-decoration: none;
+  height: 40px;
+  width: 150px;
+  padding-top: 8px;
 }
 
 .btn:hover {
@@ -31,7 +36,12 @@
 
 margin: 10px;
 font-size: 15px;
+text-decoration: none;
+color: $gray;
+}
 
+.link:hover {
+  text-decoration: none;
 }
 
 

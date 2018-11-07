@@ -37,13 +37,19 @@
   color: $green;
 }
 
-#background-green {
+.exemple {
+  margin: 0 auto;
   color: $green;
   height: 37px;
   width: 199px;
   border-radius: 20px;
   background-color: rgba(80,227,194,0.2);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+  }
 }
 
 .premium h1 {

@@ -3,8 +3,6 @@
 }
 
 
-
-
 #hero-image {
   width: 767px;
   height: 462px;
@@ -35,7 +33,7 @@
 .bloc-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 600px;
-  grid-template-rows: 20% 30% 30% 20%;
+  // grid-template-rows: 20% 30% 30% 20%;
 }
 
 .sentence-developpe-par {

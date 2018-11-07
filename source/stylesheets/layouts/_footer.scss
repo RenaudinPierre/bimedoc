@@ -1,12 +1,16 @@
 .footer {
   background-color: #f5f5f5;
-  padding: 20px 50px 0 50px;
+  padding: 15px 50px 0 50px;
 }
 
 .footer-grid-haut {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 10px;
+  p {
+    margin: 0;
+  }
 }
 
 
@@ -14,10 +18,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #6A86A4;
 }
 
 #contact {
-  padding-top: 20px;
+  padding-top: 15px;
+
+  text-align: center;
 }
 
 .oval {
@@ -39,4 +47,6 @@
    background-color: #6A86A4;
 }
 
-
+.footer-links {
+  padding-top: 10px;
+}

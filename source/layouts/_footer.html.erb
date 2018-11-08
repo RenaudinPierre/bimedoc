@@ -7,10 +7,10 @@
       </a>
     </div>
     <div>
-      <p>Qui sommes-nous</p>
-      <p>Tarifs</p>
-      <p>Fonctionnalités</p>
-      <p>Securité</p>
+      <p><%= link_to "Qui somme-nous", "/equipe.html", class: "cgu" %></p>
+      <p><%= link_to "Tarifs", "/tarifs.html", class: "cgu" %></p>
+      <p><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "cgu" %></p>
+      <p><%= link_to "Sécurité", "/securite.html", class: "cgu" %></p>
     </div>
     <div>
       <p>Suivez-nous sur :</p>
@@ -26,7 +26,7 @@
     <p>
       <span>Copyright © 2018 Bimedoc, tous droits réservés</span>
       <span>-</span>
-      <span>CGU</span>
+      <span><%= link_to "CGU", "/mentionlegale", class: "cgu" %></span>
     </p>
   </div>
 </div>

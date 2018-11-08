@@ -24,8 +24,14 @@
 
 #contact {
   padding-top: 15px;
-
+  text-decoration: none;
   text-align: center;
+}
+
+#contact:hover {
+  text-decoration: none;
+  color: #6A86A4;
+  font-weight: bold;
 }
 
 .oval {
@@ -49,4 +55,15 @@
 
 .footer-links {
   padding-top: 10px;
+}
+
+.cgu {
+  text-decoration: none;
+  color: $gray;
+}
+
+.cgu:hover {
+  text-decoration: none;
+  color: #6A86A4;
+  font-weight: bold;
 }

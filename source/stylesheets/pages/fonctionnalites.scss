@@ -1,0 +1,20 @@
+.oval-ok {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $blue;
+  opacity: 0.3;
+  color: $purple;
+  margin-bottom: 10px;
+}
+
+.line {
+  box-sizing: border-box;
+  height: 1px;
+  width: 375px;
+  border: 1px solid #2F17FD;
+}
+
+.black {
+  color: $black;
+}

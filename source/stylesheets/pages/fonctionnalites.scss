@@ -8,13 +8,18 @@
   margin-bottom: 10px;
 }
 
-.line {
-  box-sizing: border-box;
-  height: 1px;
-  width: 375px;
-  border: 1px solid #2F17FD;
+.titre {
+  // box-sizing: border-box;
+  // height: 1px;
+  // width: 375px;
+  border-bottom: 1px solid #979797;;
 }
 
 .black {
   color: $black;
+}
+
+.fonctionnalite {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }

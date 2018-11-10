@@ -1,33 +1,21 @@
 <div class="footer">
   <div class="footer-grid-haut">
-     <div>
-      <a href="/bimedoc" class="">
-        <%= image_tag "logo.svg", id:"logo" %>
-        <p id="contact">contact@bimedoc.com</p>
-      </a>
-    </div>
     <div>
-      <p><%= link_to "Qui somme-nous", "/equipe.html", class: "cgu" %></p>
-      <p><%= link_to "Tarifs", "/tarifs.html", class: "cgu" %></p>
-      <p><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "cgu" %></p>
-      <p><%= link_to "Sécurité", "/securite.html", class: "cgu" %></p>
-    </div>
-    <div>
-      <p>Suivez-nous sur :</p>
-      <div class="footer-links">
-        <a href="#"><i class="oval fab fa-facebook-f"></i></a>
-        <a href="#"><i class="oval fab fa-twitter"></i></a>
-        <a href="#"><i class="oval fab fa-linkedin-in"></i></a>
-      </div>
-
+      <span><%= link_to "Qui somme-nous", "/equipe.html", class: "cgu" %></span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span><%= link_to "Tarifs", "/tarifs.html", class: "cgu" %></span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "cgu" %></span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span><%= link_to "Sécurité", "/securite.html", class: "cgu" %></span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span><%= link_to "CGU", "/mentionlegale", class: "cgu" %></span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span id="contact">contact@bimedoc.com</span>
     </div>
   </div>
   <div class="footer-grid-bas">
-    <p>
-      <span>Copyright © 2018 Bimedoc, tous droits réservés</span>
-      <span>-</span>
-      <span><%= link_to "CGU", "/mentionlegale", class: "cgu" %></span>
-    </p>
+    <p>Copyright © 2018 Bimedoc, tous droits réservés</p>
   </div>
 </div>
 

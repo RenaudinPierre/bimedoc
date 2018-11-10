@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="48px" viewBox="0 0 52 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Bimedoc.com" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-535.000000, -1194.000000)">
+            <g id="chat" transform="translate(535.000000, 1194.000000)">
+                <path d="M25.9342703,0 C11.9623784,0 0.636972973,10.1539459 0.636972973,22.6806486 C0.636972973,27.2964324 2.17945946,31.5878919 4.82075676,35.171027 C4.47308108,39.3094054 3.47545946,45.1394595 0.636972973,47.9779459 C0.636972973,47.9779459 9.3107027,46.7610811 15.1848649,43.212973 C18.4475676,44.5881081 22.0890811,45.3612973 25.9342703,45.3612973 C39.9061622,45.3612973 51.2315676,35.2073514 51.2315676,22.6806486 C51.2315676,10.1539459 39.9061622,0 25.9342703,0 Z" id="Path" fill="#0391FD"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="12.3126486" cy="23.3292973" r="3.89189189"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="26.5829189" cy="23.3292973" r="3.89189189"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="40.8531892" cy="23.3292973" r="3.89189189"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

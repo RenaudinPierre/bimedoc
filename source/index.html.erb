@@ -8,7 +8,7 @@ title: Le Wagon - Middleman
       <div class="col-xs-12 col-sm-6">
         <div class="hero-description">
           <h1><span id="color-blue">Les activités de pharmacie clinique en toute simplicité</span> pour les officinaux et les hospitaliers</h1>
-          <%= link_to "Premier pas avec bimedoc", " ", class: "btn-purple btn btn-primary" %>
+          <%= link_to " 👉 Premier pas avec Bimedoc", " ", class: "btn-purple btn btn-primary" %>
           <p>Tout sur le service, les fonctions et les prix.</p>
         </div>
       </div>
@@ -35,15 +35,15 @@ title: Le Wagon - Middleman
         <h3>Bilan (partagé) de médication</h3>
       </div>
       <div class="cards card-2">
-        <%= image_tag "brain.svg", id: "logo" %>
+        <%= image_tag "prescription.svg", id: "logo" %>
         <h3>Expertise pharmaceutique des prescriptions</h3>
       </div>
       <div class="cards card-3">
-        <%= image_tag "dossier-patient.svg", id: "logo" %>
+        <%= image_tag "dossier.svg", id: "logo" %>
         <h3>Dossier patient informatisé</h3>
       </div>
       <div class="cards card-4">
-        <%= image_tag "bonhomme.svg", id: "logo" %>
+        <%= image_tag "sms.svg", id: "logo" %>
         <h3>Entretien pharmaceutique</h3>
       </div>
       <div class="listes">
@@ -61,7 +61,7 @@ title: Le Wagon - Middleman
         </div>
       </div>
       <div class="premier-pas">
-        <%= link_to "Premier pas avec bimedoc", " ", class: "btn-purple btn btn-primary" %>
+        <%= link_to " 👉 Premier pas avec Bimedoc", " ", class: "btn-purple btn btn-primary" %>
         <p>Tout sur le service, les fonctions et les prix.</p>
       </div>
     </div>
@@ -69,16 +69,17 @@ title: Le Wagon - Middleman
 
     <div class="services-personnalises">
       <div class="service-personnalise">
-          <h2 id="color-blue">Services personnalisés</h2>
+          <h2>Faites nous appels</h2>
+          <h2 id="color-blue">pour des services personnalisés</h2>
       </div>
       <div class="cards enseignement">
-        <%= image_tag "enseignant.svg", id: "logo" %>
+        <%= image_tag "stylo.svg", id: "logo" %>
         <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
         <p>Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
           <%= link_to "Contactez-nous", " ", class: "btn-gray btn btn-primary" %>
       </div>
       <div class="cards projet">
-        <%= image_tag "chimiste.svg", id: "logo" %>
+        <%= image_tag "etoile.svg", id: "logo" %>
         <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
         <p>Bimedoc peut vous accompagner dans la recherche ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
         <%= link_to "Contactez-nous", " ", class: "btn-gray btn btn-primary" %>
@@ -87,15 +88,20 @@ title: Le Wagon - Middleman
 
     <div class="partenaires">
       <div class="titre-partenaire">
+        <h2>Ils nous font confiance</h2>
         <h2 id="color-blue">Partenaires</h2>
       </div>
-      <div class="row">
-        <div class="col-xs-6 col-sm-3">
-          <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
+      <div class="row padding-left">
+        <div class="col-xs-6 col-sm-4">
+          <%= image_tag "theriaque.jpg", id: "logo-partenaire" %>
         </div>
-        <div class="col-xs-6 col-sm-3">
+         <div class="col-xs-6 col-sm-4">
           <%= image_tag "lyonfrenchtech.svg", id: "logo-partenaire" %>
         </div>
+        <div class="col-xs-6 col-sm-4">
+          <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
+        </div>
+
       </div>
     </div>
 

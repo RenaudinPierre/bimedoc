@@ -8,9 +8,10 @@
   align-items: center;
   justify-content: space-around;
   padding-bottom: 10px;
-  p {
-    margin: 0;
-  }
+  font-size: 16px;
+  font-weight: 300;
+  color: #9B9B9B;
+  line-height: 24px;
 }
 
 
@@ -18,20 +19,22 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10px;
-  border-top: 1px solid #6A86A4;
+
+  p {
+    font-size: 10px;
+  }
 }
 
 #contact {
   padding-top: 15px;
   text-decoration: none;
   text-align: center;
+  color: $blue;
 }
 
 #contact:hover {
   text-decoration: none;
-  color: #6A86A4;
-  font-weight: bold;
+  color: $gray;
 }
 
 .oval {
@@ -64,6 +67,6 @@
 
 .cgu:hover {
   text-decoration: none;
-  color: #6A86A4;
-  font-weight: bold;
+  color: $blue;
+
 }

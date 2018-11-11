@@ -37,6 +37,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 550px;
   // grid-template-rows: 20% 30% 30% 20%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .sentence-developpe-par {
@@ -106,13 +108,14 @@
 .services-personnalises {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 170px 1fr;
+  grid-template-rows: 130px 1fr;
+  margin-bottom: 100px;
 }
 
 .service-personnalise {
   grid-row: 1 / span 1;
   grid-column: 1 / span 2;
-  margin-top: 40px;
+  // margin-top: 40px;
   margin-left: 20px;
    h2 {
     margin: 10px;
@@ -144,7 +147,7 @@
 //partenaires
 
 .partenaires {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .padding-left {
@@ -193,11 +196,12 @@
     color: rgba(0,0,0,0.25);
     letter-spacing: -0.5px;
     font-size: 16px;
+    font-weight: 400;
   }
 
 p {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #9B9B9B;
   line-height: 24px;
 }

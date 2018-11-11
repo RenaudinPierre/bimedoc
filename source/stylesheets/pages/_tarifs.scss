@@ -1,6 +1,6 @@
 .tarifs {
   display: grid;
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: 220px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -33,7 +33,7 @@
 }
 
 
-.standard h1 {
+.standard h2 {
   color: $green;
 }
 
@@ -52,11 +52,11 @@
   }
 }
 
-.premium h1 {
+.premium h2 {
   color: $purple;
 }
 
-.avance h1 {
+.avance h2 {
   color: $blue;
 }
 

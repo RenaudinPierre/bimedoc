@@ -8,19 +8,40 @@
 }
 
 .description {
-  padding: 0 300px;
+  padding: 50px 300px;
 }
 
-// .cards p {
-//   font-weight: bold;
-//   color: black;
-// }
-
 .container {
-  padding-bottom: 2équié0px;
+  // padding-bottom: 20px;
 }
 
 #margin {
   margin: 0 20px;
   text-align: left;
+}
+
+
+.alignement-horizontale {
+  display: flex;
+  align-items: center;
+}
+
+
+.cards-securite {
+  background: white;
+  padding: 20px 20px 10px 20px;
+  box-shadow: 0 2px 6px #9B9B9B;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: left;
+  h3 {
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
+.proprietaires {
+  margin-bottom: 200px;
 }

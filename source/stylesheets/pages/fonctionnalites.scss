@@ -1,11 +1,18 @@
+.container-perso {
+  width: 1066px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .oval-ok {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: $blue;
-  opacity: 0.3;
-  color: $purple;
-  margin-bottom: 10px;
+  background-color: rgba(47, 23,253, 0.3);
+  // opacity: 0.3;
+  color: $blue;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .titre {
@@ -16,10 +23,32 @@
 }
 
 .black {
+  padding-top: 10px;
   color: $black;
+  font-weight: bold;
 }
 
 .fonctionnalite {
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.size {
+  font-size: 24px;
+}
+
+
+.description-fonctinnalites {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.prochainement {
+  background-color: #F8E71C;
+  padding: 7px 10px;
+  height: 38px;
+  width: 153px;
+  text-align: center;
+  border-radius: 4px;
+  color: $black;
 }

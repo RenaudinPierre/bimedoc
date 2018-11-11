@@ -4,6 +4,8 @@
   margin-right: auto;
 }
 
+
+
 .oval-ok {
   width: 25px;
   height: 25px;
@@ -16,10 +18,8 @@
 }
 
 .titre {
-  // box-sizing: border-box;
-  // height: 1px;
-  // width: 375px;
-  border-bottom: 1px solid #979797;;
+  border-bottom: 1px solid #979797;
+  // padding-top: 50px;
 }
 
 .black {
@@ -39,7 +39,7 @@
 
 
 .description-fonctinnalites {
-  padding: 50px 0;
+  padding: 50px 100px;
   text-align: center;
 }
 

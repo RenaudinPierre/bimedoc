@@ -135,16 +135,32 @@
 .btn-gray {
   background-color: $gray;
   border-color: $gray;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #green-bold {
   font-weight: bold;
   color: $green;
+  padding: 20px;
 }
 
-
+#texte {
+  padding-bottom: 20px;
+}
 
 //partenaires
+
+.cards-partenaires {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 2px 6px #9B9B9B;
+  border-radius: 20px;
+  margin: 40px;
+  display: block;
+  text-align: center
+}
+
 
 .partenaires {
   padding-bottom: 150px;
@@ -171,7 +187,9 @@
 }
 
 
-
+.projet p {
+  padding-bottom: 43px;
+}
 
 
   h1 {

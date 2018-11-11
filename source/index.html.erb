@@ -8,7 +8,7 @@ title: Le Wagon - Middleman
       <div class="col-xs-12 col-sm-6">
         <div class="hero-description">
           <h1><span id="color-blue">Les activités de pharmacie clinique en toute simplicité</span> pour les officinaux et les hospitaliers</h1>
-          <%= link_to " 👉 Premier pas avec Bimedoc", " ", class: "btn-purple btn btn-primary" %>
+          <%= link_to " 👉 Premier pas avec Bimedoc", "/fonctionnalites.html", class: "btn-purple btn btn-primary" %>
           <p>Tout sur le service, les fonctions et les prix.</p>
         </div>
       </div>
@@ -31,19 +31,19 @@ title: Le Wagon - Middleman
         <h2>Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
       </div>
       <div class="cards card-1">
-        <%= image_tag "check.svg", id: "logo" %>
+        <%= image_tag "check.svg"%>
         <h3>Bilan (partagé) de médication</h3>
       </div>
       <div class="cards card-2">
-        <%= image_tag "prescription.svg", id: "logo" %>
+        <%= image_tag "prescription.svg"%>
         <h3>Expertise pharmaceutique des prescriptions</h3>
       </div>
       <div class="cards card-3">
-        <%= image_tag "dossier.svg", id: "logo" %>
+        <%= image_tag "dossier.svg"%>
         <h3>Dossier patient informatisé</h3>
       </div>
       <div class="cards card-4">
-        <%= image_tag "sms.svg", id: "logo" %>
+        <%= image_tag "sms.svg" %>
         <h3>Entretien pharmaceutique</h3>
       </div>
       <div class="listes">
@@ -61,7 +61,7 @@ title: Le Wagon - Middleman
         </div>
       </div>
       <div class="premier-pas">
-        <%= link_to " 👉 Premier pas avec Bimedoc", " ", class: "btn-purple btn btn-primary" %>
+        <%= link_to " 👉 Premier pas avec Bimedoc", "/fonctionnalites.html", class: "btn-purple btn btn-primary" %>
         <p>Tout sur le service, les fonctions et les prix.</p>
       </div>
     </div>
@@ -72,14 +72,14 @@ title: Le Wagon - Middleman
           <h2>Faites nous appels</h2>
           <h2 id="color-blue">pour des services personnalisés</h2>
       </div>
-      <div class="cards enseignement">
-        <%= image_tag "stylo.svg", id: "logo" %>
+      <div class="cards-partenaires enseignement">
+        <%= image_tag "stylo.svg"%>
         <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
-        <p>Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
+        <p id="texte">Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
           <%= link_to "Contactez-nous", " ", class: "btn-gray btn btn-primary" %>
       </div>
-      <div class="cards projet">
-        <%= image_tag "etoile.svg", id: "logo" %>
+      <div class="cards-partenaires projet">
+        <%= image_tag "etoile.svg"%>
         <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
         <p>Bimedoc peut vous accompagner dans la recherche ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
         <%= link_to "Contactez-nous", " ", class: "btn-gray btn btn-primary" %>

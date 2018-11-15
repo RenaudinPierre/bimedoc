@@ -2,10 +2,14 @@
 .navbar-bimedoc {
   box-shadow: 0 2px 4px rgb(160,160,160);
   background: white;
-  height: 100px;
+  height: 70px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  transition: all 0.3s ease;
   justify-content: space-between;
   a {
     padding-top: 10px;

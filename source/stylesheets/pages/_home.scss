@@ -6,14 +6,14 @@
 //header
 
 #hero-image {
-  // margin-top: 70px;
+  margin-top: 120px;
   width: 767px;
   height: 462px;
 
 }
 
 .hero-description {
-  // margin-top: 70px;
+  margin-top: 120px;
   padding: 60px 80px;
 }
 
@@ -24,6 +24,16 @@
 .hero-description p {
   padding-top: 15px
 }
+
+
+#hero-bleu {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 710px;
+  width: 554px;
+}
+
 
 #color-blue {
   color: $blue;
@@ -37,7 +47,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 550px;
   // grid-template-rows: 20% 30% 30% 20%;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 

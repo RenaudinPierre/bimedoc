@@ -2,12 +2,14 @@
   display: grid;
   grid-template-rows: 220px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 70px;
 }
 
 .description {
   grid-row: 1 / span 1;
   grid-column: 1 / span 3;
   text-align: center;
+  margin: auto auto;
 }
 
 .standard {

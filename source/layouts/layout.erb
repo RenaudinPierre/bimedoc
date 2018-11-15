@@ -5,11 +5,31 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--     <meta name="google-site-verification" content="XWo3hIJNSm1ehCt0PE_59e5fjjlR0UdfYCyxR4ZMsjc" /> -->
+
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <title>Bimedoc</title>
+    <meta name="Description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique"/>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.svg' %>
+<!--     <%= favicon_tag 'images/favicon.svg' %> -->
+
+<!--    meta facebook -->
+    <meta property="og:title" content="Bimedoc.com : Les acitivtés de pharmacie clinique en toute simplicité" />
+    <meta property="og:url" content="http://www.bimedoc.com"/>
+    <meta property="og:site_name" content="Bimedoc.com"/>
+    <meta property="og:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
+    <meta property="og:image" content=<%= image_tag "hero.svg", id: "hero-image" %>/>
+
+<!-- meta twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Bimedoc.com : Les acitivtés de pharmacie clinique en toute simplicité">
+    <meta name="twitter:url" content="Bimedoc.com">
+    <meta name="twitter:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
+    <meta name="twitter:image" content="http://adresse_url_de_mon_image/monimage.png">
+
   </head>
   <body>
 
@@ -18,7 +38,6 @@
     <%= partial "layouts/navbar" %>
 
     <%= yield %>
-
 
     <%= partial "layouts/footer" %>
 

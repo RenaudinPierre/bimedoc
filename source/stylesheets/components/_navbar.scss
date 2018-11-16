@@ -1,42 +1,54 @@
 /* Main navbar */
 .navbar-bimedoc {
-  box-shadow: 0 2px 4px rgb(160,160,160);
+//   box-shadow: 0 2px 4px rgb(160,160,160);
   background: white;
-  height: 70px;
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  transition: all 0.3s ease;
-  justify-content: space-between;
-  a {
-    padding-top: 10px;
-  }
+//   height: 70px;
+//   padding: 0px 30px;
+//   display: flex;
+//   align-items: center;
+//   position: fixed;
+//   width: 100%;
+//   top: 0px;
+//   transition: all 0.3s ease;
+//   justify-content: space-between;
+//   a {
+//     padding-top: 10px;
+//   }
 }
 
 /* Logo */
 #logo {
   height: 50px;
   padding-right: 30px;
+  margin-top: 10px;
 }
 
 /* bouton primary */
-.btn {
-  border-radius: 8px;
+// .btn {
+//   border-radius: 8px;
+//   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+//   font-size: 16px;
+//   text-decoration: none;
+//   margin: 10px;
+//   color: white;
+
+// }
+
+.navbar-default .navbar-nav > li > a.btn.btn-primary {
+  padding: 12px 50px;
+  color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-  font-size: 16px;
-  text-decoration: none;
-  height: 40px;
-  padding-top: 8px;
-  font-weight: 400px;
-}
-
-.btn:hover {
-
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 10px;
 
 }
+
+
+// .btn:hover {
+
+
+// }
 
 .link {
 
@@ -53,6 +65,26 @@ color: $gray;
 
 
 
+.index {
+  .navbar {
+    transition: all ease 0.3s;
+    // box-shadow:none;
+    // background: $blue;
+    // border: none;
+    // opacity: 0;
+    .navbar-nav > li > a.btn.btn-primary {
+      background: white;
+      color: $blue;
+    }
+  }
 
+  .navbar.navbar-white {
+    background: white;
+    .navbar-nav > li > a.btn.btn-primary {
+      background-color: $blue;
+      color: white;
+    }
+  }
+}
 
 

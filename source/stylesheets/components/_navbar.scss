@@ -18,21 +18,22 @@
 
 /* Logo */
 #logo {
-  height: 50px;
+  height: 40px;
+  padding-left: 10px;
   padding-right: 30px;
   margin-top: 10px;
 }
 
 /* bouton primary */
-// .btn {
-//   border-radius: 8px;
-//   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-//   font-size: 16px;
-//   text-decoration: none;
-//   margin: 10px;
-//   color: white;
+.btn {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  font-size: 16px;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
 
-// }
+}
 
 .navbar-default .navbar-nav > li > a.btn.btn-primary {
   padding: 12px 50px;
@@ -41,9 +42,23 @@
   font-weight: bold;
   border-radius: 8px;
   margin: 10px;
+  margin-right: 20px;
 
 }
 
+.navbar-default .navbar-nav > li > a.btn.btn-primary:hover {
+  padding: 12px 50px;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 10px;
+  margin-right: 20px;
+  background: $blue;
+  color: white;
+  opacity: 0.8;
+
+}
 
 // .btn:hover {
 

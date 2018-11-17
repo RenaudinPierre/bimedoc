@@ -3,7 +3,7 @@ function initUpdateNavbarOnScroll() {
 
   if (navbar) {
     window.addEventListener('scroll', function() {
-      if (window.scrollY >= window.innerHeight) {
+      if (window.scrollY >= 120) {
         navbar.classList.add('navbar-white');
       } else {
         navbar.classList.remove('navbar-white');

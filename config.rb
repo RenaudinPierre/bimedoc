@@ -20,3 +20,13 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+
+
+# activate :google_analytics do |ga|
+#     ga.tracking_id = UA-129392692-1
+#     ga.anonymize_ip = true
+#     ga.debug = false
+#     ga.development = false
+#     ga.minify = true
+# end

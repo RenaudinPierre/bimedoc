@@ -3,6 +3,7 @@
   grid-template-rows: 220px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .description {
@@ -32,16 +33,17 @@
 .lists {
   text-align: left;
   list-style-type: none;
+  padding-top: 10px;
   p{
     margin-bottom: 0;
   }
 }
 
 .padding {
-  padding-top: 70px;
+  padding-top: 94px;
 }
 
-.standard h2 {
+.color-green {
   color: $green;
 }
 
@@ -79,4 +81,13 @@
 
 .centre {
   margin: 0 auto;
+}
+
+.prochainement {
+  margin-top: 18px;
+}
+
+.prix {
+  font-color: black;
+  font-weight: bold;
 }

@@ -10,21 +10,20 @@
 
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Bimedoc</title>
-    <meta name="Description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique"/>
+    <meta name="Description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/Favicon.png' %>
-<!--     <%= favicon_tag 'images/favicon.svg' %> -->
 
 <!--    meta facebook -->
-    <meta property="og:title" content="Bimedoc.com : Les activités de pharmacie clinique en toute simplicité" />
-    <meta property="og:url" content="http://www.bimedoc.com"/>
-    <meta property="og:site_name" content="Bimedoc.com"/>
+    <meta property="og:title" content="Bimedoc.com : Les activités de pharmacie clinique en toute simplicité">
+    <meta property="og:url" content="http://www.bimedoc.com">
+    <meta property="og:site_name" content="Bimedoc.com">
     <meta property="og:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
-    <meta property="og:image" content=<%= image_tag "hero.svg", id: "hero-image" %>/>
+    <meta property="og:image" content="">
 
 <!-- meta twitter -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Bimedoc.com : Les activités de pharmacie clinique en toute simplicité">
     <meta name="twitter:url" content="Bimedoc.com">
     <meta name="twitter:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
@@ -34,17 +33,13 @@
 
   </head>
 
-  <body class="<%= page_classes %>">
-
-
-
+  <body class="<%= page_classes  %> background_white">
 
     <%= partial "layouts/navbar" %>
 
     <%= yield %>
 
     <%= partial "layouts/footer" %>
-
 
   </body>
 </html>

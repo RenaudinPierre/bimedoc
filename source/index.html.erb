@@ -1,3 +1,5 @@
+
+<div class="container">
   <div class="hero">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
@@ -10,7 +12,7 @@
        <!--  <div class="hero-image">
           <%= image_tag "hero.svg", id: "hero-image" %>
         </div> -->
-        <div class="hero-asset">
+        <div class="hero-asset hide_on_mobile">
           <%= image_tag "bimedoc-preview.svg", id: "hero-bleu" %>
         </div>
       </div>
@@ -20,9 +22,6 @@
 
 
 
-
-
-  <div class="container">
     <div class="bloc-cards">
       <div class="sentence-developpe-par">
         <h2>Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
@@ -50,7 +49,7 @@
         </div>
         <div class="liste">
           <h3>2 - Bénéficiez d’un outil performant</h3>
-          <p>Solution permettant de réaliser l'ensemble des acitivtés de pharmacie clinique et de favoriser la pertinence des avis pharmaceutiques</p>
+          <p>Solution permettant de réaliser l'ensemble des activités de pharmacie clinique et de favoriser la pertinence des avis pharmaceutiques</p>
         </div>
         <div class="liste">
           <h3>3 - Collaborez avec les professionnels de santé</h3>
@@ -59,27 +58,36 @@
       </div>
       <div class="premier-pas">
         <%= link_to " 👉 Premier pas avec Bimedoc", "/fonctionnalites.html", class: "btn-purple btn btn-primary" %>
-<!--         <p>Tout sur le service, les fonctions et les prix.</p> -->
+        <p>Tout sur le service, les fonctions et les prix.</p>
       </div>
     </div>
 
 
     <div class="services-personnalises">
-      <div class="service-personnalise">
-          <h2>Faites appel à Bimedoc</h2>
-          <h2 id="color-blue">pour des services personnalisés</h2>
-      </div>
-      <div class="cards-partenaires enseignement">
-        <%= image_tag "stylo.svg"%>
-        <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
-        <p id="texte">Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
-        <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
-      </div>
-      <div class="cards-partenaires projet">
-        <%= image_tag "etoile.svg"%>
-        <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
-        <p>Bimedoc peut vous accompagner dans la recherche clinique ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
-        <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="service-personnalise">
+              <h2>Faites appel à Bimedoc</h2>
+              <h2 id="color-blue">pour des services personnalisés</h2>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="cards-partenaires enseignement">
+            <%= image_tag "stylo.svg"%>
+            <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
+            <p id="texte">Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
+            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+          <div class="cards-partenaires projet">
+            <%= image_tag "etoile.svg"%>
+            <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
+            <p>Bimedoc peut vous accompagner dans la recherche clinique ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
+            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -89,20 +97,16 @@
         <h2 id="color-blue">Partenaires</h2>
       </div>
       <div class="row padding-left">
-        <div class="col-xs-6 col-sm-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <%= image_tag "theriaque.jpg", id: "logo-partenaire" %>
         </div>
-         <div class="col-xs-6 col-sm-4">
+         <div class="col-xs-12 col-sm-6 col-lg-4">
           <%= image_tag "lyonfrenchtech.svg", id: "logo-partenaire" %>
         </div>
-        <div class="col-xs-6 col-sm-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
         </div>
-
       </div>
     </div>
-
-
-
-  </div>
+</div>
 

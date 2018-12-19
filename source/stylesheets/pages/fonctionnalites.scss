@@ -1,5 +1,5 @@
 .container-perso {
-  width: 1066px;
+  max-width: 1066px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,6 +28,10 @@
   font-weight: bold;
 }
 
+.fonctionnalites {
+    padding-top: 80px;
+}
+
 .fonctionnalite {
   padding-top: 20px;
   padding-bottom: 50px;
@@ -39,7 +43,7 @@
 
 
 .description-fonctinnalites {
-  padding: 150px 100px 80px 100px;
+  padding: 150px 100px 0px 100px;
   text-align: center;
 }
 

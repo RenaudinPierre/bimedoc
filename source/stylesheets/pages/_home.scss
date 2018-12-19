@@ -1,4 +1,23 @@
 .background_white {
+  position: relative;
+}
+
+
+
+@media (max-width: 575.98px) {
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .padding-top-mobile {
+    padding-top: 60px;
+  }
+}
+
+
+
+
+.background_white {
   background-color: white;
 }
 
@@ -12,10 +31,27 @@
 
 }
 
-.hero-description {
-  margin-top: 120px;
-  padding: 120px 0px 60px 50px;
+
+@media (max-width: 575.98px) {
+  .hero-description {
+    padding: 5em 2em;
+  }
 }
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .hero-description {
+    width: 100vw;
+    padding: 12em 3em 6em 3em;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-description {
+    margin-top: 120px;
+    padding: 120px 0px 60px 50px;
+  }
+}
+
 
 .hero-description h1 {
   padding-bottom: 20px
@@ -26,13 +62,40 @@
 }
 
 
-#hero-bleu {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  // height: 710px;
-  width: 620px;
+
+
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #hero-bleu {
+    display: none;
+  }
 }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #hero-bleu {
+    width: 550px;
+    position: absolute;
+    // right: 0px;
+    // top: 0px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #hero-bleu {
+    position: absolute;
+    // right: 0px;
+    // top: 0px;
+    width: 620px;
+  }
+
+  .container {
+    min-height: calc(100vh - 124px);
+  }
+}
+
 
 
 #color-blue {
@@ -42,46 +105,52 @@
 
 
 
+@media (min-width: 1200px) {
+  .bloc-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 550px;
+    // grid-template-rows: 20% 30% 30% 20%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 
-.bloc-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 550px;
-  // grid-template-rows: 20% 30% 30% 20%;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  .sentence-developpe-par {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+    margin: 20px;
+  }
+
+  .card-1 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .card-2 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  .card-3 {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .card-4 {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  .premier-pas {
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 1;
+    padding-left: 20px;
+  }
 }
 
-.sentence-developpe-par {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 2;
-  margin: 20px;
-}
 
-.card-1 {
-  grid-row: 2 / span 1;
-  grid-column: 1 / span 1;
-}
 
-.card-2 {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
-}
 
-.card-3 {
-  grid-row: 3 / span 1;
-  grid-column: 1 / span 1;
-}
 
-.card-4 {
-  grid-row: 3 / span 1;
-  grid-column: 2 / span 1;
-}
-
-.premier-pas {
-  grid-row: 4 / span 1;
-  grid-column: 3 / span 1;
-  padding-left: 20px;
-}
 .premier-pas p {
   padding-top: 10px;
 }
@@ -116,16 +185,19 @@
 
 
 
+
+
+
 .services-personnalises {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 130px 1fr;
+  // display: grid;
+  // // grid-template-columns: 1fr 1fr;
+  // // grid-template-rows: 130px 1fr;
   margin-bottom: 100px;
 }
 
 .service-personnalise {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 2;
+  // grid-row: 1 / span 1;
+  // grid-column: 1 / span 2;
   // margin-top: 40px;
   margin-left: 20px;
    h2 {
@@ -133,15 +205,15 @@
   }
 }
 
-.enseignement {
-  grid-row: 2 / span 1;
-  grid-column: 1 / span 1;
-}
+// .enseignement {
+//   grid-row: 2 / span 1;
+//   grid-column: 1 / span 1;
+// }
 
-.projet {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
-}
+// .projet {
+//   grid-row: 2 / span 1;
+//   grid-column: 2 / span 1;
+// }
 
 .btn-gray {
   background-color: $gray;
@@ -169,7 +241,7 @@
   border-radius: 20px;
   margin: 40px;
   display: block;
-  text-align: center
+  text-align: center;
 }
 
 
@@ -178,7 +250,8 @@
 }
 
 .padding-left {
-  padding-left: 20px;
+  // padding-left: 20px;
+  text-align: center;
 }
 
 .titre-partenaire {
@@ -192,9 +265,14 @@
 }
 
 #logo-partenaire {
-  height: 100px;
-  width: 300px;
+  // height: 100px;
+  // width: 300px;
   text-align: center;
+  margin: 10px 0;
+
+  height: 15vh;
+  width: 40vh;
+
 }
 
 

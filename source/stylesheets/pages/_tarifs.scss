@@ -1,34 +1,35 @@
-.tarif {
-  display: grid;
-  grid-template-rows: 220px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 70px;
-  padding-bottom: 70px;
+@media (min-width: 992px) {
+  .tarif {
+    display: grid;
+    grid-template-rows: 220px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .description {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    text-align: center;
+    margin: auto auto;
+  }
+
+  .standard {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .premium{
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+
+  }
+
+  .avance {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+  }
 }
-
-.description {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 3;
-  text-align: center;
-  margin: auto auto;
-}
-
-.standard {
-  grid-row: 2 / span 1;
-  grid-column: 1 / span 1;
-}
-
-.premium{
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
-
-}
-
-.avance {
-  grid-row: 2 / span 1;
-  grid-column: 3 / span 1;
-}
-
 
 .lists {
   text-align: left;

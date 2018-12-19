@@ -1,5 +1,6 @@
 .contenu {
   text-align: center;
+  padding: 100px 0;
 
 }
 
@@ -8,9 +9,9 @@
 }
 
 .description-securite {
-  padding: 120px 250px 50px 250px;
+  min-height: 30vh;
+  padding: 10em 10em 0 10em;
   text-align: center;
-  // padding: 50px 300px;
 }
 
 .container {
@@ -44,6 +45,4 @@
 }
 
 
-.proprietaires {
-  margin-bottom: 200px;
-}
+

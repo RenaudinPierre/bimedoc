@@ -11,3 +11,9 @@ gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 gem 'middleman-google-analytics'
+
+
+#gem perso
+gem 'middleman-sitemap'
+gem 'middleman-protect-emails'
+gem 'middleman-minify-html'

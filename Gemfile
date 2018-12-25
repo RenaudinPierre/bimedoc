@@ -17,3 +17,4 @@ gem 'middleman-google-analytics'
 gem 'middleman-sitemap'
 gem 'middleman-protect-emails'
 gem 'middleman-minify-html'
+gem "middleman-blog", "~> 4.0"

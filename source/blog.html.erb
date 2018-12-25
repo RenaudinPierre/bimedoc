@@ -1,0 +1,60 @@
+---
+pageable: true
+per_page: 10
+---
+
+<div class="container">
+  <div class="blogs">
+
+
+    <h1>Blog de Bimedoc.com</h1>
+
+
+  <ul>
+    <% page_articles.each_with_index do |article, i| %>
+      <li class="blog__list__item row">
+        <div class="blog__list__img">
+          <%= image_tag "sms.svg" %>
+        </div>
+        <div class="blog__list__content">
+          <div class="blog__list__title">
+            <h2 class="blog__list__link"><%= link_to article.title, article %>
+            </h2>
+          </div>
+          <p><%= article.date.strftime('%b %e') %></p>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+               the first 250 characters -->
+
+            <%= article.body %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+
+
+
+
+
+
+<!--  -->
+<!-- page suivante et précendente -->
+<!--  -->
+
+    <% if paginate && num_pages > 1 %>
+      <p>Page <%= page_number %> of <%= num_pages %></p>
+
+      <% if prev_page %>
+        <p><%= link_to 'Previous page', prev_page %></p>
+      <% end %>
+    <% end %>
+
+
+    <% if paginate %>
+      <% if next_page %>
+        <p><%= link_to 'Next page', next_page %></p>
+      <% end %>
+    <% end %>
+
+
+  </div>
+</div>

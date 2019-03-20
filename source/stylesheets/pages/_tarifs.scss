@@ -1,33 +1,35 @@
 @media (min-width: 992px) {
   .tarif {
     display: grid;
-    grid-template-rows: 220px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 1fr 220px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 70px;
     padding-bottom: 70px;
   }
 
   .description {
     grid-row: 1 / span 1;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
     text-align: center;
     margin: auto auto;
   }
 
   .standard {
     grid-row: 2 / span 1;
-    grid-column: 1 / span 1;
+    grid-column: 1 / span 2;
   }
 
-  .premium{
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
+  .collaborateur{
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 2;
+    text-align: center;
+    margin-top: 2em;
 
   }
 
   .avance {
     grid-row: 2 / span 1;
-    grid-column: 3 / span 1;
+    grid-column: 3 / span 2;
   }
 }
 
@@ -48,7 +50,7 @@
   color: $green;
 }
 
-.exemple {
+.exemple-green {
   margin: 0 auto;
   color: $green;
   height: 37px;
@@ -60,6 +62,23 @@
   align-items: center;
   p {
     margin: 0;
+    color: $green;
+  }
+}
+
+.exemple-purple {
+  margin: 0 auto;
+  color: $purple;
+  height: 37px;
+  width: 199px;
+  border-radius: 20px;
+  background-color: rgba(189,16,224,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+    color: $purple;
   }
 }
 
@@ -68,7 +87,7 @@
 }
 
 .avance h2 {
-  color: $blue;
+  color: $purple;
 }
 
 #blue {
@@ -77,7 +96,6 @@
 
 .btn-bottom {
   padding-top: 30px;
-
 }
 
 .centre {
@@ -88,7 +106,37 @@
   margin-top: 18px;
 }
 
+
+
 .prix {
   font-color: black;
   font-weight: bold;
+}
+
+.tarifs h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.collapse-collaborateur {
+  color: $blue;
+  text-decoration: none;
+}
+
+.collapse-collaborateur:hover {
+  color: $blue;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.table {
+  color: black;
+  margin: 0px;
+}
+
+.collaborateur {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }

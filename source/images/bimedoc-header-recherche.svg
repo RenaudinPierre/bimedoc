@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="630px" viewBox="0 0 1200 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Image Facebook 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9803415%" y1="2.23521114%" x2="49.8388241%" y2="122.02502%" id="linearGradient-1">
+            <stop stop-color="#8468F5" offset="0%"></stop>
+            <stop stop-color="#EC74E7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.8882683%" y1="2.23521114%" x2="49.0839353%" y2="122.02502%" id="linearGradient-2">
+            <stop stop-color="#8468F5" offset="0%"></stop>
+            <stop stop-color="#EC74E7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9472217%" y1="2.23521114%" x2="49.567282%" y2="122.02502%" id="linearGradient-3">
+            <stop stop-color="#8468F5" offset="0%"></stop>
+            <stop stop-color="#EC74E7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.8821368%" y1="2.23521114%" x2="49.0336651%" y2="122.02502%" id="linearGradient-4">
+            <stop stop-color="#8468F5" offset="0%"></stop>
+            <stop stop-color="#EC74E7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Image-Facebook-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1200" height="630"></rect>
+        <g id="Group-5" transform="translate(103.000000, 114.000000)">
+            <g id="Strip-Patterns">
+                <path d="M737.107011,181.637293 L737.107011,181.637293 C738.424716,181.63779 739.492803,182.705877 739.4933,184.023582 L739.580961,416.520415 C739.581458,417.836836 738.51469,418.904409 737.198268,418.904905 C737.197669,418.904905 737.19707,418.904905 737.196471,418.904905 L737.196471,418.904905 C735.878766,418.904408 734.810678,417.836321 734.810182,416.518616 L734.722521,184.021783 C734.722024,182.705362 735.788792,181.637789 737.105213,181.637293 C737.105813,181.637293 737.106412,181.637293 737.107011,181.637293 Z" id="Rectangle-7-Copy-4" fill="url(#linearGradient-1)" opacity="0.312783062" transform="translate(737.151741, 300.271099) scale(-1, 1) rotate(36.000000) translate(-737.151741, -300.271099) "></path>
+                <path d="M644.205154,165.334211 L644.205154,165.334211 C645.522859,165.334708 646.590946,166.402796 646.591443,167.720501 L646.626764,261.401013 C646.627261,262.717434 645.560493,263.785007 644.244071,263.785503 C644.243472,263.785503 644.242873,263.785503 644.242274,263.785503 L644.242274,263.785503 C642.924569,263.785006 641.856481,262.716919 641.855985,261.399214 L641.820663,167.718702 C641.820167,166.40228 642.886935,165.334708 644.203356,165.334211 C644.203955,165.334211 644.204554,165.334211 644.205154,165.334211 Z" id="Rectangle-7-Copy-9" fill="url(#linearGradient-2)" transform="translate(644.223714, 214.559857) scale(-1, 1) rotate(36.000000) translate(-644.223714, -214.559857) "></path>
+                <path d="M870.218284,235.728092 L870.218284,235.728092 C872.393157,235.728912 874.156035,237.49179 874.156855,239.666663 L874.243346,469.060102 C874.244165,471.232856 872.483465,472.994885 870.310711,472.995704 C870.309722,472.995704 870.308733,472.995704 870.307744,472.995704 L870.307744,472.995704 C868.132871,472.994884 866.369993,471.232006 866.369173,469.057133 L866.282682,239.663694 C866.281863,237.49094 868.042563,235.728911 870.215317,235.728092 C870.216306,235.728091 870.217295,235.728091 870.218284,235.728092 Z" id="Rectangle-7-Copy-5" fill="url(#linearGradient-3)" opacity="0.312783062" transform="translate(870.263014, 354.361898) scale(-1, 1) rotate(36.000000) translate(-870.263014, -354.361898) "></path>
+                <path d="M109.313736,-21.2279246 L109.313736,-21.2279246 C110.631441,-21.2274276 111.699528,-20.1593405 111.700025,-18.8416352 L111.787686,213.655198 C111.788182,214.971619 110.721415,216.039191 109.404993,216.039688 C109.404394,216.039688 109.403795,216.039688 109.403196,216.039688 L109.403196,216.039688 C108.08549,216.039191 107.017403,214.971104 107.016907,213.653398 L106.929246,-18.8434344 C106.928749,-20.1598556 107.995517,-21.2274283 109.311938,-21.2279246 C109.312538,-21.2279248 109.313137,-21.2279248 109.313736,-21.2279246 Z" id="Rectangle-7-Copy-6" fill="url(#linearGradient-1)" transform="translate(109.358466, 97.405882) scale(-1, 1) rotate(36.000000) translate(-109.358466, -97.405882) "></path>
+                <path d="M74.768814,-19.1577052 L74.768814,-19.1577052 C78.0311237,-19.1564748 80.6754408,-16.5121575 80.6766708,-13.2498478 L80.7616772,212.206504 C80.762906,215.465635 78.1218548,218.108678 74.8627242,218.109907 C74.8612407,218.109908 74.8597572,218.109908 74.8582737,218.109907 L74.8582737,218.109907 C71.595964,218.108677 68.9516469,215.46436 68.9504169,212.20205 L68.8654105,-13.2543022 C68.8641817,-16.5134328 71.5052329,-19.1564763 74.7643635,-19.1577052 C74.765847,-19.1577057 74.7673305,-19.1577057 74.768814,-19.1577052 Z" id="Rectangle-7-Copy-7" fill="url(#linearGradient-4)" opacity="0.143965127" transform="translate(74.813544, 99.476101) scale(-1, 1) rotate(36.000000) translate(-74.813544, -99.476101) "></path>
+            </g>
+        </g>
+        <g id="Group-3" transform="translate(102.000000, 374.000000)">
+            <text id="Sources-disponibles" font-family="ProximaNova-Regular, Proxima Nova" font-size="10" font-weight="normal" fill="#4A4A4A">
+                <tspan x="0" y="13">Sources disponibles :</tspan>
+            </text>
+            <g id="Group-12-Copy-4" transform="translate(116.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="89" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="Stopp-&amp;-Start" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="14" y="10">Stopp &amp; Start</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(236.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="69" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="Laroche" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="14" y="10">Laroche</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(336.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="Pim-check" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="14" y="10">Pim-check</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(446.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="78" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="Thériaque" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="14" y="10">Thériaque</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(555.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="62" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(10.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="G6PD" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="15.4" y="10">G6PD</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(648.000000, 0.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="89" height="18" rx="9"></rect>
+                    <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="142" height="18" rx="9"></rect>
+                    <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                        <text id="Charge-anticholinerg" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                            <tspan x="14" y="10">Charge anticholinergique</tspan>
+                        </text>
+                        <text id="" font-family="Ionicons" font-weight="400">
+                            <tspan x="0" y="11"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group-4" transform="translate(102.000000, 221.000000)">
+            <text id="Expertise-pharmaceut" font-family="ProximaNova-Semibold, Proxima Nova" font-size="30" font-weight="500" fill="#000000">
+                <tspan x="147.585" y="30">Expertise pharmaceutique clinique des prescriptions</tspan>
+            </text>
+            <g id="Group" transform="translate(0.000000, 82.000000)">
+                <g id="Medicaments">
+                    <path d="M5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,45 C0.5,47.4852814 2.51471863,49.5 5,49.5 L380,49.5 C382.485281,49.5 384.5,47.4852814 384.5,45 L384.5,5 C384.5,2.51471863 382.485281,0.5 380,0.5 L5,0.5 Z" id="Rectangle-Copy" stroke="#2F17FD" fill="#FFFFFF"></path>
+                    <text id="Rechercher-un-médica" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#575E66">
+                        <tspan x="51" y="31">Rechercher un médicament</tspan>
+                    </text>
+                    <text id="ion-ios-search-strong---Ionicons" font-family="Ionicons" font-size="20" font-weight="400" fill="#575E66">
+                        <tspan x="17" y="33"></tspan>
+                    </text>
+                </g>
+                <g id="Pathologie" transform="translate(410.000000, 0.000000)">
+                    <path d="M5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,45 C0.5,47.4852814 2.51471863,49.5 5,49.5 L380,49.5 C382.485281,49.5 384.5,47.4852814 384.5,45 L384.5,5 C384.5,2.51471863 382.485281,0.5 380,0.5 L5,0.5 Z" id="Rectangle-Copy" stroke="#2F17FD" fill="#FFFFFF"></path>
+                    <text id="Ajouter-des-patholog" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#575E66">
+                        <tspan x="61" y="31">Ajouter des pathologies</tspan>
+                    </text>
+                    <text id="Plus---simple-line-icons" font-family="simple-line-icons" font-size="20" font-weight="normal" fill="#5A6169">
+                        <tspan x="14" y="34"></tspan>
+                    </text>
+                </g>
+                <g id="CTA-vérifier" transform="translate(820.000000, 0.000000)">
+                    <path d="M5,0 L172,0 C174.761424,-5.07265313e-16 177,2.23857625 177,5 L177,45 C177,47.7614237 174.761424,50 172,50 L5,50 C2.23857625,50 3.38176876e-16,47.7614237 0,45 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-2" fill="#2F17FD"></path>
+                    <text id="Vérifier" font-family="ProximaNova-Bold, Proxima Nova" font-size="14" font-weight="bold" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="62.099" y="31">Vérifier</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

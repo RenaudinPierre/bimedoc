@@ -2,6 +2,27 @@
   position: relative;
 }
 
+.cards {
+  a {
+    text-decoration: none;
+  }
+}
+
+.cards:hover {
+  border: 2px solid #3294f0;
+  // opacity: 0.8;
+  // background-color: $blue;
+
+  // h3 {
+  //   color:blue;
+  // }
+
+    h3 {
+      color: #3294f0;
+      font-weight: bold;
+    }
+
+}
 
 
 @media (max-width: 575.98px) {
@@ -153,6 +174,7 @@
   .card-1 {
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
+    cursor: pointer;
   }
 
   .card-2 {
@@ -229,6 +251,7 @@
   // grid-row: 1 / span 1;
   // grid-column: 1 / span 2;
   // margin-top: 40px;
+  margin-bottom: 50px;
   margin-left: 20px;
    h2 {
     margin: 10px;
@@ -357,6 +380,62 @@ p {
 }
 
 
+.boxe_professionnel {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #a9d2f9;
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 168px;
+  max-width: 350px;
+  padding: 24px 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 8px 0 rgba(8,55,73,.07);
+  -moz-box-shadow: 0 0 8px 0 rgba(8,55,73,.07);
+  box-shadow: 0 0 8px 0 rgba(8,55,73,.07);
+  transition: all .3s;
 
+
+  p {
+    color: #083749;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  hover {
+    color: #3294f0;
+  }
+
+  img {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.boxe_professionnel:hover {
+    p {
+      color: #3294f0;
+      font-weight: bold;
+    }
+  border: 2px solid #3294f0;
+  }
+
+.boxe_professionnels {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-top: 100px;
+
+}
 
 

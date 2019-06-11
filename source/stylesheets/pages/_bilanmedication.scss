@@ -1,0 +1,85 @@
+// .bilan {
+//   margin-bottom: 100px;
+// }
+
+.image_bpm {
+  width: 90%
+}
+
+.image_bpm_100 {
+  width: 100%
+}
+
+.vertical_align_header {
+  position:relative;
+  height: 100vh;
+
+}
+
+.vertical_align {
+  position:relative;
+  height: 70vh;
+
+}
+
+.centre-verticalement {
+  position: absolute;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  font-weight: bold;
+
+}
+
+.color-black {
+  color: black;
+
+  li {
+    line-height: 3;
+    font-size: 16px;
+  }
+}
+
+.wrapper_bimedoc {
+  background-color: #002650;
+  height: 50vh;
+  position:relative;
+}
+
+.wrapper_bpm {
+  width:100%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  font-weight: bold;
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+}
+
+.button_wrapper_bpm {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #0f6fde;
+  font-weight: 700;
+  padding: 19px 20px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin: 2em;
+
+  a {
+    color: white;
+    text-transform: lowercase;
+    }
+}
+
+

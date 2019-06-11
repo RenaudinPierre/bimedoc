@@ -17,11 +17,13 @@
 
     <div class="bloc-cards">
       <div class="sentence-developpe-par">
-        <h2>Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
+        <h2 style="font-weight:bold">Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
       </div>
       <div class="cards card-1">
-        <%= image_tag "check.svg"%>
-        <h3>Bilan de médication</h3>
+        <a href="http://bimedoc.com/bilanmedication/">
+          <%= image_tag "check.svg"%>
+          <h3>Bilan de médication</h3>
+        </a>
       </div>
       <div class="cards card-2">
         <%= image_tag "prescription.svg"%>
@@ -55,8 +57,37 @@
       </div>
     </div>
 
+<!--     <div class="boxe_professionnels">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "check.svg"%>
+            <h3>Bilan de médication</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "prescription.svg"%>
+            <h3>Analyse d'ordonnance</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "dossier.svg"%>
+            <h3>Conciliation médicamenteuse</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "dossier.svg"%>
+            <h3>Lien ville-hôpital</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+ -->
 
-    <div class="services-personnalises">
+<!--     <div class="services-personnalises">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
           <div class="service-personnalise">
@@ -82,12 +113,49 @@
           </div>
         </div>
       </div>
+    </div> -->
+    <div class="titre-partenaire">
+      <h2 style="font-weight:bold">Tout sur Bimedoc</h2>
+      <h2 style="font-weight:bold", id="color-blue">Notre service, les fonctionnalités et les prix !</h2>
+    </div>
+    <div class="boxe_professionnels">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="s">
+              <p style="text-align: center; font-weight: bold; color: black">Vous êtes ...</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/bilanmedication.html">
+              <%= image_tag "pharmacien_officine.svg"%>
+              <p>Pharmacien d'officine</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/fonctionnalites.html">
+              <%= image_tag "Pharmacien_hospitalier.svg"%>
+              <p>Pharmacien hospitalier</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/industriel.html">
+              <%= image_tag "industriel.svg"%>
+              <p>Un industriel</p>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="partenaires">
       <div class="titre-partenaire">
-        <h2>Ils nous font confiance</h2>
-        <h2 id="color-blue">Partenaires</h2>
+        <h2 style="font-weight:bold">Ils nous font confiance</h2>
+        <h2 style="font-weight:bold", id="color-blue">Partenaires</h2>
       </div>
       <div class="row padding-left">
         <div class="col-xs-12 col-sm-12 col-lg-3">
@@ -115,8 +183,8 @@
 
     <div class="partenaires">
       <div class="titre-partenaire">
-        <h2>Ils parlent de nous,</h2>
-        <h2 id="color-blue">et nous, on vous en parle !</h2>
+        <h2 style="font-weight:bold">Ils parlent de nous,</h2>
+        <h2 style="font-weight:bold", id="color-blue">et nous, on vous en parle !</h2>
       </div>
       <div class="row padding-left">
         <div class="col-xs-12 col-sm-12 col-lg-3">

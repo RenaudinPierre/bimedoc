@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="212px" viewBox="0 0 361 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.7%" y="-12.0%" width="113.5%" height="124.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Marketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-AFP" transform="translate(-117.000000, -190.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(127.000000, 198.000000)">
+                <rect id="Rectangle-4-Copy-3" fill="#FFFFFF" x="0" y="0" width="341" height="192" rx="5"></rect>
+                <g id="Group-2" transform="translate(20.000000, 18.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 64.000000)">
+                        <text id="Analyse-du-traitemen" font-family="ProximaNova-Semibold, Proxima Nova" font-size="11" font-weight="500" fill="#1B2B45">
+                            <tspan x="19" y="14">Analyse du traitement</tspan>
+                        </text>
+                        <text id="Check---simple-line-icons-Copy-8" font-family="simple-line-icons" font-size="11" font-weight="normal" fill="#2F17FD">
+                            <tspan x="0" y="14"></tspan>
+                        </text>
+                        <g id="Group-12-Copy-4" transform="translate(223.000000, 0.000000)">
+                            <g id="Group-4">
+                                <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                                <g id="Group-5" transform="translate(13.000000, 3.000000)" font-size="10">
+                                    <text id="AmeliPro" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <tspan x="0" y="10" fill="#FFFFFF">AmeliPro</tspan>
+                                        <tspan x="39.68" y="10" fill="#D0021B">  </tspan>
+                                    </text>
+                                    <text id="" font-family="Ionicons" font-weight="400" fill="#FFFFFF">
+                                        <tspan x="46" y="10"></tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 133.000000)">
+                        <text id="Suivi-de-l’observanc" font-family="ProximaNova-Semibold, Proxima Nova" font-size="11" font-weight="500" fill="#000000">
+                            <tspan x="19" y="14">Suivi de l’observance</tspan>
+                        </text>
+                        <text id="Check---simple-line-icons-Copy-6" font-family="simple-line-icons" font-size="11" font-weight="normal" fill="#2F17FD">
+                            <tspan x="0" y="14"></tspan>
+                        </text>
+                        <g id="Group-12-Copy-4" transform="translate(223.000000, 0.000000)">
+                            <g id="Group-4">
+                                <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                                <g id="Group-5" transform="translate(13.000000, 3.000000)" font-size="10">
+                                    <text id="AmeliPro" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <tspan x="0" y="10" fill="#FFFFFF">AmeliPro</tspan>
+                                        <tspan x="39.68" y="10" fill="#D0021B">  </tspan>
+                                    </text>
+                                    <text id="" font-family="Ionicons" font-weight="400" fill="#FFFFFF">
+                                        <tspan x="46" y="10"></tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Bilan-partagé-de-méd" font-family="ProximaNova-Bold, Proxima Nova" font-size="15" font-weight="bold" fill="#1B2B45">
+                        <tspan x="3" y="15">Bilan partagé de médication</tspan>
+                    </text>
+                    <g id="Group-8" transform="translate(0.000000, 99.000000)">
+                        <text id="Entretien-conseil-Copy" font-family="ProximaNova-Semibold, Proxima Nova" font-size="11" font-weight="500" fill="#000000">
+                            <tspan x="19" y="14">Entretien conseil</tspan>
+                        </text>
+                        <text id="Check---simple-line-icons-Copy-7" font-family="simple-line-icons" font-size="11" font-weight="normal" fill="#2F17FD">
+                            <tspan x="0" y="14"></tspan>
+                        </text>
+                        <g id="Group-12-Copy-4" transform="translate(223.000000, 0.000000)">
+                            <g id="Group-4">
+                                <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                                <g id="Group-5" transform="translate(13.000000, 3.000000)" font-size="10">
+                                    <text id="AmeliPro" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <tspan x="0" y="10" fill="#FFFFFF">AmeliPro</tspan>
+                                        <tspan x="39.68" y="10" fill="#D0021B">  </tspan>
+                                    </text>
+                                    <text id="" font-family="Ionicons" font-weight="400" fill="#FFFFFF">
+                                        <tspan x="46" y="10"></tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 30.000000)">
+                        <text id="Entretien-de-recueil" font-family="ProximaNova-Semibold, Proxima Nova" font-size="11" font-weight="500" fill="#1B2B45">
+                            <tspan x="19" y="14">Entretien de recueil d’informations</tspan>
+                        </text>
+                        <text id="" font-family="simple-line-icons" font-size="11" font-weight="normal" fill="#2F17FD">
+                            <tspan x="0" y="14"></tspan>
+                        </text>
+                        <g id="Group-12-Copy-4" transform="translate(223.000000, 0.000000)">
+                            <g id="Group-4">
+                                <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                                <g id="Group-5" transform="translate(13.000000, 3.000000)" font-size="10">
+                                    <text id="AmeliPro" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <tspan x="0" y="10" fill="#FFFFFF">AmeliPro</tspan>
+                                        <tspan x="39.68" y="10" fill="#D0021B">  </tspan>
+                                    </text>
+                                    <text id="" font-family="Ionicons" font-weight="400" fill="#FFFFFF">
+                                        <tspan x="46" y="10"></tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

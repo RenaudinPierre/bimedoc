@@ -83,3 +83,29 @@
 }
 
 
+
+// ###Commentaire###
+
+.commentaires {
+  margin-bottom: 15vh;
+  margin-top: 5vh;
+}
+
+.commentaire-titre {
+  font-weight:bold;
+  text-align:center;
+}
+
+.commentaire-texte {
+  margin-top: 4vh;
+}
+
+.commentaire-descriptif {
+  color: $blue;
+  // font-style: italic;
+  font-weight: 400;
+}
+
+.commentaire-nom {
+  font-size: 0.75em;
+}

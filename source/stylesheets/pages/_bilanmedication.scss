@@ -82,7 +82,47 @@
     }
 }
 
+.button_wrapper_bpm_blanc {
+  color: #0f6fde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fff;
+  font-weight: 700;
+  padding: 19px 20px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin: 2em;
 
+  a {
+    color: white;
+    text-transform: lowercase;
+    }
+}
+
+
+.deux-boutons {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+// fonctionnement
+
+.fonctionnes {
+  margin-bottom: 4vh;
+  margin-top: 10vh;
+}
+
+.fonctionne-titre {
+    // font-weight:bold;
+    text-align:center;
+    margin-bottom: 6vh;
+}
+
+.fonctionne-texte {
+  text-align: center;
+}
 
 // ###Commentaire###
 
@@ -102,10 +142,14 @@
 
 .commentaire-descriptif {
   color: $blue;
-  // font-style: italic;
   font-weight: 400;
 }
 
 .commentaire-nom {
   font-size: 0.75em;
 }
+
+
+
+
+

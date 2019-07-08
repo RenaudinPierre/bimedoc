@@ -1,6 +1,18 @@
-<div class="wrapper">
+<div class="wrapper background-blue">
   <div class="vertical_align_header">
-    <%= image_tag "FB-image-BPM.svg", class: "image_bpm_100 centre-verticalement"%>
+    <div class="titre_bpm">
+      <h1>Automatisez simplement la réalisation de vos bilans partagés de médication.</h1>
+    </div>
+    <div class="humans_pharmacien">
+      <%= image_tag "humans_pharmacien.svg", class: "bas_gauche hide_on_mobile"%>
+    </div>
+    <div class="humans_fleur">
+      <%= image_tag "humans_fleur.png", class: "bas_droite hide_on_mobile"%>
+    </div>
+    <div class="humans_ordinateur">
+      <%= image_tag "humans_ordinateur.svg", class: "image_bpm_50"%>
+    </div>
+<!--     <%= image_tag "FB-image-BPM.svg", class: "image_bpm_100 centre-verticalement"%> -->
   </div>
 </div>
 <div class="container">
@@ -11,7 +23,7 @@
     <p class="fonctionne-texte" style="color:black"><strong>Découvrez comment la plateforme fonctionne :</strong></p>
   </div>
 
-  <div class="">
+  <div class="container_destkop hide_on_mobile">
     <div class="row">
       <div class="col-xs-12 col-sm-6 vertical_align">
         <%= image_tag "BPM_1heure.svg", class: "image_bpm centre-verticalement"%>
@@ -74,6 +86,72 @@
       </div>
     </div>
   </div>
+
+
+  <div class="container container_mobile hide_on_destkop">
+    <div class="row">
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Bilan en moins d’1 heure</h2>
+          <p style="color:black">Selon les recommandations de l’assurance maladie et de la SFPC.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "BPM_1heure.svg", class: "image_bpm"%>
+      </div>
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Déclaration automatique sur AmeliPro</h2>
+          <p style="color:black">Vous n’aurez plus besoin de vous connecter à votre espace AmeliPro.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "BPM_ameli.svg", class: "image_bpm"%>
+      </div>
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Module d’analyse d’ordonnance innovant</h2>
+          <p style="color:black">Interactions médicamenteuses</p>
+          <p style="color:black">Détection des médicaments inappropriés</p>
+          <p style="color:black">Problème de forme galénique</p>
+          <p style="color:black">Gestion du traitement</p>
+          <p style="color:black">Intervention pharmaceutique pré-enregistrée pouvant être modifiée.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "BPM_analyse.svg", class: "image_bpm"%>
+      </div>
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Rédaction automatique d’une synthèse à envoyer au médecin traitant</h2>
+          <p style="color:black">Envoi possible par messagerie sécurisée sans sortir de l'application.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "synthese_BPM.svg", class: "image_bpm "%>
+      </div>
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Plan de prise des médicaments</h2>
+          <p style="color:black">Génération automatique d'un plan de prise à partir de l'entretien de recueil d'information.</p>
+          <p style="color:black">Possibilité d'y associer des conseils de prises.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "BPM_plandeprise.svg", class: "image_bpm"%>
+      </div>
+      <div class="bilan col-xs-12 col-sm-6 vertical_align_mobile">
+        <div class="">
+          <h2 style="font-weight:bold">Tableau de bord et rappels des entretiens de suivi à réaliser</h2>
+          <p style="color:black">Email de rappel des entretiens de suivi à réaliser tous les 6 mois.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 vertical_align_mobile">
+        <%= image_tag "BPM_tableaubord.svg", class: "image_bpm"%>
+      </div>
+    </div>
+  </div>
+
   <div class="commentaires">
     <h2 class="commentaire-titre">Pourquoi utilisent-ils Bimedoc ?</h2>
     <div class="row">

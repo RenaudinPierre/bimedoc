@@ -1,199 +1,157 @@
-
 <div class="container">
 
 
-  <div>
-    <a href="https://analyse.bimedoc.com/interface/analysis" target="_blank" class="hide_on_mobile">
-      <%= image_tag "bimedoc-header-recherche.svg", id: "image-header" %>
-    </a>
-  </div>
-    <div>
-    <a href="https://analyse.bimedoc.com/interface/analysis" target="_blank" class="hide_on_destkop">
-      <%= image_tag "bimedoc-header-recherche-mobile.svg", id: "image-header-mobile" %>
-    </a>
-  </div>
-
-
-
-    <div class="bloc-cards">
-      <div class="sentence-developpe-par">
-        <h2 style="font-weight:bold">Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
-      </div>
-      <div class="cards card-1">
-        <a href="/bilanmedication.html">
-          <%= image_tag "check.svg"%>
-          <h3>Bilan de médication</h3>
-        </a>
-      </div>
-      <div class="cards card-2">
-        <%= image_tag "prescription.svg"%>
-        <h3>Analyse d'ordonnance</h3>
-      </div>
-      <div class="cards card-3">
-        <%= image_tag "dossier.svg"%>
-        <h3>Conciliation médicamenteuse</h3>
-      </div>
-      <div class="cards card-4">
-        <%= image_tag "sms.svg" %>
-        <h3>Entretien pharmaceutique</h3>
-      </div>
-      <div class="listes">
-        <div class="liste">
-          <h3>1 - Gagnez du temps</h3>
-          <p>Déclaration automatique au portail AmeliPro, pré-saisie des interventions pharmaceutiques.</p>
-        </div>
-        <div class="liste">
-          <h3>2 - Bénéficiez d’un outil performant</h3>
-          <p>Solution permettant de réaliser l'ensemble des activités de pharmacie clinique et de favoriser la pertinence des avis pharmaceutiques</p>
-        </div>
-        <div class="liste">
-          <h3>3 - Collaborez avec les professionnels de santé</h3>
-          <p>Envoyez en un clic vos avis pharmaceutiques aux différents professionnels de santé.</p>
+  <div class="hero">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="hero-description">
+          <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
+          <h3>Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h3>
+          <br>
+          <br>
+          <%= link_to " 👉 Demander une démo en ligne", "/demo.html", class: "btn-purple btn btn-primary"%>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
-      <div class="premier-pas">
-        <%= link_to " 👉 Premiers pas avec Bimedoc", "/fonctionnalites.html", class: "btn-purple btn btn-primary" %>
-        <p>Tout sur le service, les fonctions et les prix.</p>
-      </div>
-    </div>
-
-<!--     <div class="boxe_professionnels">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3">
-          <div class="cards">
-            <%= image_tag "check.svg"%>
-            <h3>Bilan de médication</h3>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-          <div class="cards">
-            <%= image_tag "prescription.svg"%>
-            <h3>Analyse d'ordonnance</h3>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-          <div class="cards">
-            <%= image_tag "dossier.svg"%>
-            <h3>Conciliation médicamenteuse</h3>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-3">
-          <div class="cards">
-            <%= image_tag "dossier.svg"%>
-            <h3>Lien ville-hôpital</h3>
-          </div>
-        </div>
-      </div>
-    </div>
- -->
-
-<!--     <div class="services-personnalises">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12">
-          <div class="service-personnalise">
-              <h2>Faites appel à Bimedoc</h2>
-              <h2 id="color-blue">pour des services personnalisés</h2>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="cards-partenaires enseignement">
-            <%= image_tag "stylo.svg"%>
-            <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
-            <p id="texte">Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
-            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6">
-          <div class="cards-partenaires projet">
-            <%= image_tag "etoile.svg"%>
-            <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
-            <p>Bimedoc peut vous accompagner dans la recherche clinique ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
-            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="titre-partenaire">
-      <h2 style="font-weight:bold">Tout sur Bimedoc</h2>
-      <h2 style="font-weight:bold", id="color-blue">Notre service, les fonctionnalités et les prix !</h2>
-    </div>
-    <div class="boxe_professionnels">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12">
-          <div class="s">
-              <p style="text-align: center; font-weight: bold; color: black">Vous êtes ...</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="boxe_professionnel">
-            <a href="/bilanmedication.html">
-              <%= image_tag "pharmacien_officine.svg"%>
-              <p>Pharmacien d'officine</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="boxe_professionnel">
-            <a href="/fonctionnalites.html">
-              <%= image_tag "Pharmacien_hospitalier.svg"%>
-              <p>Pharmacien hospitalier</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="boxe_professionnel">
-            <a href="/industriel.html">
-              <%= image_tag "industriel.svg"%>
-              <p>Un industriel</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="partenaires">
-      <div class="titre-partenaire">
-        <h2 style="font-weight:bold">Ils nous font confiance</h2>
-        <h2 style="font-weight:bold", id="color-blue">Partenaires</h2>
-      </div>
-      <div class="row padding-left">
-        <div class="col-xs-12 col-sm-12 col-lg-3">
-          <a href="http://www.theriaque.org/" target="_blank">
-            <%= image_tag "theriaque.jpg", id: "logo-partenaire" %>
-          </a>
-        </div>
-         <div class="col-xs-12 col-sm-12 col-lg-3">
-          <a href="http://www.lyonfrenchtech.com/" target="_blank">
-            <%= image_tag "lyonfrenchtech.svg", id: "logo-partenaire" %>
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-3">
-          <a href="http://www.urps-pharmaciens-paca.fr/" target="_blank">
-            <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-3">
-          <a href="http://www.h-7.eu/" target="_blank">
-            <%= image_tag "H7.jpg", id: "logo-partenaire-h7" %>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="partenaires">
-      <div class="titre-partenaire">
-        <h2 style="font-weight:bold">Ils parlent de nous,</h2>
-        <h2 style="font-weight:bold", id="color-blue">et nous, on vous en parle !</h2>
-      </div>
-      <div class="row padding-left">
-        <div class="col-xs-12 col-sm-12 col-lg-3">
-          <a href="https://www.bimedoc.com/media/bimedoc_pharmaradio_20190410.mp3" target="_blank">
-            <%= image_tag "pharmaradio.png", id: "logo-partenaire" %>
-          </a>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+       <!--  <div class="hero-image">
+          <%= image_tag "hero.svg", id: "hero-image" %>
+        </div> -->
+        <div class="hero-asset hide_on_mobile">
+          <%= image_tag "bimedoc-preview.svg", id: "hero-bleu" %>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+
+<div class="section-border reverse">
+  <svg class="bottom-concave-white" viewBox='0 0 1440 48' version='1.1'>
+    <g id='bottom-concave' transform='translate(0.000000, -436.000000)'>
+    <g id='Group-6' fill='white' fill-rule='nonzero'>
+    <path d='M1440,484 C1225.09668,452 985.09668,436 720,436 C627.991932,436 539.007013,437.927362 453.045242,441.782085 C345.235831,446.616507 194.22075,460.689145 0,484 L0,436 L1440,436 L1440,484 Z' id='background-circular-shape-2'></path>
+    </g>
+    </g>
+  </svg>
+</div>
+
+<div class="header header_gray">
+
+
+
+  <div class="container cards_fonctionnalites_center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="subtitle">
+            <h2 style="text-align: center; ">Bimedoc s'adresse à tous les pharmaciens que vous soyez en ville ou en établissement de santé</h2>
+        </div>
+      </div>
+      <div class="cards_fonctionalites">
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "bonhomme_ordi.svg", id: "card-fonctionnalite-image"%>
+            <h3>Bilan de partagés médication</h3>
+            <br>
+            <p>Bilan en moins de 1 heure</p>
+            <p>Déclaration automatique sur AmeliPro</p>
+            <p>Module d'analyse d'ordonnance innovant</p>
+            <p>Rédaction automatique d’une synthèse pharmaeutique</p>
+            <p>Plan de prise des médicaments</p>
+            <p>Rappel des entretiens de suivi à réaliser</p>
+            <div class="button">
+              <a href="/bilanmedication.html" class="cta btn-primary-small">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "prescription.svg", id: "card-fonctionnalite-image" %>
+            <h3>Assistant d'analyse pharmaceutique</h3>
+            <br>
+            <p>Détection des intéractions médicamenteuses</p>
+            <p>Détection des médicaments inapropriés</p>
+            <p>Détection des alternatives de forme galénique</p>
+            <p>Charge anticholinergique</p>
+            <div class="button">
+              <a href="https://analyse.bimedoc.com/interface/analysis" class="cta btn-primary-small">Essayer la version gratuite</a>
+            </div>
+          </div>
+        </div>
+<!--         <div class="col-xs-12 col-sm-4 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "sms.svg" %>
+            <h3>Transmissions des informations</h3>
+            <p>Messagerie sécurisée compatible MsSanté, Apycript ; DMP compatible</p>
+            <div class="button">
+              <a href="/fonctionnalites.html" class="cta btn-primary-small">En savoir plus</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+  <div class="partenaires">
+    <div class="titre-partenaire">
+      <h2>Ils nous font confiance</h2>
+      <h2  id="color-blue">Partenaires</h2>
+    </div>
+    <div class="row padding-left">
+      <div class="col-xs-12 col-sm-12 col-lg-3">
+        <a href="http://www.theriaque.org/" target="_blank">
+          <%= image_tag "theriaque.jpg", id: "logo-partenaire" %>
+        </a>
+      </div>
+       <div class="col-xs-12 col-sm-12 col-lg-3">
+        <a href="http://www.lyonfrenchtech.com/" target="_blank">
+          <%= image_tag "lyonfrenchtech.svg", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3">
+        <a href="http://www.urps-pharmaciens-paca.fr/" target="_blank">
+          <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3">
+        <a href="http://www.h-7.eu/" target="_blank">
+          <%= image_tag "H7.jpg", id: "logo-partenaire-h7" %>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="partenaires">
+    <div class="titre-partenaire">
+      <h2 >Ils parlent de nous,</h2>
+      <h2 id="color-blue">et nous, on vous en parle !</h2>
+    </div>
+    <div class="row padding-left">
+      <div class="col-xs-12 col-sm-12 col-lg-3">
+        <a href="https://www.bimedoc.com/media/bimedoc_pharmaradio_20190410.mp3" target="_blank">
+          <%= image_tag "pharmaradio.png", id: "logo-partenaire" %>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper wrapper_bimedoc">
+  <div class="wrapper_bpm">
+    <h2>Développé par des pharmaciens, pour des pharmaciens</h2>
+    <div class="deux-boutons">
+      <%= link_to "Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn button_wrapper_bpm", target: "_blank" %>
+      <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%>
+    </div>
+    <p>1 mois gratuit, sans engagement</p>
+  </div>
+</div>

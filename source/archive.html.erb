@@ -16,3 +16,167 @@
       </div>
     </div>
   </div>
+
+
+  <div>
+    <a href="https://analyse.bimedoc.com/interface/analysis" target="_blank" class="hide_on_mobile">
+      <%= image_tag "bimedoc-header-recherche.svg", id: "image-header" %>
+    </a>
+  </div>
+    <div>
+    <a href="https://analyse.bimedoc.com/interface/analysis" target="_blank" class="hide_on_destkop">
+      <%= image_tag "bimedoc-header-recherche-mobile.svg", id: "image-header-mobile" %>
+    </a>
+  </div>
+
+
+  <li class="dropdown link">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le produit <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "link" %></li>
+            <li><%= link_to "La sécurité", "/securite.html", class: "link" %></li>
+            <li><%= link_to "L'équipe", "/equipe.html", class: "link" %></li>
+          </ul>
+        </li>
+
+
+
+    <div class="bloc-cards">
+      <div class="sentence-developpe-par">
+        <h2 style="font-weight:bold">Développé par des pharmaciens <span id="color-blue">pour des pharmaciens</span></h2>
+      </div>
+      <div class="cards card-1">
+        <a href="/bilanmedication.html">
+          <%= image_tag "check.svg"%>
+          <h3>Bilan de médication</h3>
+        </a>
+      </div>
+      <div class="cards card-2">
+        <%= image_tag "prescription.svg"%>
+        <h3>Analyse d'ordonnance</h3>
+      </div>
+      <div class="cards card-3">
+        <%= image_tag "dossier.svg"%>
+        <h3>Conciliation médicamenteuse</h3>
+      </div>
+      <div class="cards card-4">
+        <%= image_tag "sms.svg" %>
+        <h3>Entretien pharmaceutique</h3>
+      </div>
+      <div class="listes">
+        <div class="liste">
+          <h3>1 - Gagnez du temps</h3>
+          <p>Déclaration automatique au portail AmeliPro, pré-saisie des interventions pharmaceutiques.</p>
+        </div>
+        <div class="liste">
+          <h3>2 - Bénéficiez d’un outil performant</h3>
+          <p>Solution permettant de réaliser l'ensemble des activités de pharmacie clinique et de favoriser la pertinence des avis pharmaceutiques</p>
+        </div>
+        <div class="liste">
+          <h3>3 - Collaborez avec les professionnels de santé</h3>
+          <p>Envoyez en un clic vos avis pharmaceutiques aux différents professionnels de santé.</p>
+        </div>
+      </div>
+      <div class="premier-pas">
+        <%= link_to " 👉 Premiers pas avec Bimedoc", "/fonctionnalites.html", class: "btn-purple btn btn-primary" %>
+        <p>Tout sur le service, les fonctions et les prix.</p>
+      </div>
+    </div>
+
+    <div class="boxe_professionnels">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "check.svg"%>
+            <h3>Bilan de médication</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "prescription.svg"%>
+            <h3>Analyse d'ordonnance</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "dossier.svg"%>
+            <h3>Conciliation médicamenteuse</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="cards">
+            <%= image_tag "dossier.svg"%>
+            <h3>Lien ville-hôpital</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="services-personnalises">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="service-personnalise">
+              <h2>Faites appel à Bimedoc</h2>
+              <h2 id="color-blue">pour des services personnalisés</h2>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="cards-partenaires enseignement">
+            <%= image_tag "stylo.svg"%>
+            <p id="green-bold">Vous êtes enseignant et vous souhaitez utiliser Bimedoc pour vos étudiants ?</p>
+            <p id="texte">Bimedoc est également un outil  destiné à l’enseignement universitaire des étudiants en pharmacie et en médecine ainsi que pour la formation continue post-universitaire des médecins et pharmaciens. </p>
+            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+          <div class="cards-partenaires projet">
+            <%= image_tag "etoile.svg"%>
+            <p id="green-bold">Vous souhaitez créer une activité d’accompagnement pharmaceutique dans le cadre d’un projet ?</p>
+            <p>Bimedoc peut vous accompagner dans la recherche clinique ou la mise en place d’une nouvelle activité dans votre officine ou votre hôpital.</p>
+            <a href="mailto:contact@bimedoc.com" class="btn-gray btn btn-primary">Contactez-nous</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="titre-partenaire">
+      <h2 style="font-weight:bold">Tout sur Bimedoc</h2>
+      <h2 style="font-weight:bold", id="color-blue">Notre service, les fonctionnalités et les prix !</h2>
+    </div>
+    <div class="boxe_professionnels">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="s">
+              <p style="text-align: center; font-weight: bold; color: black">Vous êtes ...</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/bilanmedication.html">
+              <%= image_tag "pharmacien_officine.svg"%>
+              <p>Pharmacien d'officine</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/fonctionnalites.html">
+              <%= image_tag "Pharmacien_hospitalier.svg"%>
+              <p>Pharmacien hospitalier</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="boxe_professionnel">
+            <a href="/industriel.html">
+              <%= image_tag "industriel.svg"%>
+              <p>Un industriel</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>

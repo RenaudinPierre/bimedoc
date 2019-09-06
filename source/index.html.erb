@@ -39,9 +39,6 @@
 </div>
 
 <div class="header header_gray">
-
-
-
   <div class="container cards_fonctionnalites_center">
     <div class="row">
       <div class="col-xs-12 col-sm-12">
@@ -53,7 +50,7 @@
         <div class="col-xs-12 col-sm-6 ">
           <div class="card_fonctionalite">
             <%= image_tag "bonhomme_ordi.svg", id: "card-fonctionnalite-image"%>
-            <h3>Bilan de partagés médication</h3>
+            <h3>Bilan partagé de médication</h3>
             <br>
             <p>Bilan en moins de 1 heure</p>
             <p>Déclaration automatique sur AmeliPro</p>
@@ -71,8 +68,9 @@
             <%= image_tag "prescription.svg", id: "card-fonctionnalite-image" %>
             <h3>Assistant d'analyse pharmaceutique</h3>
             <br>
+            <p>Base médicamenteuse de l'ANSM</p>
             <p>Détection des intéractions médicamenteuses</p>
-            <p>Détection des médicaments inapropriés</p>
+            <p>Détection des médicaments inappropriés</p>
             <p>Détection des alternatives de forme galénique</p>
             <p>Charge anticholinergique</p>
             <div class="button">
@@ -80,20 +78,14 @@
             </div>
           </div>
         </div>
-<!--         <div class="col-xs-12 col-sm-4 ">
-          <div class="card_fonctionalite">
-            <%= image_tag "sms.svg" %>
-            <h3>Transmissions des informations</h3>
-            <p>Messagerie sécurisée compatible MsSanté, Apycript ; DMP compatible</p>
-            <div class="button">
-              <a href="/fonctionnalites.html" class="cta btn-primary-small">En savoir plus</a>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
 </div>
+
+
+
+
 
 
 
@@ -112,19 +104,39 @@
           <%= image_tag "theriaque.jpg", id: "logo-partenaire" %>
         </a>
       </div>
-       <div class="col-xs-12 col-sm-12 col-lg-3">
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
+        <a href="http://www.h-7.eu/" target="_blank">
+          <%= image_tag "bpifrance.png", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
         <a href="http://www.lyonfrenchtech.com/" target="_blank">
           <%= image_tag "lyonfrenchtech.svg", id: "logo-partenaire" %>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-3">
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
         <a href="http://www.urps-pharmaciens-paca.fr/" target="_blank">
           <%= image_tag "urpspaca.svg", id: "logo-partenaire" %>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-3">
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
         <a href="http://www.h-7.eu/" target="_blank">
-          <%= image_tag "H7.jpg", id: "logo-partenaire-h7" %>
+          <%= image_tag "H7.jpg", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
+        <a href="http://www.h-7.eu/" target="_blank">
+          <%= image_tag "asipsante.png", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
+        <a href="http://www.h-7.eu/" target="_blank">
+          <%= image_tag "phast.png", id: "logo-partenaire" %>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-3 partenaire">
+        <a href="http://www.h-7.eu/" target="_blank">
+          <%= image_tag "urpsidf.png", id: "logo-partenaire" %>
         </a>
       </div>
     </div>
@@ -142,6 +154,63 @@
         </a>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="text-center mt-4 mb-4">
+    <h2>Plus qu’un logiciel, Bimedoc est un projet et une communauté</h2>
+    <br>
+    <p>Nous échangeons quotidiennement avec nos utilisateurs pour avoir des retours et des idées. Bimedoc est constamment amélioré et enrichi grâce à la communauté.</p>
+    <p>L’objectif est d’être toujours plus utile pour vous et votre pratique</p>
+  </div>
+</div>
+
+<div class="section-border reverse">
+  <svg class="bottom-concave-white" viewBox='0 0 1440 48' version='1.1'>
+    <g id='bottom-concave' transform='translate(0.000000, -436.000000)'>
+    <g id='Group-6' fill='white' fill-rule='nonzero'>
+    <path d='M1440,484 C1225.09668,452 985.09668,436 720,436 C627.991932,436 539.007013,437.927362 453.045242,441.782085 C345.235831,446.616507 194.22075,460.689145 0,484 L0,436 L1440,436 L1440,484 Z' id='background-circular-shape-2'></path>
+    </g>
+    </g>
+  </svg>
+</div>
+<div class="header header_gray">
+  <div class="container cards_fonctionnalites_center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="subtitle">
+            <h2 style="text-align: center; ">A découvrir sur notre blog</h2>
+        </div>
+      </div>
+      <div class="cards_fonctionalites">
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "bilanmedicationdigital.svg", id: "card-fonctionnalite-image-blog"%>
+            <h3>5 avantages d'un bilan partagé de médication digitalisé</h3>
+            <br>
+            <p>Bien que cette nouvelle activité marque une évolution majeure dans le métier du pharmacien, la réalité du terrain tend à rendre sa mise en place à l’officine difficile.</p>
+            <div class="button">
+              <a href="https://medium.com/bimedoc/5-avantages-dun-bilan-partag%C3%A9-de-m%C3%A9dication-digitalis%C3%A9-b9c5ea07a547" class="cta btn-primary-small">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "anticholinergique.png", id: "card-fonctionnalite-image-blog" %>
+            <h3>Evaluation de la charge anticholinergique : Quelle échelle utiliser en pratique clinique ?</h3>
+            <br>
+            <p>De nombreux médicaments, notamment prescrits chez la personne âgée, sont pourvus d’effets anticholinergiques. Ces médicaments peuvent alors provoquer des confusions...</p>
+            <div class="button">
+              <a href="https://medium.com/bimedoc/evaluation-de-la-charge-anticholinergique-quelle-%C3%A9chelle-utilis%C3%A9-en-pratique-clinique-fe217425f3a" class="cta btn-primary-small">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="button-blog mt-4 mb-1">
+    <a href="https://medium.com/bimedoc" class="cta btn-primary-small">Découvrez les autres articles de notre blog</a>
   </div>
 </div>
 

@@ -1,7 +1,11 @@
 <div class="wrapper background-blue">
   <div class="vertical_align_header">
     <div class="titre_bpm">
-      <h1>Automatisez simplement la réalisation de vos bilans partagés de médication.</h1>
+      <h1>Automatisez simplement la réalisation de vos <a href="http://pharmacie-clinique.fr/?page_id=749">bilans partagés de médication</a>.</h1>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn button_wrapper_bpm_blanc" data-toggle="modal" data-target="#exampleModalCenter">
+        Voir la vidéo de présentation
+      </button>
     </div>
     <div class="humans_pharmacien">
       <%= image_tag "humans_pharmacien.svg", class: "bas_gauche hide_on_mobile"%>
@@ -187,5 +191,17 @@
       <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%>
     </div>
     <p>1 mois gratuit, sans engagement</p>
+  </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/vKeq1_BI-0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </div>
 </div>

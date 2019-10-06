@@ -541,3 +541,35 @@ p {
     display: block;
     background: $light-gray;
 }
+
+
+
+
+.rond-play {
+    height: 96px;
+    width: 96px;
+    border-radius: 50px;
+    background-color: $blue;
+    opacity: 0.5;
+    transition: all 0.5s cubic-bezier(0.5, -0.01, 0, 1.005);
+    left: 30%;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+}
+
+.play a {
+    transition: 100ms;
+    fill: rgba(122,105,231,0.7);
+}
+
+.icon-play {
+  text-align: center;
+  color: white;
+  padding-top: 38px;
+
+  .fas {
+    color: white;
+  }
+}
+

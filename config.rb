@@ -35,39 +35,17 @@ end
 Time.zone = "Paris"
 I18n.config.enforce_available_locales = false
 
-activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-    # blog.prefix = "blog"
-    blog.name = "blog"
-    blog.permalink = "/{title}.html"
-  # Matcher for blog source files
-    blog.sources = "/blog/{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-    blog.layout = "layouts/blog"
-  # blog.summary_separator = /()/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-    blog.default_extension = ".markdown"
 
-    # blog.new_article_template = "source/new-article.erb"
-
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
-
-  # Enable pagination
-    blog.paginate = true
-    blog.per_page = 10
-    blog.page_link = "page/{num}"
-
-  # Custom categories
-    # blog.custom_collections = {
-    #   category: {
-    #     link: '/categories/{category}.html',
-    #     template: '/category.html'
-    #   }
-    # }
-end
 
 page "/feed.xml", layout: false
+
+
+
+page "/bilanmedication.html", :layout => "bpm"
+page "/equipe.html", :layout => "equipe"
+page "https://analyse.bimedoc.com/interface/analysis", :layout => "assistantanalysepharmaceutique"
+page "/fonctionnalites.html", :layout => "fonctionnalites"
+
+
+
+

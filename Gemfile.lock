@@ -102,6 +102,8 @@ GEM
       erubis
       middleman-core (>= 3.4)
       uglifier (>= 2.5, < 4.0)
+    middleman-meta-tags (0.4.0)
+      middleman-core (>= 3.0.0)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -165,6 +167,7 @@ DEPENDENCIES
   middleman-blog (~> 4.0)
   middleman-deploy!
   middleman-google-analytics
+  middleman-meta-tags
   middleman-minify-html
   middleman-protect-emails
   middleman-sitemap

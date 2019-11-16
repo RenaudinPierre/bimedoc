@@ -41,11 +41,10 @@ page "/feed.xml", layout: false
 
 
 
-page "/bilanmedication.html", :layout => "bpm"
+page "/bilan_partage_de_medication.html", :layout => "bpm"
 page "/equipe.html", :layout => "equipe"
 page "https://analyse.bimedoc.com/interface/analysis", :layout => "assistantanalysepharmaceutique"
 page "/fonctionnalites.html", :layout => "fonctionnalites"
-
 
 
 

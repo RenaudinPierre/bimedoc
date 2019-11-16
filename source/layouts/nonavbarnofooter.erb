@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--     <meta name="google-site-verification" content="XWo3hIJNSm1ehCt0PE_59e5fjjlR0UdfYCyxR4ZMsjc" /> -->
+
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Bimedoc : votre logiciel de soins pharmaceutiques</title>
+    <meta name="Description" content="Plateforme de réalisation des activités de pharmacie clinique : bilan de médication, entretien pharmaceutique, conciliation médicamenteuse.">
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= favicon_tag 'images/Favicon.png' %>
+
+<!-- langue du ste -->
+    <html lang="fr">
+
+<!--    meta facebook -->
+    <meta property="og:title" content="Bimedoc.com : Les activités de pharmacie clinique en toute simplicité">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.bimedoc.com">
+    <meta property="og:site_name" content="Bimedoc.com">
+    <meta property="og:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
+    <meta property="og:image" content="https://www.bimedoc.com/media/FB-image_600x314.png">
+
+
+<!-- meta twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Bimedoc.com : Les activités de pharmacie clinique en toute simplicité">
+    <meta name="twitter:url" content="Bimedoc.com">
+    <meta name="twitter:description" content="Les activités de pharmacie clinique en toute simplicité pour les officinaux et les hospitaliers. Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique">
+    <meta name="twitter:image" content="https://www.bimedoc.com/media/FB-image_600x314.png">
+
+    <script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="18f947f7-e378-44d6-9060-b041f5e8a11e";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '897117803796706');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=897117803796706&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Hotjar Tracking Code for www.bimedoc.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1304753,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+  </head>
+
+  <body class="<%= page_classes  %> background_white">
+
+
+
+    <%= yield %>
+
+
+
+    <%= google_analytics_tag %>
+
+    <script type="text/javascript" id="cookieinfo"
+      src="//cookieinfoscript.com/js/cookieinfo.min.js"
+      data-bg="#2F17FD"
+      data-fg="#FFFFFF"
+      data-link="#2F17FD"
+      data-divlinkbg="white"
+      data-cookie="CookieInfoScript"
+      data-text-align="left"
+      data-linkmsg="En savoir plus"
+      data-moreinfo="https://wikipedia.org/wiki/HTTP_cookie"
+      data-message="Ce site utilise des cookies. En poursuivant la navigation, vous acceptez l'utilisation de cookies."
+      data-close-text="Fermer et continuer">
+    </script>
+
+    <script type="text/javascript">
+    _linkedin_partner_id = "1036394";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script><script type="text/javascript">
+    (function(){var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=1036394&fmt=gif" />
+    </noscript>
+
+  </body>
+</html>

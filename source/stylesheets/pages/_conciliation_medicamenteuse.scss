@@ -1,0 +1,36 @@
+.droite {
+  border-left: solid 3px blue;
+}
+
+.ensemble-icone {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 50%;
+  float: right;
+  margin-right: -55px;
+  margin-top: -80px;
+  border: solid 5px white;
+  position: relative;
+  z-index: 2;
+}
+
+.position-icone {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.icone {
+  color: white;
+}
+
+.hauteur {
+  display: flex;
+  align-items : stretch;
+}
+
+
+
+.gauche {
+
+}

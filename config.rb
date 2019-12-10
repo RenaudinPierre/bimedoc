@@ -49,3 +49,4 @@ page "/messagerie_medecin.html", :layout => "nonavbarnofooter"
 page "/faculte_de_pharmacie.html", :layout => "nonavbarnofooter"
 
 
+

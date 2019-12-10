@@ -1,7 +1,7 @@
 <div class="wrapper background-blue">
   <div class="vertical_align_header">
     <div class="titre_bpm">
-      <h1>AFormez vous à la réalisation de vos <a href="http://pharmacie-clinique.fr/?page_id=749">bilans partagés de médication</a>.</h1>
+      <h1>Application de formation et de réalisation des <a href="http://pharmacie-clinique.fr/?page_id=749">bilans partagés de médication</a>.</h1>
       <!-- Button trigger modal -->
       <button type="button" class="btn button_wrapper_bpm_blanc" data-toggle="modal" data-target="#exampleModalCenter">
         Voir la vidéo de présentation
@@ -16,14 +16,21 @@
     <div class="humans_ordinateur">
       <%= image_tag "humans_ordinateur.svg", class: "image_bpm_50"%>
     </div>
-<!--     <%= image_tag "FB-image-BPM.svg", class: "image_bpm_100 centre-verticalement"%> -->
   </div>
 </div>
 <div class="container">
 
   <div class="fonctionnes">
+    <h2 class="fonctionne-titre">Qu'est-ce qu'un bilan partagé de médication ?</h2>
+    <p class="fonctionne-texte"style="color:black">Un BPM est une activité de pharmacie clinique réalisé en pharmacie avec le patient qui a pour objectifs de diminuer la iatrogénie médicamenteuse et de favoriser l'observance du patient.</p>
+    <div class="deux-boutons">
+      <%= link_to "En savoir plus", "http://pharmacie-clinique.fr/?page_id=749", class: "btn button_wrapper_bpm", target: "_blank" %>
+    </div>
+  </div>
+
+  <div class="fonctionnes">
     <h2 class="fonctionne-titre">Comment ça fonctionne ?</h2>
-    <p class="fonctionne-texte"style="color:black">Bienvenue dans notre grande communauté de pharmaciens connectés sur Bimedoc.</p>
+    <p class="fonctionne-texte"style="color:black">Bimedoc vous permettra de réaliser vos bilans partagés de médication pendant votre stage de 6ème année, mais également de vous former à l'analyse pharmaceutique des prescriptions.</p>
     <p class="fonctionne-texte" style="color:black"><strong>Découvrez comment la plateforme fonctionne :</strong></p>
   </div>
 
@@ -155,33 +162,7 @@
       </div>
     </div>
   </div>
-
-  <div class="commentaires">
-    <h2 class="commentaire-titre">Pourquoi utilisent-ils Bimedoc ?</h2>
-    <div class="row">
-      <div class="col-xs-12 col-sm-4">
-          <div class="commentaire-texte">
-            <p class="commentaire-descriptif">"Bimedoc m'a permis de standardiser la réalisation des bilans avec l'ensemble de mes associés ce qui nous permet de mieux suivre nos patients."</p>
-            <p class="commentaire-nom">Pharmacien à Tarbes</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-          <div class="commentaire-texte">
-            <p class="commentaire-descriptif">"Enfin une application rapide et efficace"</p>
-            <p class="commentaire-nom">Pharmacien à Montpellier</p>
-          </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-          <div class="commentaire-texte">
-            <p class="commentaire-descriptif">"L'application m'a permis de gagner beaucoup de temps et de me consacrer à la prise en charge du patient"</p>
-            <p class="commentaire-nom">Pharmacien à Beaune</p>
-          </div>
-      </div>
-    </div>
-  </div>
 </div>
-
-
 
 <div class="wrapper wrapper_bimedoc">
   <div class="wrapper_bpm">
@@ -198,14 +179,12 @@
 
 
 
-
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="height:365px">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <iframe
-        src="https://media.bimedoc.com/bimedoc.mp4"
+        src="https://media.bimedoc.com/Video_demo_BPM.mp4"
         width="100%" height="337px"
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
         sandbox>

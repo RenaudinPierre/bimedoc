@@ -2,11 +2,6 @@
 
   <!-- ## COLONNE DE GAUCHE ## -->
   <div style="float:left;width:20%;">
-<!--     <div class="mt-2">
-      <a href="/" class="">
-        <%= image_tag "logo.svg", id:"logo" %>
-      </a>
-    </div> -->
     <div class="coordonnes-pharmacie mt-2 pl-1 pr-1 pt-1 pb-1">
       <div class="nom-pharmacien">
         <p><b>Dr Pierre Renaudin</b></p>
@@ -19,22 +14,14 @@
     <div class="lien mt-1">
       <a href="http://pharmacie-clinique.fr/bilan-de-medication/">En savoir plus sur le bilan partagé de médication ?</a>
     </div>
-<!--     <div class="mt-1">
-      <a href="">Voir le recapitulatif de l'entretien de recueil d'information du patient</a>
-    </div> -->
   </div>
 
 <!-- ## COLONNE DE DROITE ## -->
   <div style="float:left;width:70%;" class="ml-3 mb-5 pb-10">
     <div class="block-presentation mt-3">
       <h2 style="text-align: center" class="mb-1">Synthèse pharmaceutique bilan partagé de médication</h2>
-      <p style="text-align: left" class="mb-2">A l’attention du Dr <b>{{nom du mdédecin}}</b>, {{spécialitéPS}} à {{villePS}}, le {{date du jour}}</p>
-      <p>Votre patient, <b>{{nom_patient}}, né le {{date_naissance_patient}}</b>, a accepté de réaliser un bilan partagé de médication le {{Date_realisation_entretien}}, dans le cadre de la loi des activités d’accompagnement pharmaceutique (avenant n°12 de la convention pharmaceutique du 21 novembre 2017).</p>
-      <p>J’ai ainsi réalisé un entretien de recueil d’informations ainsi qu’une analyse des traitements médicamenteux pour lesquels différents avis pharmaceutiques vous sont proposés ci-dessous.</p>
-      <p>Je me tiens à votre disposition pour en discuter avec vous si le souhaitez. A la suite de votre retour, un entretien « conseil » à l’officine sera également réalisé avec le patient pour lui indiquer ce que nous avons modifié à son traitement et les actions qui seront mises mises en place.</p>
-      <p>Je me tiens à votre disposition pour en discuter avec vous si le souhaitez. A la suite de votre retour, un entretien « conseil » à l’officine sera également réalisé avec le patient pour lui indiquer ce que nous avons modifié à son traitement et les actions qui seront mises mises en place.</p>
-      <p>Restant à votre disposition pour toute information complémentaire, je vous prie de croire, Docteur, en l’assurance de mes meilleures salutations.</p>
-      <p>Dr {{Nom du pharmacien}}</p>
+      <p style="text-align: center" class="mb-2">A l’attention du Dr <b>{{nom du mdédecin}}</b>, {{spécialitéPS}} à {{villePS}}, le {{date du jour}}</p>
+      <p>Patient : <b>{{nom_patient}}, né le {{date_naissance_patient}}</b>
     </div>
     <div class="block-historique mt-4">
       <h3>Historique médicamenteux</h3>
@@ -72,7 +59,7 @@
     <div class="block-observance mt-4">
       <h3>Evaluation de l'observance</h3>
       <div class="observance">
-        <p>L'observance de Pierre Renaudin est de 6/6 selon l'échelle de Girerd. Cela correspond à une bonne observance.</p>
+        <p>{{phrase_observance_synthese}}</p>
       </div>
     </div>
     <div class="block-avis mt-4">
@@ -89,8 +76,6 @@
             <label class="btn btn-refuser-outline">
               <input type="radio" name="options" id="option1" autocomplete="off"> Refuser
             </label>
-<!--             <input type="radio" class="btn btn-accepter-outline"> <i class="fas fa-check icone"></i> Accepter</input>
-            <button type="button" class="btn btn-refuser-outline"> <i class="fas fa-times icone"></i> Refuser</button> -->
           </div>
         </div>
         <div class="description-avis">
@@ -126,10 +111,6 @@
         </div>
       </div>
     </div>
-<!--     <div class="mt-2 mb-4">
-      <button type="button" class="btn btn-primary btn-lg btn-block">Sauvegarder et envoyer mes commentaires au pharmacien</button>
-      <p style="text-align: center">Une copie de la synthèse pharmaceutique intégrant vos réponses vous sera transmise au format pdf</p>
-    </div> -->
   </div>
 </div>
 
@@ -147,6 +128,5 @@
   <div class="mt-1 mb-1 mr-4">
     <button type="button" class="btn btn-primary btn-lg btn-block">Sauvegarder et envoyer mes commentaires au pharmacien</button>
     <p style="text-align: center">Une copie de la synthèse pharmaceutique intégrant vos réponses vous sera transmise au format pdf</p>
-    </div>
-
+  </div>
 </div>

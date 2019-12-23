@@ -1,20 +1,25 @@
 .bouton-groupe {
-  border: 1px solid $blue;
+  border: 1px solid $secondary;
   border-radius: 4px;
 }
 
 
 .nav-tabs > li.active > a {
   color: white !important;
-  background-color: $blue !important;
-  border: 1px solid $blue !important;
+  background-color: $secondary !important;
+  border: 1px solid $secondary !important;
   margin-right: none !important;
   border-radius: 3px !important;
 
 }
 
 .nav-tabs > li > a {
-  color: $blue !important;
+  color: $secondary !important;
   margin-right: 0px !important;
-    border-bottom: 1px solid $blue !important;
+    border-bottom: 1px solid $secondary !important;
 }
+
+
+
+
+

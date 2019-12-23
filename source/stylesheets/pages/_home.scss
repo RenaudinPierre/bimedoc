@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  height: 90vh;
 }
 
 .background_white {
@@ -94,7 +94,7 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-description {
-    padding: 120px 0px 60px 50px;
+    padding: 120px 0px 60px 0px;
     margin-bottom: 60px;
   }
 }
@@ -103,21 +103,32 @@
 @media (min-width: 1200px) {
   .hero-description {
     margin-top: 120px;
-    padding: 120px 0px 60px 50px;
+    padding: 120px 0px 60px 0px;
   }
 }
 
 
-.hero-description h1 {
+/*.hero-description h1 {
   padding-bottom: 20px
 }
 
 .hero-description p {
   padding-top: 15px
+}*/
+
+
+.vertical_align_hero {
+  position:relative;
+  height: 70vh;
 }
 
-
-
+.centre-verticalement_hero {
+  position: absolute;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  font-weight: bold;
+  max-width: 100%;
+}
 
 
 
@@ -211,12 +222,45 @@
   padding-top: 10px;
 }
 
-.btn-purple {
-  background-color: $purple;
-  border-color: $purple;
-  padding: 12px 30px;
-  margin: 0px !important;
+
+.deux-boutons-gauche {
+  display: flex;
+
 }
+
+.btn-blue {
+  background-color: $secondary;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn-white {
+  background-color: white;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 4px;
+  color:$secondary;
+}
+
+.btn-white:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  color: white;
+  opacity: 0.8;
+}
+
 
 .listes {
   grid-row: 2 / span 2;
@@ -303,11 +347,9 @@
 }
 
 
-.partenaires {
+/*.partenaires {
   padding-bottom: 150px;
-
-
-}
+}*/
 
 .partenaire {
   height: 20vh;
@@ -472,6 +514,20 @@ p {
 
 }
 
+.card_fonctionalite_industriel {
+  max-height: 70vh;
+  padding: 32px;
+  margin: 5vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #fafafc;
+  box-shadow: 0 15px 50px 0 rgba(28,15,125,0.05);
+  text-align: center;
+
+}
+
 // .cards_fonctionnalites_center {
 //   display: flex;
 //   justify-content: center;
@@ -525,9 +581,6 @@ p {
     }
 }
 
-.subtitle {
-  padding: 8vh 0;
-}
 
 #card-fonctionnalite-image {
   height: 10vh;
@@ -576,3 +629,11 @@ p {
   }
 }
 
+
+.wrapper_partenaires {
+  background: #f4f9fc;
+}
+
+.box-shadow-gray {
+  box-shadow: 0px 1px 10px #9B9B9B;
+}

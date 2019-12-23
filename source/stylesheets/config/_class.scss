@@ -1,6 +1,15 @@
+.flex {
+  display: flex;
+}
+
 .text-center {
   text-align: center;
 }
+
+.text-left {
+  text-align: left;
+}
+
 
 .mt-1 {
   margin-top: 1em;
@@ -22,6 +31,17 @@
   margin-top: 5em;
 }
 
+.mt-10 {
+  margin-top: 10em;
+}
+
+.mt-15 {
+  margin-top: 15em;
+}
+
+.mt-20 {
+  margin-top: 20em;
+}
 
 
 .mb-1 {
@@ -88,6 +108,10 @@
 
 
 
+.pt-05 {
+  padding-top: 8px;
+}
+
 .pt-1 {
   padding-top: 1em;
 }
@@ -104,6 +128,10 @@
   padding-top: 4em;
 }
 
+
+.pb-05 {
+  padding-bottom: 8px;
+}
 
 .pb-1 {
   padding-bottom: 1em;

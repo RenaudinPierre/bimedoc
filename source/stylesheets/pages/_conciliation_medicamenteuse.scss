@@ -1,11 +1,11 @@
 .droite {
-  border-left: solid 2px blue;
+  border-left: solid 2px $secondary;
 }
 
 .ensemble-icone {
   width: 80px;
   height: 80px;
-  background-color: blue;
+  background-color: $secondary;
   border-radius: 50%;
   float: right;
   margin-right: -55px;
@@ -15,9 +15,22 @@
   z-index: 2;
 }
 
+.ensemble-icone-left {
+  width: 80px;
+  height: 80px;
+  background-color: $secondary;
+  border-radius: 50%;
+  float: left;
+  margin-left: -55px;
+  margin-top: -80px;
+  border: solid 5px white;
+  position: relative;
+  z-index: 2;
+}
+
 .position-icone {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 19px;
 }
 
 .icone {

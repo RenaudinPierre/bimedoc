@@ -4,41 +4,169 @@
   <div class="hero">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="hero-description">
-          <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
-          <h3>Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h3>
-          <br>
-          <br>
-          <%= link_to " 👉 Demander une démo en ligne", "/demo.html", class: "btn-purple btn btn-primary"%>
-          <br>
-          <br>
-          <br>
+        <div class="vertical_align_hero mt-4">
+          <div class="centre-verticalement_hero">
+            <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
+            <h4 class="mt-3" style="font-weight: bold">Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h4>
+            <div class="deux-boutons-gauche mt-5">
+              <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
+              <%= link_to " Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn-white btn", target: "_blank"%>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-       <!--  <div class="hero-image">
-          <%= image_tag "hero.svg", id: "hero-image" %>
-        </div> -->
+        <div class="vertical_align_hero mt-4">
+          <%= image_tag "bpm_symbol.png", class: "centre-verticalement_hero" %>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="text-center"><i class="fad fa-stopwatch fa-3x icone_blue"></i></div>
+          <div class="pt-05 pb-05 pt-1 text-center"><p>Gagner du temps</p></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="text-center"><i class="fad fa-chart-network fa-3x icone_blue"></i></div>
+          <div class="pt-05 pb-05 pt-1 text-center"><p>Accèder rapidement à une information fiable, validée et pertinente sur les médicaments</p></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="text-center"><i class="fad fa-chart-line fa-3x icone_blue"></i></div>
+          <div class="pt-05 pb-05 pt-1 text-center"><p>Améliorer la satisfaction de vos patients</p></div>
+        </div>
+      </div>
+<!--       <div class="col-xs-12">
+        <h3 class="text-center">Rejoignez plus de 500 pharmaciens qui simplifient leur quotidien avec Bimedoc</h3>
+      </div> -->
+
+
+
+<!--       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="hero-asset hide_on_mobile">
           <%= image_tag "bimedoc-preview.svg", id: "hero-bleu" %>
         </div>
-<!--         <div class="play">
-          <a href="https://medium.com/bimedoc" class="cta btn-primary-small">
-            <div class="rond-play">
-              <div class="icon-play">
-                <i class="fas fa-play"></i>
-              </div>
-            </div>
-          </a>
-        </div> -->
-
+      </div> -->
+    </div>
+  </div>
+  <h3 style="text-align: center; font-weight: bold !important" class="mt-4 mb-1">Rejoignez plus de 500 pharmaciens qui simplifient leur quotidien avec Bimedoc</h3>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 order-last">
+      <div class="vertical_align_60">
+        <div class="centre-verticalement_50_100">
+          <h3 class="pb-1">Bilan partagé de médication</h3>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Bilan en moins d'1 heure</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Module d’analyse d’ordonnance innovant</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Rédaction automatique d’une synthèse pour le médecin traitant</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Plan de prise des médicaments</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l'assurance maladie</p>
+          </div>
+          <div class="deux-boutons-gauche mt-2">
+            <button type="button" class="btn-blue btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Voir la vidéo de présentation
+            </button>
+            <%= link_to "Qu'est-ce qu'un BPM ?", "/bilan_partage_de_medication.html", class: "btn-white btn"%>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 vertical_align_60 order-first">
+      <div class="centre-verticalement_50_100">
+        <%= image_tag "bpm.jpg", class: "image_bpm box-shadow-gray"%>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 vertical_align_60">
+      <div class="centre-verticalement_50_100">
+        <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 ">
+      <div class="vertical_align_60">
+        <div class="centre-verticalement_50_100">
+          <h3 class="pb-1">Assistant d'analyse pharmaceutique</h3>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Base médicamenteuse de l'ANSM</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des intéractions médicamenteuses</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des alternatives de forme galénique</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des médicaments inappropriés</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Charge anticholinergique</p>
+          </div>
+          <div class="deux-boutons-gauche mt-2">
+            <%= link_to "En savoir plus", "/pharmacie_clinique.html", class: "btn-blue btn btn-primary"%>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 ">
+      <div class="vertical_align_60">
+        <div class="centre-verticalement_50_100">
+          <h3 class="pb-1">Messagerie sécurisée</h3>
+          <p>Bimedoc vous permet d'envoyer n'importe qu'elle document directement depuis l'application par messagerie séucrisée (synthèse pharmaceutique, bilan médicamenteux ...).</p>
+          <p>Dans le cadre de la synthèse du bilan partagé de médication le médecin traitant pourra vous répondre directement dans l'application.</p>
+          <div class="deux-boutons-gauche mt-2">
+            <%= link_to "En savoir plus", "/pharmacie_clinique.html", class: "btn-blue btn btn-primary"%>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 vertical_align_60">
+      <div class="centre-verticalement_50_100">
+        <%= image_tag "annuaire.png", class: "image_bpm box-shadow-gray"%>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 vertical_align_60">
+      <div class="centre-verticalement_50_100">
+        <%= image_tag "plandeprise.png", class: "image_bpm box-shadow-gray"%>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 ">
+      <div class="vertical_align_60">
+        <div class="centre-verticalement_50_100">
+          <h3>Plan de prise des traitements</h3>
+          <p class="pb-1">Bimedoc vous permet d'éditer un plan de prise de manière simple</p>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Posologie</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Indication</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Conseil personnalisé</p>
+          </div>
+          <div class="deux-boutons-gauche mt-2">
+            <%= link_to "En savoir plus", "/pharmacie_clinique.html", class: "btn-blue btn btn-primary"%>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 
-<div class="section-border reverse">
+
+
+
+
+
+
+
+<!-- <div class="section-border reverse mt-2">
   <svg class="bottom-concave-white" viewBox='0 0 1440 48' version='1.1'>
     <g id='bottom-concave' transform='translate(0.000000, -436.000000)'>
     <g id='Group-6' fill='white' fill-rule='nonzero'>
@@ -52,11 +180,12 @@
   <div class="container cards_fonctionnalites_center">
     <div class="row">
       <div class="col-xs-12 col-sm-12">
-        <div class="subtitle">
-            <h2 style="text-align: center; ">Bimedoc s'adresse à tous les pharmaciens que vous soyez en ville ou en établissement de santé</h2>
+        <div class="mt-2">
+            <h3 style="text-align: center; ">Rejoignez plus de 500 pharmaciens qui simplifient leur quotidien avec Bimedoc</h3>
+            <p class="text-center mt-3 mb-2">Vous êtes ...</p>
         </div>
-      </div>
-      <div class="cards_fonctionalites">
+      </div> -->
+     <!--  <div class="cards_fonctionalites">
         <div class="col-xs-12 col-sm-6 ">
           <div class="card_fonctionalite">
             <%= image_tag "bonhomme_ordi.svg", id: "card-fonctionnalite-image"%>
@@ -65,7 +194,7 @@
             <p>Bilan en moins de 1 heure</p>
             <p>Déclaration automatique sur AmeliPro</p>
             <p>Module d'analyse d'ordonnance innovant</p>
-            <p>Rédaction automatique d’une synthèse pharmaeutique</p>
+            <p>Rédaction automatique d’une synthèse pharmaceutique</p>
             <p>Plan de prise des médicaments</p>
             <p>Rappel des entretiens de suivi à réaliser</p>
             <div class="button">
@@ -88,10 +217,54 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <!--  <div class="cards_fonctionalites">
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "bonhomme_ordi.svg", id: "card-fonctionnalite-image"%>
+            <h3>Pharmacien d'officine</h3>
+            <br>
+            <p>Bilan partagé de médication</p>
+            <p>Assistant d'analayse pharmaceutique</p>
+            <p>Entretien pharmaceutique</p>
+            <p>Messagerie sécurisée</p>
+            <p>Plan de prise des médicaments</p>
+            <div class="button">
+              <a href="/bilan_partage_de_medication.html" class="cta btn-primary-small">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="card_fonctionalite">
+            <%= image_tag "prescription.svg", id: "card-fonctionnalite-image" %>
+            <h3>Pharmacien en établissement </h3>
+            <br>
+            <p>Assistant d'analayse pharmaceutique</p>
+            <p>Concilliation médicamenteuse</p>
+            <p>Entretien pharmaceutique</p>
+            <p>Messagerie sécurisée</p>
+            <p>Plan de prise des médicaments</p>
+            <div class="button">
+              <a href="https://analyse.bimedoc.com/interface/analysis" class="cta btn-primary-small">Essayer la version gratuite</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="card_fonctionalite_industriel">
+          <%= image_tag "bonhomme_ordi.svg", id: "card-fonctionnalite-image"%>
+          <h3>Un industriel</h3>
+          <br>
+          <p>Vous souhaitez intégrer notre solution directement dans votre logiciel ?</p>
+          <p>Contactez nous pour en savoir plus</p>
+          <div class="button mt-2">
+            <a href="/bilan_partage_de_medication.html" class="cta btn-primary-small">En savoir plus</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
@@ -152,7 +325,7 @@
     </div>
   </div>
 
-  <div class="partenaires">
+  <div class="partenaires mt-10">
     <div class="titre-partenaire">
       <h2 >Ils parlent de nous,</h2>
       <h2 id="color-blue">et nous, on vous en parle !</h2>
@@ -178,7 +351,7 @@
 </div>
 
 <div class="container">
-  <div class="text-center mt-4 mb-4">
+  <div class="text-center mt-10 mb-4">
     <h2>Plus qu’un logiciel, Bimedoc est un projet et une communauté</h2>
     <br>
     <p>Nous échangeons quotidiennement avec nos utilisateurs pour avoir des retours et des idées. Bimedoc est constamment amélioré et enrichi grâce à la communauté.</p>
@@ -186,7 +359,7 @@
   </div>
 </div>
 
-<div class="section-border reverse">
+<!-- <div class="section-border reverse">
   <svg class="bottom-concave-white" viewBox='0 0 1440 48' version='1.1'>
     <g id='bottom-concave' transform='translate(0.000000, -436.000000)'>
     <g id='Group-6' fill='white' fill-rule='nonzero'>
@@ -233,7 +406,7 @@
   <div class="button-blog mt-4 mb-1">
     <a href="https://medium.com/bimedoc" class="cta btn-primary-small">Découvrez les autres articles de notre blog</a>
   </div>
-</div>
+</div> -->
 
 <div class="wrapper wrapper_bimedoc">
   <div class="wrapper_bpm">
@@ -249,4 +422,17 @@
 
 
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="height:365px">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <iframe
+        src="https://media.bimedoc.com/Video_demo_BPM.mp4"
+        width="100%" height="337px"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        sandbox>
+      </iframe>
+    </div>
+  </div>
+</div>
 

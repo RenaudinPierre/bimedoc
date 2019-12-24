@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="285px" height="313px" viewBox="0 0 285 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Marketing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Copy" transform="translate(-18.000000, -135.000000)">
+            <g id="Group" transform="translate(18.000000, 131.000000)">
+                <text id="Expertise-pharmaceut" font-family="ProximaNova-Semibold, Proxima Nova" font-size="15" font-weight="500" fill="#000000">
+                    <tspan x="12.6825" y="15">Expertise pharmaceutique clinique des </tspan>
+                    <tspan x="99.045" y="33">prescriptions</tspan>
+                </text>
+                <g id="Medicaments" transform="translate(0.000000, 59.000000)">
+                    <path d="M5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,45 C0.5,47.4852814 2.51471863,49.5 5,49.5 L279,49.5 C281.485281,49.5 283.5,47.4852814 283.5,45 L283.5,5 C283.5,2.51471863 281.485281,0.5 279,0.5 L5,0.5 Z" id="Rectangle-Copy" stroke="#2F17FD" fill="#FFFFFF"></path>
+                    <text id="Rechercher-un-médica" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#575E66">
+                        <tspan x="38" y="31">Rechercher un médicament</tspan>
+                    </text>
+                    <text id="ion-ios-search-strong---Ionicons" font-family="Ionicons" font-size="20" font-weight="400" fill="#575E66">
+                        <tspan x="12" y="33"></tspan>
+                    </text>
+                </g>
+                <g id="Pathologie" transform="translate(0.000000, 121.000000)">
+                    <path d="M5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,45 C0.5,47.4852814 2.51471863,49.5 5,49.5 L279,49.5 C281.485281,49.5 283.5,47.4852814 283.5,45 L283.5,5 C283.5,2.51471863 281.485281,0.5 279,0.5 L5,0.5 Z" id="Rectangle-Copy" stroke="#2F17FD" fill="#FFFFFF"></path>
+                    <text id="Ajouter-des-patholog" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#575E66">
+                        <tspan x="45" y="31">Ajouter des pathologies</tspan>
+                    </text>
+                    <text id="Plus---simple-line-icons" font-family="simple-line-icons" font-size="20" font-weight="normal" fill="#5A6169">
+                        <tspan x="10" y="34"></tspan>
+                    </text>
+                </g>
+                <g id="CTA-vérifier" transform="translate(1.000000, 183.000000)">
+                    <path d="M5,0 L279,0 C281.761424,-5.07265313e-16 284,2.23857625 284,5 L284,45 C284,47.7614237 281.761424,50 279,50 L5,50 C2.23857625,50 3.38176876e-16,47.7614237 0,45 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-2" fill="#2F17FD"></path>
+                    <text id="Vérifier" font-family="ProximaNova-Bold, Proxima Nova" font-size="14" font-weight="bold" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="115.099" y="31">Vérifier</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(3.000000, 245.000000)">
+                    <text id="Sources-disponibles" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="0" y="13">Sources disponibles :</tspan>
+                    </text>
+                    <g id="Group-12-Copy-4" transform="translate(121.000000, 0.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="89" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="Stopp-&amp;-Start" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="14" y="10">Stopp &amp; Start</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(0.000000, 26.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="69" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="Laroche" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="14" y="10">Laroche</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(202.000000, 26.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="79" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="Pim-check" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="14" y="10">Pim-check</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(97.000000, 26.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="78" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="Thériaque" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="14" y="10">Thériaque</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(219.000000, 0.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="62" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(10.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="G6PD" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="15.4" y="10">G6PD</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12-Copy-4" transform="translate(0.000000, 54.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="89" height="18" rx="9"></rect>
+                            <rect id="Rectangle" fill="#50E3C2" x="0" y="0" width="142" height="18" rx="9"></rect>
+                            <g id="Group-5" transform="translate(9.000000, 2.000000)" fill="#FFFFFF" font-size="10">
+                                <text id="Charge-anticholinerg" font-family="ProximaNova-Bold, Proxima Nova" font-weight="bold">
+                                    <tspan x="14" y="10">Charge anticholinergique</tspan>
+                                </text>
+                                <text id="" font-family="Ionicons" font-weight="400">
+                                    <tspan x="0" y="11"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+.mentionlegale {
+  margin-top: 3em; }
+  .mentionlegale .btn-blue {
+    text-align: center;
+    margin-top: 20px; }

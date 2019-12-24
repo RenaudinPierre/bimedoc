@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="44px" viewBox="0 0 59 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-dossier-ouvert</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Bimedoc.com" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-180.000000, -1194.000000)">
+            <g id="Group-2-Copy-2" transform="translate(100.000000, 1194.000000)">
+                <g id="icons8-dossier-ouvert" transform="translate(80.000000, 0.000000)">
+                    <path d="M46.75,5.5 L24.75,5.5 L19.25,0 L5.5,0 C2.47607387,0 0,2.47607388 0,5.5 L0,38.5 C0,41.5239261 2.47607387,44 5.5,44 L48.125,44 C50.4614261,44 52.25,42.2114261 52.25,39.875 L52.25,11 C52.25,7.97607388 49.7739261,5.5 46.75,5.5 Z" id="Path" fill="#FFA000"></path>
+                    <path d="M53.121109,13.75 L15.6660593,13.75 C13.0171192,13.75 10.6510215,15.6728522 10.2321954,18.2885739 L5.5,44 L49.6399543,44 C52.2888958,44 54.6549921,42.0771491 55.0738196,39.4614261 L58.5549743,20.2114261 C59.2512053,16.9135739 56.6022638,13.75 53.121109,13.75 Z" id="Path" fill="#FFCA28"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

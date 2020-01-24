@@ -131,7 +131,7 @@
 @media (min-width: 992px) {
   .wrapper_bimedoc {
     background-color: #002650;
-    height: 50vh;
+    min-height: 50vh;
     position:relative;
   }
 }
@@ -139,10 +139,27 @@
 @media (max-width: 991.98px) {
   .wrapper_bimedoc {
     background-color: #002650;
-    height: 100vh;
+    min-height: 100vh;
     position:relative;
   }
 }
+
+  .wrapper_bpm_sfpc {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    h2 {
+      color: white;
+      text-align: center;
+      }
+
+    p {
+      color: white;
+      text-align: center;
+    }
+  }
 
 .wrapper_bpm {
   width:100%;
@@ -203,9 +220,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
+.flex-stretch {
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 // fonctionnement
 

@@ -9,6 +9,7 @@
       <ul class="nav btn-group nav-tabs bouton-groupe bouton-group-centre" role="tablist">
         <li role="presentation" class="active"><a href="#bpm" aria-controls="bpm" role="tab" data-toggle="tab">Bilan partagé de médication</a></li>
         <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Assistant d'analyse pharmaceutique</a></li>
+<!--         <li role="presentation"><a href="#conciliation" aria-controls="conciliation" role="tab" data-toggle="tab">Conciliation Médicamenteuse</a></li> -->
         <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Envois de documents médicaux</a></li>
       </ul>
     </div>
@@ -313,6 +314,133 @@
           </div>
         </div>
       </div>
+
+
+      <!-- ########## -->
+      <!-- ######TAB CONCILIATION MEDICAMENTEUSE###### -->
+      <!-- ############ -->
+      <div role="tabpanel" class="tab-pane" id="conciliation">
+        <h3 class="text-center">Réalisez facilement vos conciliations médicamenteuses avec Bimedoc</h3>
+        <div class="row mb-4">
+          <div class="col-xs-12 col-sm-6 vertical_align_60">
+            <div class="centre-verticalement_50_100">
+              <%= image_tag "monographie.png", class: "image_bpm box-shadow-gray"%>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 ">
+            <div class="vertical_align_60">
+              <div class="centre-verticalement_50_100">
+                <h3 class=pb-1>Ensemble des étapes de la conciliation médicamenteuse</h3>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Bilan médicamenteux</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Conciliation médicamenteuse d'entrée</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Conciliation médicamenteuse de sortie</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Plan de prise des médicaments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 vertical_align_60">
+            <div class="centre-verticalement_50_100">
+              <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 ">
+            <div class="vertical_align_60">
+              <div class="centre-verticalement_50_100">
+                <h3 class=pb-1>Clarification des divergences</h3>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Statut</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Type de divergence</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Résolution</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Evaluation de la gravité de l'erreur médicamenteuse selon l'échelle CLEO de la SFPC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 vertical_align_60">
+            <div class="centre-verticalement_50_100">
+              <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 ">
+            <div class="vertical_align_60">
+              <div class="centre-verticalement_50_100">
+                <h3>Assistant d'analyse pharmaceutique intégré</h3>
+                <p class="pb-1">l'assistant vous permet de vérifier à chaque étape si la demande d'une modification peut faire apparaitre un nouveau problème thérapeutique</p>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Base médicamenteuse de l'ANSM</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des intéractions médicamenteuses</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des alternatives de forme galénique</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Détection des médicaments inappropriés</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Charge anticholinergique</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 vertical_align_60">
+            <div class="centre-verticalement_50_100">
+              <%= image_tag "indesirable.jpg", class: "image_bpm box-shadow-gray"%>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 ">
+            <div class="vertical_align_60">
+              <div class="centre-verticalement_50_100">
+                <h3 class=pb-1>Export en pdf à chaque étape</h3>
+                <p></p>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Export pdf à chaque étape</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Envoi par messagerie sécurisée</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Intégration dans le Dossier Médical Partagé (à venir)</p>
+                </div>
+                <div class=flex>
+                 <i class="fal fa-check oval_14px fa-xs"></i><p>Intégration automatique des pdf dans votre Dossier Patient Informatisé</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 vertical_align_60">
+            <div class="centre-verticalement_50_100">
+              <%= image_tag "alternativegalenique.png", class: "image_bpm box-shadow-gray"%>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 ">
+            <div class="vertical_align_60">
+              <div class="centre-verticalement_50_100">
+                <h3 class=pb-1>Intégration dans votre DPI</h3>
+                <p>Notre module de conciliation médicamenteuse a été développé à l'aide des standards FHIR et permet ainsi d'être directement intégré dans les Dossier Patient Informatisé</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <!-- ########## -->
       <!-- ######TAB MESSAGERIE SECURISEE###### -->
       <!-- ############ -->
@@ -371,10 +499,14 @@
 <div class="wrapper wrapper_bimedoc">
   <div class="wrapper_bpm">
     <h2>Développé par des pharmaciens, pour des pharmaciens</h2>
-    <div class="deux-boutons">
-      <%= link_to "Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn button_wrapper_bpm", target: "_blank" %>
-      <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%>
+    <div>
+
+      <div class="deux-boutons">
+        <%= link_to "Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn button_wrapper_bpm", target: "_blank" %>
+        <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%>
+      </div>
+      <p>30 € / Mois (HT) & Pharmacie, sans engagement</p>
     </div>
-    <p>30 € / Mois (HT) & Pharmacie, sans engagement</p>
+
   </div>
 </div>

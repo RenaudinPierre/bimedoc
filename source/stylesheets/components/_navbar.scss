@@ -36,26 +36,29 @@
 }
 
 .navbar-default .navbar-nav > li > a.btn.btn-primary {
-  padding: 12px 50px;
+  padding: 8px 20px;
   color: white;
   // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   // font-weight: bold;
-  border-radius: 8px;
-  margin: 10px;
-  margin-right: 20px;
+  border-radius: 4px;
+  margin: 14px 20px 14px 10px;
+  background: $secondary;
+  border-color: $secondary;
+
 
 
 }
 
 .navbar-default .navbar-nav > li > a.btn.btn-primary:hover {
-  padding: 12px 50px;
+  padding: 8px 20px;
   color: white;
   // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   // font-weight: bold;
-  border-radius: 8px;
-  margin: 10px;
-  margin-right: 20px;
-  background: $blue;
+  border-radius: 4px;
+  margin: 14px 20px 14px 10px;
+
+  background: $secondary;
+  border-color: $secondary;
   color: white;
   opacity: 0.8;
 
@@ -187,7 +190,7 @@ color: $gray;
 
 
 .contact_equipe_commerciale {
-  background: $blue;
+  background: $secondary;
   text-align: right;
 
   h5 {

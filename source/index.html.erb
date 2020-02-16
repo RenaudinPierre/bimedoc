@@ -6,7 +6,7 @@
         <div class="vertical_align_hero mt-4">
           <div class="centre-verticalement_hero">
             <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
-            <h4 class="mt-3" style="font-weight: bold">Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h4>
+            <p class="mt-2" style="font-size: 18px; color: black;">Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</p>
             <div class="deux-boutons-gauche mt-5">
               <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
               <%= link_to " Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn-white btn", target: "_blank"%>
@@ -182,18 +182,20 @@ VERSION MOBILE (hide on destkop)
 <div class="container hide_on_destkop">
   <div class="">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="vertical_align_30 mt-10">
-          <%= image_tag "bpm_symbol.png", class: "centre-verticalement_hero"%>
+      <div class="col-xs-12">
+        <div class="mt-10 text-center">
+          <%= image_tag "bpm_symbol.png", class: "image_bpm "%>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="vertical_align_50">
-          <div class="centre-verticalement_hero text-center">
+      <div class="col-xs-12">
+        <div class="">
+          <div class=" text-center mt-2 mb-2">
             <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
             <h4 class="mt-3" style="font-weight: bold">Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h4>
-            <div class="deux-boutons mt-2">
-              <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
+            <div class="deux-boutons mt-1">
+              <div class="mt-1">
+                <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
+              </div>
               <div class="mt-1">
                 <%= link_to " Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn-white btn mt-1", target: "_blank"%>
               </div>
@@ -222,12 +224,12 @@ VERSION MOBILE (hide on destkop)
     <h3 style="text-align: center; font-weight: bold !important" class="mt-4 mb-4">Rejoignez plus de 500 pharmaciens qui simplifient leur quotidien avec Bimedoc</h3>
 
   <div class="row">
-    <div class="col-xs-12 col-sm-6 mt-2 text-center">
+    <div class="col-xs-12 mt-2 text-center">
       <div class="">
         <%= image_tag "bpm.jpg", class: "image_bpm box-shadow-gray"%>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="pb-1 text-center">Bilan partagé de médication</h3>
@@ -246,10 +248,12 @@ VERSION MOBILE (hide on destkop)
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l'assurance maladie</p>
           </div>
-          <div class="deux-boutons mt-2">
+          <div class="deux-boutons mt-1">
+            <div class="mt-1">
             <button type="button" class="btn-blue btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
               Voir la vidéo de présentation
             </button>
+          </div>
             <div class="mt-1">
               <%= link_to "Qu'est-ce qu'un BPM ?", "/bilan_partage_de_medication.html", class: "btn-white btn"%>
             </div>
@@ -257,12 +261,12 @@ VERSION MOBILE (hide on destkop)
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 mt-5 text-center">
+    <div class="col-xs-12  mt-5 text-center">
       <div class="">
         <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 ">
+    <div class="col-xs-12">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="pb-1 text-center">Assistant d'analyse pharmaceutique</h3>
@@ -287,12 +291,12 @@ VERSION MOBILE (hide on destkop)
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 mt-5 text-center">
+    <div class="col-xs-12  mt-5 text-center">
       <div class="">
         <%= image_tag "bilanmedicamenteux.jpg", class: "image_bpm box-shadow-gray"%>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 ">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="pb-1">Conciliation médicamenteuse</h3>
@@ -317,12 +321,12 @@ VERSION MOBILE (hide on destkop)
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 mt-5 text-center">
+    <div class="col-xs-12  mt-5 text-center">
       <div class="">
         <%= image_tag "annuaire.png", class: "image_bpm box-shadow-gray"%>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 ">
+    <div class="col-xs-12  ">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="pb-1 text-center">Messagerie sécurisée</h3>
@@ -335,12 +339,12 @@ VERSION MOBILE (hide on destkop)
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 mt-5 text-center">
+    <div class="col-xs-12  mt-5 text-center">
       <div class="">
         <%= image_tag "plandeprise.png", class: "image_bpm box-shadow-gray"%>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 ">
+    <div class="col-xs-12  ">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="text-center">Plan de prise des traitements</h3>
@@ -451,19 +455,13 @@ VERSION MOBILE (hide on destkop)
 
 
 <div class="wrapper wrapper_bimedoc">
-  <div class="wrapper_bpm_sfpc mt-1">
+  <div class="wrapper_bpm">
     <h2>Développé par des pharmaciens, pour des pharmaciens</h2>
     <div class="deux-boutons">
       <%= link_to "Je m'inscris maintenant", "https://app.bimedoc.com/auth/signup", class: "btn button_wrapper_bpm", target: "_blank" %>
       <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%>
     </div>
     <p>30 € / Mois (HT) & Pharmacie, sans engagement</p>
-    <div class="flex ml-5 mr-5 mt-2 mb-3 border_bandeau_sfpc">
-      <div class="flex-stretch">
-        <%= image_tag "sfpc_bandeau.png", class: "sfpc_bandeau"%>
-        <p class="mt-2">Nous sommes présents au congrès de la SFPC du 26 au 29 janvier au Parc Chanot à Marseille. N'hésitez pas à contacter Pierre Renaudin via l'application MyEvent et nous viendrons à votre rencontre.</p>
-      </div>
-    </div>
   </div>
 </div>
 

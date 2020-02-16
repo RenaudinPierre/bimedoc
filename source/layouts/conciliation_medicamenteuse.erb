@@ -12,8 +12,8 @@
 <!--     <meta name="google-site-verification" content="XWo3hIJNSm1ehCt0PE_59e5fjjlR0UdfYCyxR4ZMsjc" /> -->
 
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Bilan partagé de médication</title>
-    <meta name="Description" content="Automatisez simplement la réalisation de vos bilans partagés de médication">
+    <title>Conciliation médicamenteuse</title>
+    <meta name="Description" content="Bimedoc vous présente son outil d'aide à la réalisation de la conciliation médicamenteuse intégrant un outil d'aide à la décision">
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/Favicon.png' %>
@@ -81,7 +81,8 @@
 
   </head>
 
-  <body class="<%= page_classes  %> background_white">
+  <body class=" background_white">
+<!-- ####rajouter <%= page_classes  %> dans la class du body pour refaire l'effet JS##### -->
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMMNDZ8"
@@ -93,7 +94,6 @@
     <%= yield %>
 
     <%= partial "layouts/footer" %>
-
 
 
 <!--     <script type="text/javascript" id="cookieinfo"

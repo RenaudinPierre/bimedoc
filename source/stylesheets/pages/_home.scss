@@ -29,24 +29,6 @@
 }
 
 
-@media (max-width: 575.98px) {
-  .hide_on_mobile {
-    display: none;
-  }
-
-  .padding-top-mobile {
-    padding-top: 60px;
-  }
-}
-
-@media (min-width: 576px) {
-  .hide_on_destkop {
-    display: none;
-  }
-  .padding-top-mobile {
-    padding-top: 60px;
-  }
-}
 
 
 
@@ -165,7 +147,7 @@
 
 
 #color-blue {
-  color: $blue;
+  color: $secondary;
 }
 
 

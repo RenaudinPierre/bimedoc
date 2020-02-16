@@ -44,7 +44,9 @@ page "/feed.xml", layout: false
 
 page "/bilan_partage_de_medication.html", :layout => "bpm"
 page "/equipe.html", :layout => "equipe"
-page "https://analyse.bimedoc.com/interface/analysis", :layout => "assistantanalysepharmaceutique"
+page "/conciliation_medicamenteuse.html", :layout => "conciliation_medicamenteuse"
+page "/industriel.html", :layout => "assistantanalysepharmaceutique"
+page "/pharmacie_clinique.html", :layout => "pharmacie_clinique"
 page "/fonctionnalites.html", :layout => "fonctionnalites"
 page "/messagerie_medecin.html", :layout => "nonavbarnofooter"
 page "/faculte_de_pharmacie.html", :layout => "nonavbarnofooter"

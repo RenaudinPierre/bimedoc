@@ -20,9 +20,9 @@ GEM
     autoprefixer-rails (8.6.5)
       execjs
     backports (3.11.4)
-    bootstrap-sass (3.3.7)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
+      sassc (>= 2.0.0)
     byebug (10.0.2)
     coderay (1.1.2)
     coffee-script (2.4.1)
@@ -102,8 +102,6 @@ GEM
       erubis
       middleman-core (>= 3.4)
       uglifier (>= 2.5, < 4.0)
-    middleman-meta-tags (0.4.0)
-      middleman-core (>= 3.0.0)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -167,7 +165,6 @@ DEPENDENCIES
   middleman-blog (~> 4.0)
   middleman-deploy!
   middleman-google-analytics
-  middleman-meta-tags
   middleman-minify-html
   middleman-protect-emails
   middleman-sitemap

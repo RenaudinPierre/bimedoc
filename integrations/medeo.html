@@ -14,9 +14,9 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Bimedoc : votre logiciel de soins pharmaceutiques</title>
     <meta name="Description" content="Découvrez comment l'application bimedoc permet de réaliser facilement les bilans de médications, les entretiens pharmaceutiques et d'envoyer des documents médicaux">
-    <link href="stylesheets/application-d155e3ab.css" rel="stylesheet" />
-    <script src="javascripts/application-3c80b985.js"></script>
-    <link href="images/Favicon-b95b6561.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-d155e3ab.css" rel="stylesheet" />
+    <script src="../javascripts/application-3c80b985.js"></script>
+    <link href="../images/Favicon-b95b6561.png" rel="icon" type="image/png" />
 
 <!-- langue du ste -->
     <html lang="fr">
@@ -89,7 +89,7 @@
   </head>
 
   <body class=" background_white">
-<!-- ####rajouter tarifs dans la class du body pour refaire l'effet JS##### -->
+<!-- ####rajouter integrations integrations_medeo dans la class du body pour refaire l'effet JS##### -->
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMMNDZ8"
@@ -110,22 +110,22 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/" class="">
-          <img src="images/logo-e21915b3.svg" id="logo" alt="Logo" />
+          <img src="../images/logo-e21915b3.svg" id="logo" alt="Logo" />
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="fonctionnalites.html" class="link">Fonctionnalités</a></li>
+        <li><a href="../fonctionnalites.html" class="link">Fonctionnalités</a></li>
         <li><a href="pharmacie_clinique.html" class="link">Comment ça marche ?</a></li>
-        <li><a href="industriel.html" class="link">Editeurs</a></li>
+        <li><a href="../industriel.html" class="link">Editeurs</a></li>
         <li><a href="https://medium.com/bimedoc" class="link" target="_blank">Blog</a></li>
         <li><a href="https://bimedoc.welcomekit.co/" class="link" target="_blank">On recrute</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="https://app.bimedoc.com" class="link white" target="_blank">Connexion</a></li>
-        <li><a href="inscription.html" class="btn btn-primary" target="_blank">S'inscrire</a></li>
+        <li><a href="../inscription.html" class="btn btn-primary" target="_blank">S'inscrire</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -133,73 +133,92 @@
 
 
 
-    
-  <div class="container">
-    <div class="tarif padding-top-mobile">
+    <div class="mt-10 mb-10 container">
+<!--   <div class="text-center mb-2">
+    <img src="../images/medeo-2fd2b086.png" alt="Medeo" />
+  </div> -->
+  <!-- separation de la fenetre en deux colonnes -->
+  <div style="float:left;width:70%;">
+    <div class="pb-1 pl-2 pr-2">
+      <h2>Medeo</h2>
+      <h4 class="pt-1 pb-1">Le logiciel médical et la téléconsultation assistée pour les pharmacies</h4>
+      <p>Notre plateforme accompagne le pharmacien dans ses nouvelles missions médicales pour améliorer la coordination du parcours de soin des patients.</p>
 
-      <div class="description hide_on_mobile">
-        <h2>Des prix clairs et tranparents</h2>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height: 40vh">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" style="height: 40vh">
+          <img src="https://uploads-ssl.webflow.com/5e3081dbc67f822b5d3fdd17/5e3d809145461328bb485fa7_Capture%20d%E2%80%99e%CC%81cran%202020-02-07%20a%CC%80%2016.21.16.png" alt="" >
+        </div>
+        <div class="item" style="height: 40vh">
+          <img src="https://uploads-ssl.webflow.com/5e3081dbc67f822b5d3fdd17/5e308340c67f820c093ff589_Group%204-p-800.png" alt="">
+        </div>
       </div>
 
-<!--       <div class="cards standard">
-        <h2 class="color-green">Annuel</h2>
-        <div class="exemple-green">
-          <p>Premier mois offert</p>
-        </div>
-        <h1 class="prix">25€</h1>
-        <p>/Mois (HT) & Pharmacie</p>
-        <h3>Engagement de 12 mois</h3>
-        <br>
-        <br>
-        <h3>2 collaborateurs inclus</h3>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Précedent</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Suivnt</span>
+      </a>
+    </div>
+
+      <h3 class="mb-1 pt-1">Fonctionnalités</h3>
+      <div class=flex>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Téléconsultation assistée</p>
+      </div>
+      <div class=flex>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Dispositif médicaux connecté</p>
+      </div>
+      <div class=flex>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Retrouver l’ensembles des informations de mes patients</p>
+      </div>
+<!--       <div class="deux-boutons-gauche mt-2">
+        <a href="../demo.html" class="btn-blue btn btn-primary"> Demander une démo</a>
+        <a href="https://www.medeo-health.com/pharmaciens" class="btn-white btn" target="_blank">En savoir plus</a>
       </div> -->
-
-      <div class="cards avance">
-        <h2>Mensuel</h2>
-        <div class="exemple-purple">
-          <p>Premier mois offert</p>
-        </div>
-        <h1 class="prix">30€</h1>
-        <p>/Mois (HT) & Pharmacie</p>
-        <h3>Sans engagement</h3>
-        <h3>2 collaborateurs inclus</h3>
+    </div>
+    <div class=" pt-1 pb-1 pl-2 pr-2">
+      <h3 class="mb-1">Apport de l’intégration Medeo < > Bimedoc</h3>
+      <div class=flex>
+       <i class="fal fa-check oval_14px fa-xs"></i><p>Ouverture et création automatique d'une téléconsultation dans Medeo depuis Bimedoc</p>
       </div>
-
-
-      <div class="collaborateur">
-        <a class="collapse-collaborateur" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Besoins de plus de collaborateurs ?</a>
-        <div class="collapse" id="collapseExample">
-          <div class="cards">
-            <table class="table">
-              <thead></thead>
-              <tbody>
-                <tr>
-                  <th>Pharmacien titulaire d’officine</th>
-                  <td>8 € HT / mois</td>
-                </tr>
-                 <tr>
-                  <th>Pharmacien adjoint d’officine</th>
-                  <td>8 € HT / mois</td>
-                </tr>
-                 <tr>
-                  <th>Interne en pharmacie</th>
-                  <td>6€ HT / mois</td>
-                </tr>
-                 <tr>
-                  <th>Etudiant en pharmacie</th>
-                  <td>4€ HT / mois</td>
-                </tr>
-              </tbody>
-            </table>
-
-
-          </div>
-        </div>
-
-
+      <div class=flex>
+       <i class="fal fa-check oval_14px fa-xs"></i><p>Ouverture et création automatique d'un bilan de médication dans Bimedoc depuis Medeo</p>
       </div>
-
-
+      <div class=flex>
+        <i class="fal fa-check oval_14px fa-xs"></i><p>Envoi des plans de prise dans l’application Medeo</p>
+      </div>
+    </div>
+    <div class="  pt-1 pb-2 pl-2 pr-2">
+      <h3>Medeo s’intègre à ces fonctionnalités Bimedoc</h3>
+      <span class="label label-default">Plan de prise</span>
+      <span class="label label-default">BPM</span>
+      <span class="label label-default">Flux d'actualité</span>
+    </div>
+  </div>
+  <div style="float:right;width:20%;">
+<!--       <h3>Détails</h3> -->
+      <h5 class="pt-5">Fournisseur</h5>
+      <h6>Medeo</h6>
+      <h5 class="pt-2 pb-1">Catégorie</h5>
+      <span class="label label-default">Téléconsultation</span>
+      <h5 class="pt-3">Exigences</h5>
+      <h6>Abonnement Bimedoc</h6>
+      <h6>Abonnement Medeo payant</h6>
+      <h5 class="pt-2">Tarifs</h5>
+      <h6 class="pb-2">29€ HT/ mois</h6>
+      <a href="../demo.html" class="btn-blue btn btn-primary"> Demander une démo</a>
   </div>
 </div>
 
@@ -208,19 +227,19 @@
   <div class="footer-grid-haut">
     <div class="a_propos">
       <h4 class="pb-1">A PROPOS</h4>
-      <p><a href="equipe.html" class="cgu">Qui sommes-nous</a></p>
-<!--       <p><a href="tarifs.html" class="cgu">Tarifs</a></p>
- -->      <p><a href="fonctionnalites.html" class="cgu">Fonctionnalités</a></p>
-      <p><a href="industriel.html" class="cgu">Bimedoc entreprise</a></p>
+      <p><a href="../equipe.html" class="cgu">Qui sommes-nous</a></p>
+<!--       <p><a href="../tarifs.html" class="cgu">Tarifs</a></p>
+ -->      <p><a href="../fonctionnalites.html" class="cgu">Fonctionnalités</a></p>
+      <p><a href="../industriel.html" class="cgu">Bimedoc entreprise</a></p>
       <p><a href="https://medium.com/bimedoc" class="cgu" target="_blank">Blog</a></p>
-      <p><a href="stack-technique.html" class="cgu">Stack technique</a></p>
+      <p><a href="../stack-technique.html" class="cgu">Stack technique</a></p>
     </div>
     <div class="legal">
       <h4 class="pb-1">LEGAL</h4>
-      <p><a href="securite.html" class="cgu">Sécurité</a></p>
-      <p><a href="mentionlegale.html" class="cgu">Mention légale</a></p>
+      <p><a href="../securite.html" class="cgu">Sécurité</a></p>
+      <p><a href="../mentionlegale.html" class="cgu">Mention légale</a></p>
       <p><a href="/cgu_Bimedoc.pdf" class="cgu">CGU</a></p>
-      <p><a href="politique_confidentialite.html" class="cgu">Politique de confidentialité</a></p>
+      <p><a href="../politique_confidentialite.html" class="cgu">Politique de confidentialité</a></p>
     </div>
     <div class="contact_footer">
       <h4 class="pb-1">CONTACT</h4>
@@ -235,14 +254,14 @@
 <div class="footer hide_on_desktop_footer">
   <div class="footer-grid-haut">
     <div>
-      <p><a href="equipe.html" class="cgu">Qui sommes-nous</a></p>
-<!--       <p><a href="tarifs.html" class="cgu">Tarifs</a></p>
- -->      <p><a href="fonctionnalites.html" class="cgu">Fonctionnalités</a></p>
-      <p><a href="securite.html" class="cgu">Sécurité</a></p>
-      <p><a href="mentionlegale.html" class="cgu">Mention légale</a></p>
+      <p><a href="../equipe.html" class="cgu">Qui sommes-nous</a></p>
+<!--       <p><a href="../tarifs.html" class="cgu">Tarifs</a></p>
+ -->      <p><a href="../fonctionnalites.html" class="cgu">Fonctionnalités</a></p>
+      <p><a href="../securite.html" class="cgu">Sécurité</a></p>
+      <p><a href="../mentionlegale.html" class="cgu">Mention légale</a></p>
       <p><a href="/cgu_Bimedoc.pdf" class="cgu">CGU</a></p>
       <p><a href="https://medium.com/bimedoc" class="cgu" target="_blank">Blog</a></p>
-      <p><a href="stack-technique.html" class="cgu">Stack technique</a></p>
+      <p><a href="../stack-technique.html" class="cgu">Stack technique</a></p>
       <a href="mailto:contact@bimedoc.com" class="contact">contact@bimedoc.com</a>
 
     </div>

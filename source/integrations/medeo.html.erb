@@ -5,9 +5,10 @@
   <!-- separation de la fenetre en deux colonnes -->
   <div style="float:left;width:70%;">
     <div class="pb-1 pl-2 pr-2">
+
       <h2>Medeo</h2>
-      <h4 class="pt-1 pb-1">Le logiciel médical et la téléconsultation assistée pour les pharmacies</h4>
-      <p>Notre plateforme accompagne le pharmacien dans ses nouvelles missions médicales pour améliorer la coordination du parcours de soin des patients.</p>
+      <h4 class="pt-1 pb-1">La téléconsultation en pharmacie</h4>
+      <p>Avec Medeo, devenez un acteur incontournable dans le parcours de soins du patient, en proposant de la téléconsultation dans votre pharmacie. Le patient peut obtenir une consultation avec un médecin dans de brefs délais et récupérer ses médicaments directement à l’officine. </p>
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height: 40vh">
       <!-- Indicators -->
@@ -20,10 +21,13 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active" style="height: 40vh">
-          <img src="https://uploads-ssl.webflow.com/5e3081dbc67f822b5d3fdd17/5e3d809145461328bb485fa7_Capture%20d%E2%80%99e%CC%81cran%202020-02-07%20a%CC%80%2016.21.16.png" alt="" >
+          <%= image_tag "logo_medeo.png" %>
         </div>
         <div class="item" style="height: 40vh">
-          <img src="https://uploads-ssl.webflow.com/5e3081dbc67f822b5d3fdd17/5e308340c67f820c093ff589_Group%204-p-800.png" alt="">
+          <%= image_tag "teleconsultation_pharmacien_medeo.png" %>
+        </div>
+        <div class="item" style="height: 40vh">
+          <img src="https://uploads-ssl.webflow.com/5e3081dbc67f822b5d3fdd17/5e3d809145461328bb485fa7_Capture%20d%E2%80%99e%CC%81cran%202020-02-07%20a%CC%80%2016.21.16.png" alt="" >
         </div>
       </div>
 
@@ -40,13 +44,13 @@
 
       <h3 class="mb-1 pt-1">Fonctionnalités</h3>
       <div class=flex>
-          <i class="fal fa-check oval_14px fa-xs"></i><p>Téléconsultation assistée</p>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Logiciel de gestion de patients avec accès à la téléconsultation</p>
       </div>
       <div class=flex>
-          <i class="fal fa-check oval_14px fa-xs"></i><p>Dispositif médicaux connecté</p>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Dispositifs médicaux connectés pour effectuer des préconsultations</p>
       </div>
       <div class=flex>
-          <i class="fal fa-check oval_14px fa-xs"></i><p>Retrouver l’ensembles des informations de mes patients</p>
+          <i class="fal fa-check oval_14px fa-xs"></i><p>Accès à Médecin direct (service de TLC disponible 24/7)</p>
       </div>
 <!--       <div class="deux-boutons-gauche mt-2">
         <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
@@ -83,6 +87,6 @@
       <h6>Abonnement Medeo payant</h6>
       <h5 class="pt-2">Tarifs</h5>
       <h6 class="pb-2">29€ HT/ mois</h6>
-      <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
+      <%= link_to " Demander une démo", "https://meetings.hubspot.com/medeo-teleconsultation/bimedoc", class: "btn-blue btn btn-primary", target:"_blank" %>
   </div>
 </div>

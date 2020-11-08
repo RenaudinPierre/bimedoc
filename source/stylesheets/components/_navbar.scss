@@ -44,9 +44,6 @@
   margin: 14px 20px 14px 10px;
   background: $secondary;
   border-color: $secondary;
-
-
-
 }
 
 .navbar-default .navbar-nav > li > a.btn.btn-primary:hover {
@@ -61,13 +58,39 @@
   border-color: $secondary;
   color: white;
   opacity: 0.8;
+}
+
+
+// BOUTON COVID19
+
+/* bouton primary */
+.btn {
+  border-radius: 8px;
+  // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  font-size: 16px;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
 
 }
 
-// .btn:hover {
+.navbar-default .navbar-nav > li > a.btn.btn-covid {
+  padding: 8px 20px;
+  color: $secondary;
+  border-radius: 4px;
+  margin: 14px 20px 14px 10px;
+  background: rgba(10, 115, 254, 0.2);
+}
+
+.navbar-default .navbar-nav > li > a.btn.btn-covid:hover {
+  padding: 8px 20px;
+  color: white;
+  border-radius: 4px;
+  margin: 14px 20px 14px 10px;
+  background: rgba(10, 115, 254, 0.5);
+}
 
 
-// }
 
 .link {
 

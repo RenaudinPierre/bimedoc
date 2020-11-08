@@ -1,0 +1,70 @@
+<!-- Version desktop (hide on mobile) -->
+<div class="container hide_on_mobile" style="height: 100vh">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="vertical_align_100">
+        <div class="centre-verticalement_50_100 mt-3">
+          <h1 style="font-weight:600" id="color-blue">Réalisation simplifiée des tests antigéniques</h1>
+          <div class="flex mt-5">
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Saisie des résultats du test antigénique</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Impression du document à remettre au patient</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l’assurance maladie via la messagerie sécurisée intégrée</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Sécurisation de l'attestation à remettre au patient à l'aide d'un QRcode</p>
+          </div>
+          <div class="deux-boutons-gauche mt-5">
+            <%= link_to "Je m'inscris maintenant", "/inscription.html", class: "btn-blue btn btn-primary"%>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-10">
+      <div class="vertical_align_100">
+        <%= image_tag "test_antigenique.gif", class: "centre-verticalement_hero test_antigenique mt-3 pb-1"%>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ######
+VERSION MOBILE (hide on destkop)
+##### -->
+<div class="container hide_on_destkop mb-5">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="mt-10 text-center">
+        <h1 style="font-weight:600" id="color-blue" class="text-center">Réalisation simplifiée des tests antigéniques</h1>
+        <%= image_tag "test_antigenique.gif", class: "image_bpm test_antigenique_mobile"%>
+      </div>
+    </div>
+    <div class="col-xs-12">
+      <div class="">
+        <div class="mt-2 mb-2">
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Saisie des résultats du test antigénique</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Impression du document à remettre au patient</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l’assurance maladie via la messagerie sécurisée intégrée</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Sécurisation de l'attestation à remettre au patient à l'aide d'un QRcode</p>
+          </div>
+          <div class="deux-boutons mt-1">
+            <div class="mt-1">
+              <%= link_to "Je m'inscris maintenant", "/inscription.html", class: "btn-blue btn btn-primary"%>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

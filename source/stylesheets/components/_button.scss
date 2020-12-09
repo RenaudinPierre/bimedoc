@@ -53,4 +53,41 @@
 
 
 
+//
+// BTN BORDER RADIUS 30%
+//
+
+.btn-blue-radius30 {
+  background-color: $secondary;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 30px;
+}
+
+.btn-blue-radius30:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+
+.btn-white-radius30 {
+  background-color: white;
+  border-color: $secondary;
+  padding: 12px 20px;
+  margin: 0px 1em 0px 0px !important;
+  border-radius: 30px;
+  color:$secondary;
+}
+
+.btn-white-radius30:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  color: white;
+  opacity: 0.8;
+}
+
 

@@ -19,11 +19,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+
+  <li class="dropdown link">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos solutions <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Pharmacie d'officine", "/officine.html", class: "link" %></li>
+            <li><%= link_to "Etablissement de santé", "/conciliation_medicamenteuse.html", class: "link" %></li>
+            <li><%= link_to "CPTS", "", class: "link" %></li>
+            <li><%= link_to "Editeurs", "/industriel.html", class: "link" %></li>
+          </ul>
+        </li>
+
         <li><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "link" %></li>
 <!--         <li><%= link_to "Comment ça marche ?", "pharmacie_clinique.html", class: "link" %></li> -->
-        <li><%= link_to "Editeurs", "/industriel.html", class: "link" %></li>
+<!--         <li><%= link_to "Editeurs", "/industriel.html", class: "link" %></li> -->
 <!--         <li><%= link_to "Blog", "https://medium.com/bimedoc", class: "link", target: "_blank"%></li> -->
-        <li><%= link_to "On recrute", "https://bimedoc.welcomekit.co/", class: "link", target: "_blank" %></li>
+<!--         <li><%= link_to "On recrute", "https://bimedoc.welcomekit.co/", class: "link", target: "_blank" %></li> -->
         <li><%= link_to "Centre d'aide", "/centre_aide.html", class: "link" %></li>
         <li><%= link_to "Bimedoc Covid", "/covid19.html", class: "btn btn-covid" %></li>
       </ul>

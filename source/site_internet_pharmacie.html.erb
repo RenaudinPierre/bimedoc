@@ -1,0 +1,127 @@
+<div style="background: #0A73FE" >
+  <div class="flex ml-4 mr-4">
+    <div class="mt-1 mb-1">
+      <%= image_tag "orphie.png", class: "img_size_5" %>
+    </div>
+    <div class=" ml-1">
+      <h3 style="color: white !important" class="ml-1">Orphie Provence</h3>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="container">
+
+  <div class="row mt-2">
+    <div class="col-xs-12 mb-1">
+      <h1 style="text-align: center">Pharmacie du Verdon</h1>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag "booth.jpg", class: "radius-20 mb-1 img_size_40" %>
+    </div>
+      <div class="col-md-6">
+        <table class="table">
+          <thead>
+            <p style="text-align: center"><b>Horaire d'ouverture</b></p>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Lundi</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+             <tr>
+              <th>Mardi</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+             <tr>
+              <th>Mercredi</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Jeudi</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Vendredi</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Samedi</th>
+              <td>8h00 - 13h00</td>
+            </tr>
+            <tr>
+              <th>Dimanche</th>
+              <td>Fermé</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-6 mt-3">
+      <p class="black"><i class="fas fa-map-marker icone_blue"></i> 112 Rue Moncey, 69003 Lyon, France</p>
+      <p class="black"><i class="fas fa-phone icone_blue"></i> 04 78 60 27 62</p>
+      <p class="black"><i class="fas fa-envelope icone_blue"></i> contact@pharmacie-booth.fr</p>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="deux-boutons mt-2">
+        <div class="mt-1">
+          <%= link_to " Prendre rendez-vous", "/demo.html", class: "btn-blue-radius30 btn btn-primary"%>
+        </div>
+        <div class="mt-1">
+          <%= link_to "Déposer votre ordonnance", "/inscription.html", class: "btn-white-radius30 btn mt-1", target: "_blank"%>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-5 mt-5">
+    <div class="col-xs-12 mb-2">
+      <h3 style="text-align: center">Nos services</h3>
+    </div>
+    <div class="col-md-4" style="text-align: center">
+      <i class="fad fa-syringe icone_blue fa-4x"></i>
+      <p class="mt-1"><b>Vaccination</b></p>
+      <p>Pharmacien Titulaire</p>
+    </div>
+    <div class="col-md-4" style="text-align: center">
+      <i class="fad fa-sign icone_blue fa-4x"></i>
+      <p class="mt-1"><b>Test antigénique COVID-19</b></p>
+      <p>Pharmacien Titulaire</p>
+    </div>
+    <div class="col-md-4" style="text-align: center">
+      <i class="fad fa-user-friends icone_blue fa-4x"></i>
+      <p class="mt-1"><b>Entretien pharmaceutique</b></p>
+      <p>Pharmacien Titulaire</p>
+    </div>
+  </div>
+  <div class="row mt-2 mb-5">
+    <div class="col-xs-12 mb-2">
+      <h3 style="text-align: center">Notre équipe vous accueille du lundi au samedi</h3>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "titulaire-homme.svg", class: "img_equipe" %>
+      <p style="text-align: center"><b>Christophe Guidoni</b></p>
+      <p style="text-align: center">Pharmacien Titulaire</p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "preparateur-femme.svg", class: "img_equipe" %>
+      <p style="text-align: center"><b>Anne-Claire Allard</b></p>
+      <p style="text-align: center">Pharmacien Titulaire</p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "titulaire-homme.svg", class: "img_equipe" %>
+      <p style="text-align: center"><b>Bertrand</b></p>
+      <p style="text-align: center">Pharmacien Titulaire</p>
+    </div>
+  </div>
+
+  <lib-apt-form pharmacyId="1fe35ffd-c512-4d3c-ac08-670d550d91ad"></lib-apt-form>
+</div>
+
+<script src="https://s3.eu-west-3.amazonaws.com/media.bimedoc.com/widget/bimedoc_analysis_widget.js"></script>
+<script>
+  let pharmacyId="1fe35ffd-c512-4d3c-ac08-670d550d91ad";
+  let calendarWidget = document.querySelector('lib-apt-form');
+  calendarWidget.pharmacyId = pharmacyId;
+</script>

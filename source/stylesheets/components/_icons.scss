@@ -21,3 +21,61 @@
   margin-top:4px;
   margin-right: 1em;
 }
+
+
+.oval-blue {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $blue;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.oval-red {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f44336;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.oval-green {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #50e3c2;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.oval-orange {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f5a623;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.oval-purple {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #bd10e0;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}
+
+

@@ -50,6 +50,6 @@ page "/pharmacie_clinique.html", :layout => "pharmacie_clinique"
 page "/fonctionnalites.html", :layout => "fonctionnalites"
 page "/messagerie_medecin.html", :layout => "nonavbarnofooter"
 page "/faculte_de_pharmacie.html", :layout => "nonavbarnofooter"
-
+page "/site_internet_pharmacie.html", :layout => "nonavbarnofooter"
 
 

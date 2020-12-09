@@ -15,11 +15,6 @@
     margin: auto auto;
   }
 
-  .standard {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 2;
-  }
-
   .collaborateur{
     grid-row: 2 / span 1;
     grid-column: 3 / span 2;
@@ -27,11 +22,6 @@
     margin-top: 2em;
     text-decoration: none;
 
-  }
-
-  .avance {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 2;
   }
 }
 
@@ -64,7 +54,7 @@ a:focus {
   margin: 0 auto;
   color: $green;
   height: 37px;
-  width: 199px;
+  min-width: 250px;
   border-radius: 20px;
   background-color: rgba(80,227,194,0.2);
   display: flex;
@@ -73,6 +63,7 @@ a:focus {
   p {
     margin: 0;
     color: $green;
+    font-weight: bold;
   }
 }
 
@@ -80,7 +71,7 @@ a:focus {
   margin: 0 auto;
   color: $purple;
   height: 37px;
-  width: 199px;
+  min-width: 250px;
   border-radius: 20px;
   background-color: rgba(189,16,224,0.2);
   display: flex;
@@ -89,6 +80,7 @@ a:focus {
   p {
     margin: 0;
     color: $purple;
+    font-weight: bold;
   }
 }
 

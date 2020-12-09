@@ -1,34 +1,165 @@
-
-  <div class="container">
-    <div class="tarif padding-top-mobile">
-
-      <div class="description hide_on_mobile">
-        <h2>Des prix clairs et tranparents</h2>
-      </div>
-
-<!--       <div class="cards standard">
-        <h2 class="color-green">Annuel</h2>
-        <div class="exemple-green">
-          <p>Premier mois offert</p>
+<div class="container mt-5">
+  <div class="padding-top-mobile">
+    <div class="description hide_on_mobile mb-3">
+      <h2>Des prix clairs et tranparents</h2>
+    </div>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#officine" aria-controls="officine" role="tab" data-toggle="tab">Pharmacie d'officine</a></li>
+      <li role="presentation"><a href="#etablissement" aria-controls="etablissement" role="tab" data-toggle="tab">Etablissement de santé</a></li>
+    </ul>
+    <div class="tab-content mt-4">
+      <div role="tabpanel" class="tab-pane active" id="officine">
+        <div>
+          <table class="table">
+          <thead>
+            <th></th>
+            <th>Freemium</th>
+            <th>Standard</th>
+            <th>Premium</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Assistant d’analyse pharmaceutique</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+             <tr>
+              <th>Test antigénique</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+             <tr>
+              <th>Dossier patient</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Dossier patient</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Bilan partagé de médication</th>
+              <td>8h00 - 13h00 · 14h15 - 19h00</td>
+            </tr>
+            <tr>
+              <th>Entretien pharmaceutique Anticoagulant</th>
+              <td>8h00 - 13h00</td>
+            </tr>
+            <tr>
+              <th>Entretien pharmaceutique Asthme</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Entretien pharmaceutique Asthme</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Entretien pharmaceutique Chimiothérapie Orale</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Envois de documents médicaux par messagerie sécurisée</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Intégration</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Planning d'équipe</th>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th>Agenda et prise de rendez-vous en ligne</th>
+              <td>Fermé</td>
+            </tr>
+          </tbody>
+        </table>
         </div>
-        <h1 class="prix">25€</h1>
-        <p>/Mois (HT) & Pharmacie</p>
-        <h3>Engagement de 12 mois</h3>
-        <br>
-        <br>
-        <h3>2 collaborateurs inclus</h3>
-      </div> -->
 
-      <div class="cards avance">
-        <h2>Mensuel</h2>
-        <div class="exemple-purple">
-          <p>Premier mois offert</p>
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="cards">
+              <h2 style="text-align: center">Freemium</h2>
+<!--               <h2 style="text-align: center" class="prix mt-1">GRATUIT</h2> -->
+              <ul>
+                <li>Assistant d’analyse pharmaceutique</li>
+                <li>Test antigénique</li>
+              </ul>
+
+              <div class="exemple-purple mt-1">
+                <p>30€ sans engagement</p>
+              </div>
+              <div class="exemple-green mt-1">
+                <p>25€ engagement de 12 mois</p>
+              </div>
+
+              <p style="text-align: center">/Mois (HT) & Pharmacie</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="cards">
+              <h2 class="color-green">Standard</h2>
+              <ul>
+                <li>Fonctionnalité Freemium</li>
+                <li>Dossier patient</li>
+                <li>Bilan partagé de médication</li>
+                <li>Entretien pharmaceutique Anticoagulant</li>
+                <li>Entretien pharmaceutique Asthme</li>
+                <li>Entretien pharmaceutique Chimiothérapie Orale</li>
+                <li>Envois de documents médicaux par messagerie sécurisée</li>
+                <li>Intégration</li>
+              </ul>
+              <%= link_to "S'inscrire", "/demo.html", class: "btn-white-radius30 btn btn-primary"%>
+              <div class="exemple-green mt-1">
+                <p>Engagement de 12 mois</p>
+              </div>
+              <h1 class="prix mt-1">25€</h1>
+              <p>/Mois (HT) & Pharmacie</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="cards">
+              <h2 class="color-green">Premium</h2>
+              <ul>
+                <li>Fonctionnalité Standard</li>
+                <li>Planning d'équipe</li>
+                <li>Agenda et prise de rendez-vous en ligne</li>
+                <li>Rappel SMS*</li>
+              </ul>
+              <div class="exemple-green mt-1">
+                <p>Engagement de 12 mois</p>
+              </div>
+              <h1 class="prix mt-1">25€</h1>
+              <p>/Mois (HT) & Pharmacie</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="cards avance">
+              <h2>Mensuel</h2>
+              <div class="exemple-purple mt-1">
+                <p>Sans engagement</p>
+              </div>
+              <h1 class="prix mt-1">30€</h1>
+              <p>/Mois (HT) & Pharmacie</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="cards standard">
+              <h2 class="color-green">Annuel</h2>
+              <div class="exemple-green mt-1">
+                <p>Engagement de 12 mois</p>
+              </div>
+              <h1 class="prix mt-1">25€</h1>
+              <p>/Mois (HT) & Pharmacie</p>
+            </div>
+          </div>
         </div>
-        <h1 class="prix">30€</h1>
-        <p>/Mois (HT) & Pharmacie</p>
-        <h3>Sans engagement</h3>
-        <h3>2 collaborateurs inclus</h3>
       </div>
+      <div role="tabpanel" class="tab-pane" id="etablissement">
+          <div>fff</div>
+      </div>
+    </div>
+
 
 
       <div class="collaborateur">
@@ -56,14 +187,10 @@
                 </tr>
               </tbody>
             </table>
-
-
           </div>
         </div>
-
-
       </div>
 
-
+    </div>
   </div>
 </div>

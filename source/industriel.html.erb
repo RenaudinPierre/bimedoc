@@ -1,53 +1,78 @@
 <div class="container">
   <div class="description-fonctinnalites">
+    <h2>Enrichissez votre plateforme de service favorisant le bon usage du médicament, avec Bimedoc</h2>
+    <p class="mt-4 mb-4">Bimedoc vous propose d'intégrer directement dans votre logiciel différente fonctionnalité de façon personnalisé sous forme d'API, de Widget ou d'iframe</p>
+  </div>
+<!--   <div class="description-fonctinnalites">
     <h2>Vous souhaitez <span id="color-blue">intégrer notre assistant d'analyse pharmaceutique</span> directement dans votre solution ?</h2>
     <p class="mt-4 mb-4">Bimedoc vous propose d'intégrer directement dans votre logiciel notre assistant d'analyse pharmaceutique innovant. Bimedoc entreprise est intégrable sous forme d'API, de Widget ou d'iframe</p>
-  </div>
+  </div> -->
 
   <div class="titre">
-    <h3 class="size mt-4"><i class="fas fa-code-branch"></i> Assistant d'analyse pharmaceutique</h3>
+    <h3 class="size mt-4"><i class="fad fa-code-branch icone_blue"></i> Assistant d'analyse pharmaceutique</h3>
     <tr class="line"></tr>
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <div class="fonctionnalite">
-        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <i class="fad fa-retweet oval-blue hide_on_mobile"></i>
         <p class="black">Interactions médicamenteuses</p>
         <p>Référentiels des interactions médicamenteuses de l’ANSM, interactions avec les plantes médicinales, le jus de pamplemousse... </p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <div class="fonctionnalite">
-        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <i class="fad fa-user-times oval-red hide_on_mobile"></i>
         <p class="black">Détection des médicaments inappropriés</p>
         <p>Intégration des listes Stopp & Start, Laroche, Anticholinergic Drug Scale, déficit en G6PD, cascades médicamenteuses.</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <div class="fonctionnalite">
-        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <i class="fad fa-mortar-pestle oval-green hide_on_mobile"></i>
         <p class="black">Problème de forme galénique</p>
         <p>Liste sur les médicaments per os concernant l'écrasement des comprimés et l'ouverture des gélules (HAS, Thériaque, OMéDIT Haute Normandie, SFPC).</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <div class="fonctionnalite">
-        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <i class="fad fa-head-side-brain oval-purple hide_on_mobile"></i>
         <p class="black">Effets indésirables</p>
-        <p>Recherche des médicaments pouvant engendrer un effets indésirables et classification ordre de fréquence</p>
+        <p>Recherche des médicaments pouvant engendrer un effet indésirable et classification par ordre de fréquence</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <div class="fonctionnalite">
-        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <i class="fad fa-book oval-orange hide_on_mobile"></i>
         <p class="black">Monographies des médicaments</p>
         <p>Accès à l'ensemble des monographies des médicaments commercialisés sur le marché français</p>
       </div>
     </div>
   </div>
 
+   <div class="titre">
+    <h3 class="size"><i class="fad fa-camera-alt icone_blue"></i> API de reconnaissance des médicaments</h3>
+    <tr class="line"></tr>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="fonctionnalite">
+        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <p class="black">Reconnaissance des médicaments</p>
+        <p>Reconnait toutes les informations médicamenteuses essentielles : DCI et/ou spécialité pharmaceutique, dose, forme galénique.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="fonctionnalite">
+        <i class="fas fa-check oval-ok hide_on_mobile"></i>
+        <p class="black">Reconnaissance des posologies</p>
+        <p>Reconnait les posologies prescrites sur l'ordonnance</p>
+      </div>
+    </div>
+  </div>
+
   <div class="titre">
-    <h3 class="size"><i class="fas fa-cog"></i> Priorité aux développeurs</h3>
+    <h3 class="size"><i class="fad fa-cog icone_blue"></i> Priorité aux développeurs</h3>
     <tr class="line"></tr>
   </div>
   <div class="row">
@@ -84,16 +109,33 @@
     </div>
   </div> -->
 
+  <h3 style="text-align: center; font-weight: bold !important" class="mt-4 mb-1">Ils nous font confiance</h3>
+  <div class="flex center mb-5">
+    <div class="text-center mr-3 ml-3">
+      <%= image_tag "totum.png", id: "logo-client" %>
+    </div>
+    <div class="text-center mr-4 ml-4">
+      <%= image_tag "sfpc.png", id: "logo-client" %>
+    </div>
+  </div>
+
 </div>
+
+
+
 <div class="wrapper wrapper_bimedoc">
   <div class="wrapper_bpm">
     <h2>Pour en savoir plus, contactez nous</h2>
-    <div class="btn button_wrapper_bpm">
+<!--     <div class="btn button_wrapper_bpm">
       <a href="mailto:contact@bimedoc.com" class="contact">contact@bimedoc.com</a>
+    </div> -->
+    <div class="deux-boutons">
+      <%= link_to "07 54 37 99 92", "https://app.bimedoc.com/auth/signup", class: "btn button_wrapper_bpm", target: "_blank" %>
+<!--       <%= link_to "Demander une démo", "/demo.html", class: "btn button_wrapper_bpm_blanc"%> -->
+      <%= link_to "contact@bimedoc.com", "", class: "btn button_wrapper_bpm_blanc", target: "_blank" %>
     </div>
   </div>
 </div>
-
 
 
 

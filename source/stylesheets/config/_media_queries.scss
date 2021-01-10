@@ -1,6 +1,6 @@
 @media (max-width: 991.98px) {
   .hide_on_mobile {
-    display: none;
+    display: none !important;
   }
 
   .padding-top-mobile {
@@ -10,7 +10,7 @@
 
 @media (min-width: 992px) {
   .hide_on_destkop {
-    display: none;
+    display: none !important;
   }
   .padding-top-mobile {
     padding-top: 60px;

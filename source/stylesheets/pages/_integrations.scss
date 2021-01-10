@@ -1,0 +1,21 @@
+
+@media (min-width: 1200px) {
+  .float70left {
+    float: left;
+    width: 70%;
+  }
+
+  .float20right {
+    float: right;
+    width: 20%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .float70left {
+    width: 100%
+  }
+
+  .float20right {
+    display: none;  }
+}

@@ -1,0 +1,20 @@
+.modal-content-size {
+  min-height: 80vh !important;
+  // min-width: 70vw !important;
+}
+
+.modal-megamenu {
+    width:90%;
+    height:80%;
+}
+
+.modal-content{
+    max-height: calc(100vh - 0px) !important;
+    overflow-y: auto !important;
+    border-radius: 10px;
+}
+
+.modal-body{
+  padding: 0px;
+}
+

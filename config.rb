@@ -43,6 +43,7 @@ page "/feed.xml", layout: false
 
 
 page "/bilan_partage_de_medication.html", :layout => "bpm"
+page "/officine.html", :layout => "pharmacie-officine"
 page "/equipe.html", :layout => "equipe"
 page "/conciliation_medicamenteuse.html", :layout => "conciliation_medicamenteuse"
 page "/industriel.html", :layout => "assistantanalysepharmaceutique"
@@ -51,5 +52,6 @@ page "/fonctionnalites.html", :layout => "fonctionnalites"
 page "/messagerie_medecin.html", :layout => "nonavbarnofooter"
 page "/faculte_de_pharmacie.html", :layout => "nonavbarnofooter"
 page "/site_internet_pharmacie.html", :layout => "nonavbarnofooter"
+page "/confirmation-demo-bimedoc.html", :layout => "confirmation-demo-bimedoc"
 
 

@@ -1,6 +1,7 @@
 <div class="container">
-  <div class="mt-10">
-    <h1 class="mt-2 text-center">Conciliation des traitements médicamenteux</h1>
+  <div class="mt-10 text-center">
+    <i class="fad fa-ballot-check fa-5x icone_blue"></i>
+    <h1 class="mt-1 text-center">Conciliation des traitements médicamenteux</h1>
     <p class="mt-1 text-center">L'ensemble du processus de conciliation médicamenteuse est directement intégré dans une même solution. Vous pouvez réaliser un bilan médicamenteux, une conciliation médicamenteuse d'entrée ou de sortie; tout en bénéficiant des technologies intégrées par Bimedoc (messagerie sécurisée, DMP, plan de prise, assistant d'analyse pharmaceutique, synthèse pdf des différentes étapes).</p>
   </div>
 
@@ -90,10 +91,10 @@
 <!-- Version desktop (hide on mobile) -->
 <div class="container hide_on_mobile">
   <h2 style="text-align: center" class="mt-2">Comment ça fonctionne ?</h2>
-  <div class="row mb-4">
+  <div class="row">
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "bilanmedicamenteux.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "conciliation_medicamenteuse_bimedoc.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 ">
@@ -115,31 +116,61 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 vertical_align_60">
-      <div class="centre-verticalement_50_100">
-        <%= image_tag "divergence.jpg", class: "image_bpm box-shadow-gray"%>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-lightbulb oval-blue hide_on_mobile"></i>
+        <p class="black">Pré-saisie des avis pharmaceutiques</p>
+        <p>Intervention pharmaceutique pré-enregistrée pouvant être modifiée.</p>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 ">
-      <div class="vertical_align_60">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-camera-alt oval-green hide_on_mobile"></i>
+        <p class="black">Prise en photos des ordonnances</p>
+        <p>Reconnait toutes les informations médicamenteuses essentielles : DCI et/ou spécialité pharmaceutique, dose, forme galénique.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-ballot-check oval-purple hide_on_mobile"></i>
+        <p class="black">Tableau de bord</p>
+        <p>Retrouvez d'un coup d'oeil les différentes étapes restant à réaliser.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="wrapper mt-4" style="background-color: #F4F4F4"> -->
+  <div class="container">
+      <div class="col-xs-12 col-sm-6 vertical_align_60">
         <div class="centre-verticalement_50_100">
-          <h3 class=pb-1>Caractérisation des divergences</h3>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Statut</p>
-          </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Type de divergence</p>
-          </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Résolution</p>
-          </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Evaluation de la gravité de l'erreur médicamenteuse selon l'échelle CLEO de la SFPC</p>
+          <%= image_tag "conciliation-medicamenteuse-divergence.png", class: "image_bpm"%>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <div class="vertical_align_60">
+          <div class="centre-verticalement_50_100">
+            <h3 class=pb-1>Caractérisation des divergences</h3>
+            <div class=flex>
+             <i class="fal fa-check oval_14px fa-xs"></i><p>Statut</p>
+            </div>
+            <div class=flex>
+             <i class="fal fa-check oval_14px fa-xs"></i><p>Type de divergence</p>
+            </div>
+            <div class=flex>
+             <i class="fal fa-check oval_14px fa-xs"></i><p>Résolution</p>
+            </div>
+            <div class=flex>
+             <i class="fal fa-check oval_14px fa-xs"></i><p>Evaluation de la gravité de l'erreur médicamenteuse selon l'échelle CLEO de la SFPC</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
+  </div>
+<!-- </div> -->
+<div class="container">
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
         <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
@@ -169,7 +200,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "annuaire.png", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "search_ps_blue.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 ">
@@ -207,7 +238,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 <!-- ######
 VERSION MOBILE (hide on destkop)

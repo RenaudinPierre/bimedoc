@@ -6,7 +6,13 @@
   color: $secondary;
 }
 
+.icone_green {
+  color: $green;
+}
 
+.icone_purple {
+  color: $purple;
+}
 
 
 .oval_14px {
@@ -79,3 +85,13 @@
 }
 
 
+.oval-green-25 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $secondary;
+  // opacity: 0.3;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+}

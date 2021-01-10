@@ -21,14 +21,58 @@
       <ul class="nav navbar-nav">
 
   <li class="dropdown link">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos solutions <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "Pharmacie d'officine", "/officine.html", class: "link" %></li>
-            <li><%= link_to "Etablissement de santé", "/conciliation_medicamenteuse.html", class: "link" %></li>
-            <li><%= link_to "CPTS", "", class: "link" %></li>
-            <li><%= link_to "Editeurs", "/industriel.html", class: "link" %></li>
-          </ul>
-        </li>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos solutions <span class="caret"></span></a>
+    <div class="dropdown-menu hide_on_mobile">
+      <div class="flex">
+        <div class="dropdown-left">
+          <p class="black">Professionnels de santé</p>
+          <div class="mt-1">
+            <i class="fal fa-clinic-medical mr-1" style="color: #2F17FD"></i> <%= link_to "Pharmacie d'officine", "/officine.html", class: "" %>
+          </div>
+          <div class="mt-1">
+            <i class="fal fa-hospital-alt mr-1" style="color: #2F17FD"></i> <%= link_to "Etablissement de santé", "/etablissement-sante.html", class: "" %>
+          </div>
+
+          <div class="mt-2">
+            <i class="fal fa-plug mr-1" style="color: #2F17FD"></i> <%= link_to "Bimedoc Connect", "/integration.html", class: ""%>
+            <p style="font-style: italic; font-size:12px">Applications connectées à Bimedoc</p>
+          </div>
+          <div class="mb-2">
+            <i class="fal fa-tags mr-1" style="color: #2F17FD"></i> <%= link_to "Tarifs", "/tarifs.html", class: "" %>
+          </div>
+
+        </div>
+        <div class="dropdown-right">
+          <p class="black">Editeurs</p>
+          <div class="mt-1">
+            <i class="fal fa-building mr-1" style="color: #2F17FD"></i><%= link_to "Integration", "/industriel.html", class: "" %>
+            <p style="font-style: italic; font-size:12px">Enrichissez votre plateforme de service favorisant le bon usage du médicament</p>
+          </div>
+
+          <div class="mt-1">
+            <i class="fal fa-plug mr-1" style="color: #2F17FD"></i> <%= link_to "Bimedoc Connect", "/integration.html", class: ""%>
+            <p style="font-style: italic; font-size:12px">S'interfacer sur la plateforme ouverte de Bimedoc</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown-menu hide_on_destkop">
+      <div>
+        <i class="fal fa-clinic-medical mr-1 ml-1 pt-1" style="color: #2F17FD"></i>
+        <%= link_to "Pharmacie d'officine", "/officine.html", class: "" %>
+      </div>
+          <div class="mt-1">
+            <i class="fal fa-hospital-alt mr-1 ml-1" style="color: #2F17FD"></i> <%= link_to "Etablissement de santé", "/etablissement-sante.html", class: "" %>
+          </div>
+          <div class="mt-1">
+            <i class="fal fa-building mr-1 ml-1" style="color: #2F17FD"></i><%= link_to "Editeurs", "/industriel.html", class: "" %>
+          </div>
+<!--       <li><%= link_to "Etablissement de santé", "/etablissement-sante.html", class: "link" %></li>
+      <li><%= link_to "CPTS", "/cpts.html", class: "link" %></li>
+      <li><%= link_to "Editeurs", "/industriel.html", class: "link" %></li> -->
+    </div>
+  </li>
 
         <li><%= link_to "Fonctionnalités", "/fonctionnalites.html", class: "link" %></li>
 <!--         <li><%= link_to "Comment ça marche ?", "pharmacie_clinique.html", class: "link" %></li> -->

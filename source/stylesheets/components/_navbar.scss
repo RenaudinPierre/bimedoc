@@ -221,3 +221,29 @@ color: $gray;
   }
 
 }
+
+
+.dropdown-menu {
+  border-radius: 8px !important;
+  box-shadow: 0 0 32px 0 rgba(40,40,68,.1), 0 8px 16px 0 rgba(40,40,68,.05);
+  border: none;
+  min-width: 600px;
+
+  a {
+    color: black !important;
+  }
+}
+
+.dropdown-left {
+  padding-right: 32px;
+  padding-left: 32px;
+  border-right: 1px solid #e9eaf0;
+  width:50%
+}
+
+
+.dropdown-right {
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 50%;
+}

@@ -70,9 +70,6 @@
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Plan de prise des médicaments</p>
           </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l'assurance maladie</p>
-          </div>
           <div class="deux-boutons-gauche mt-2">
             <button type="button" class="btn-blue btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
               Voir la vidéo de présentation
@@ -84,12 +81,39 @@
     </div>
     <div class="col-xs-12 col-sm-6 vertical_align_60 order-first">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "bpm.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "bpm_sommaire.png", class: "image_bpm"%>
       </div>
     </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-lightbulb oval-blue hide_on_mobile"></i>
+        <p class="black">Pré-saisie des avis pharmaceutiques</p>
+        <p>Intervention pharmaceutique pré-enregistrée pouvant être modifiée.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-camera-alt oval-green hide_on_mobile"></i>
+        <p class="black">Prise en photos des ordonnances</p>
+        <p>Reconnait toutes les informations médicamenteuses essentielles : DCI et/ou spécialité pharmaceutique, dose, forme galénique.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-ballot-check oval-purple hide_on_mobile"></i>
+        <p class="black">Tableau de bord</p>
+        <p>Retrouvez d'un coup d'oeil les activités à réaliser et les activités à déclarer à l'assurance maladie.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "entretien.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "Entretien-sommaire-purple.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 ">
@@ -144,7 +168,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "analyse_pharmaceutique_bimedoc.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 ">
@@ -176,13 +200,9 @@
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
           <h3 class="pb-1">Agenda et prise de rendez-vous en ligne</h3>
-          <p>Gérez votre planning en ligne avec vos employés et programmez des plages réservables en ligne par les patients</p>
-<!--           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Type de rdv et Créneaux de prise de rdv personnalisable</p>
-          </div>
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Planning d'équipe</p>
-          </div> -->
+          </div>
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Prise de rendez-vous en ligne depuis votre site internet</p>
           </div>
@@ -193,19 +213,48 @@
            <i class="fal fa-check oval_14px fa-xs"></i><p>Envoi automatique des confirmations et rappels de RDV</p>
           </div>
           <div class=flex>
-           <i class="fal fa-link oval_14px fa-xs"></i><p>Connexion possible avec Doctolib (à venir)</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Connexion possible avec Doctolib (à venir)</p>
           </div>
         </div>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "bilanmedicamenteux.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "calendrier.png", class: "image_bpm"%>
       </div>
     </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-calendar-check oval-blue hide_on_mobile"></i>
+        <p class="black">Maîtrise</p>
+        <p>Définissez vos périodes de rendez-vous, la durée de chaque rendez-vous, le type de rendez-vous.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-tasks-alt oval-red hide_on_mobile"></i>
+        <p class="black">Flexibilité</p>
+        <p>Définissez des indisponiblités ponctuels.</p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="">
+        <i class="fad fa-link oval-green hide_on_mobile"></i>
+        <p class="black">Intégration</p>
+        <p>Envoyez votre lien de prise de rendez-vous par email ou intégrez-le facilement sur votre site web.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
     <div class="col-xs-12 col-sm-6 vertical_align_60">
       <div class="centre-verticalement_50_100">
-        <%= image_tag "annuaire.png", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "search_ps_blue.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 ">
@@ -225,6 +274,10 @@
 </div>
 
 
+
+
+
+
 <!-- ######
 VERSION MOBILE (hide on destkop)
 ##### -->
@@ -240,7 +293,7 @@ VERSION MOBILE (hide on destkop)
         <div class="">
           <div class=" text-center mt-2 mb-2">
             <h1 style="font-weight:600" id="color-blue">Votre logiciel de soins pharmaceutiques</h1>
-            <h4 class="mt-3" style="font-weight: bold">Bilan de médication, conciliation médicamenteuse, entretien pharmaceutique ...</h4>
+            <h4 class="mt-3" style="font-weight: bold">Bimedoc vous apporte une solution clé en mains pour la mise en place de vos activités d'accompagnements pharmaceutiques</h4>
             <div class="deux-boutons mt-1">
               <div class="mt-1">
                 <%= link_to " Demander une démo", "/demo.html", class: "btn-blue btn btn-primary"%>
@@ -275,7 +328,7 @@ VERSION MOBILE (hide on destkop)
   <div class="row">
     <div class="col-xs-12 mt-2 text-center">
       <div class="">
-        <%= image_tag "bpm.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "bpm_sommaire.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12">
@@ -294,9 +347,6 @@ VERSION MOBILE (hide on destkop)
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Plan de prise des médicaments</p>
           </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Déclaration automatique à l'assurance maladie</p>
-          </div>
           <div class="deux-boutons mt-1">
             <div class="mt-1">
             <button type="button" class="btn-blue btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
@@ -310,15 +360,15 @@ VERSION MOBILE (hide on destkop)
         </div>
       </div>
     </div>
-    <div class="col-xs-12  mt-5 text-center">
+    <div class="col-xs-12 mt-5 text-center">
       <div class="">
-        <%= image_tag "entretien.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "Entretien-sommaire-purple.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
-          <h3 class="pb-1">Entretien pharmaceutique</h3>
+          <h3 class="pb-1 text-center">Entretien pharmaceutique</h3>
           <div class=flex>
            <i class="fal fa-check oval_14px fa-xs"></i><p>Intuitif et rapide</p>
           </div>
@@ -342,7 +392,29 @@ VERSION MOBILE (hide on destkop)
     </div>
     <div class="col-xs-12  mt-5 text-center">
       <div class="">
-        <%= image_tag "assistant.png", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "plandeprise.png", class: "image_bpm box-shadow-gray"%>
+      </div>
+    </div>
+    <div class="col-xs-12  ">
+      <div class="vertical_align_60">
+        <div class="centre-verticalement_50_100">
+          <h3 class="text-center">Plan de prise des traitements</h3>
+          <p class="pb-1">Bimedoc vous permet d'éditer un plan de prise de manière simple</p>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Posologie</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Indication</p>
+          </div>
+          <div class=flex>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Conseils personnalisés</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12  mt-5 text-center">
+      <div class="">
+        <%= image_tag "analyse_pharmaceutique_bimedoc.png", class: "image_bpm"%>
       </div>
     </div>
     <div class="col-xs-12">
@@ -372,35 +444,50 @@ VERSION MOBILE (hide on destkop)
     </div>
     <div class="col-xs-12  mt-5 text-center">
       <div class="">
-        <%= image_tag "bilanmedicamenteux.jpg", class: "image_bpm box-shadow-gray"%>
+        <%= image_tag "calendrier.png", class: "image_bpm"%>
       </div>
     </div>
-    <div class="col-xs-12 ">
+    <div class="col-xs-12">
       <div class="vertical_align_60">
         <div class="centre-verticalement_50_100">
-          <h3 class="pb-1">Conciliation médicamenteuse</h3>
+          <h3 class="pb-1 text-center">Agenda et prise de rendez-vous en ligne</h3>
           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Toutes les étapes de la conciliation médicamenteuse réunies dans un seul outil</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Planning d'équipe</p>
           </div>
           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Assistant d'analyse pharmaceutique intégré</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Prise de rendez-vous en ligne depuis votre site internet</p>
           </div>
           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Export pdf à chaque étape</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Lien de prise de rendez-vous à envoyer par mail</p>
           </div>
           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Lien ville hôpital facilité à l'aide de la messagerie sécurisée intégrée</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Envoi automatique des confirmations et rappels de RDV</p>
           </div>
           <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Outils statistiques de suivi de l'activité</p>
-          </div>
-          <div class="deux-boutons mt-2">
-
-            <p class="prochainement">Prochainement</p>
+           <i class="fal fa-check oval_14px fa-xs"></i><p>Connexion possible avec Doctolib (à venir)</p>
           </div>
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="">
+        <p><i class="fad fa-calendar-check oval-blue"></i><span class="black"> Maîtrise :</span> définissez vos périodes de rendez-vous, la durée de chaque rendez-vous, le type de rendez-vous.</p>
+      </div>
+      <div class="">
+        <p><i class="fad fa-tasks-alt oval-red mt-1"></i><span class="black"> Flexibilité :</span> définissez des indisponiblités ponctuels.</p>
+      </div>
+      <div class="">
+        <p><i class="fad fa-link oval-green mt-1"></i><span class="black"> Intégration :</span> envoyez votre lien de prise de rendez-vous par email ou intégrez-le facilement sur votre site web.</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
     <div class="col-xs-12  mt-5 text-center">
       <div class="">
         <%= image_tag "annuaire.png", class: "image_bpm box-shadow-gray"%>
@@ -413,32 +500,6 @@ VERSION MOBILE (hide on destkop)
           <p>Bimedoc vous permet d'envoyer n'importe quel document directement depuis l'application par messagerie séucrisée (synthèse pharmaceutique, bilan médicamenteux ...).</p>
           <p>Dans le cadre de la synthèse du bilan partagé de médication le médecin traitant pourra vous répondre directement dans l'application.</p>
           <div class="mt-2 text-center">
-            <%= link_to "En savoir plus", "/pharmacie_clinique.html", class: "btn-blue btn btn-primary"%>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xs-12  mt-5 text-center">
-      <div class="">
-        <%= image_tag "plandeprise.png", class: "image_bpm box-shadow-gray"%>
-      </div>
-    </div>
-    <div class="col-xs-12  ">
-      <div class="vertical_align_60">
-        <div class="centre-verticalement_50_100">
-          <h3 class="text-center">Plan de prise des traitements</h3>
-          <p class="pb-1">Bimedoc vous permet d'éditer un plan de prise de manière simple</p>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Posologie</p>
-          </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Indication</p>
-          </div>
-          <div class=flex>
-           <i class="fal fa-check oval_14px fa-xs"></i><p>Conseils personnalisés</p>
-          </div>
-          <div class="text-center mt-2">
             <%= link_to "En savoir plus", "/pharmacie_clinique.html", class: "btn-blue btn btn-primary"%>
           </div>
         </div>
@@ -546,7 +607,7 @@ VERSION MOBILE (hide on destkop)
     <h2>Plus qu’un logiciel, Bimedoc est un projet et une communauté</h2>
     <br>
     <p>Nous échangeons quotidiennement avec nos utilisateurs pour avoir des retours et des idées. Bimedoc est constamment amélioré et enrichi grâce à la communauté.</p>
-    <p>L’objectif est d’être toujours plus utile pour vous et votre pratique</p>
+    <p>L’objectif est d’être toujours plus utile pour vous et votre pratique.</p>
   </div>
 </div>
 

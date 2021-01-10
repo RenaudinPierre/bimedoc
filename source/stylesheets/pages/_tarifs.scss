@@ -1,3 +1,5 @@
+
+
 @media (min-width: 992px) {
   .tarif {
     display: grid;
@@ -50,11 +52,18 @@ a:focus {
   color: $green;
 }
 
+.color-purple {
+  color: $purple;
+}
+
+.color-blue {
+  color: $secondary;
+}
+
 .exemple-green {
   margin: 0 auto;
   color: $green;
   height: 37px;
-  min-width: 250px;
   border-radius: 20px;
   background-color: rgba(80,227,194,0.2);
   display: flex;
@@ -67,11 +76,26 @@ a:focus {
   }
 }
 
+.exemple-blue {
+  margin: 0 auto;
+  color: $secondary;
+  height: 37px;
+  border-radius: 20px;
+  background: rgba(10, 115, 254, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+    color: $secondary;
+    font-weight: bold;
+  }
+}
+
 .exemple-purple {
   margin: 0 auto;
   color: $purple;
   height: 37px;
-  min-width: 250px;
   border-radius: 20px;
   background-color: rgba(189,16,224,0.2);
   display: flex;
@@ -141,4 +165,18 @@ a:focus {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.card_header {
+  background-color: $light-gray;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card_body {
+  background-color: $light-gray;
+}
+
+.card_footer {
+  background-color: $light-gray;
+  border-radius: 0px 0px 10px 10px;
 }

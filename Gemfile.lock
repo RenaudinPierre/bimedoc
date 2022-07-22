@@ -102,8 +102,6 @@ GEM
       erubis
       middleman-core (>= 3.4)
       uglifier (>= 2.5, < 4.0)
-    middleman-meta-tags (0.4.0)
-      middleman-core (>= 3.0.0)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -150,7 +148,7 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
@@ -167,7 +165,6 @@ DEPENDENCIES
   middleman-blog (~> 4.0)
   middleman-deploy!
   middleman-google-analytics
-  middleman-meta-tags
   middleman-minify-html
   middleman-protect-emails
   middleman-sitemap
